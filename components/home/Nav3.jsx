@@ -40,26 +40,43 @@ const Nav3 = () => {
               background="red"
             >
               <Dropdown.Item>
-                <Link href="PaperSubmission/info" legacyBehavior>
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/info"
+                  legacyBehavior
+                >
                   <a
                     className={`text-primary`}
                     target="_blank"
-                    href="/About/institute"
+                    href="https://bitcon2023.vercel.app/PaperSubmission/info"
                   >
                     Information for Authors{" "}
                   </a>
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
-                <Link href="PaperSubmission/infrastructure" legacyBehavior>
-                  <a className={`text-primary`} target="_blank">
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/infrastructure"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary`}
+                    href="https://bitcon2023.vercel.app/PaperSubmission/infrastructure"
+                    target="_blank"
+                  >
                     Instruction for final paper
                   </a>
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
-                <Link href="PaperSubmission/presentation" legacyBehavior>
-                  <a className={`text-primary`} target="_blank">
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/presentation"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary`}
+                    href="https://bitcon2023.vercel.app/PaperSubmission/presentation"
+                    target="_blank"
+                  >
                     Presentation Instructions
                   </a>
                 </Link>

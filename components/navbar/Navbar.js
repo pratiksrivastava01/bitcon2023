@@ -92,26 +92,43 @@ function Navbar() {
             background="red"
           >
             <Dropdown.Item>
-              <Link href="About/institute" legacyBehavior>
+              <Link
+                href="https://bitcon2023.vercel.app/About/institute"
+                legacyBehavior
+              >
                 <a
                   className={`text-primary`}
                   target="_blank"
-                  href="/About/institute"
+                  href="https://bitcon2023.vercel.app/About/institute"
                 >
                   About the Institutution{" "}
                 </a>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link href="About/department" legacyBehavior>
-                <a className={`text-primary`} target="_blank">
+              <Link
+                href="https://bitcon2023.vercel.app/About/department"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary`}
+                  href="https://bitcon2023.vercel.app/About/department"
+                  target="_blank"
+                >
                   About the Department
                 </a>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link href="/About/conference" legacyBehavior>
-                <a className={`text-primary`} target="_blank">
+              <Link
+                href="https://bitcon2023.vercel.app/About/conference"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary`}
+                  href="https://bitcon2023.vercel.app/About/conference"
+                  target="_blank"
+                >
                   About the Conference
                 </a>
               </Link>
