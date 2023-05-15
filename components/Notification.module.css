@@ -1,0 +1,18 @@
+@keyframes spin-slow {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate {
+  animation: spin-slow 30s linear infinite;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  overflow-y: hidden;
+}
