@@ -6,6 +6,9 @@ import Notification from "@/components/Notification";
 import Image from "next/image";
 import jh from "@/assets/jh_logo.png";
 import logo from "@/assets/logo.png";
+import bitcon from "@/assets/bitcon.png";
+import ieee from "@/assets/ieee.jpg";
+
 import Nav2 from "@/components/home/Nav2";
 
 export default function Home() {
@@ -83,12 +86,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col sm:flex-row  flex-wrap">
             <Image
-              src={jh}
+              src={bitcon}
               className="h-[10rem] w-[10rem] ml-[75rem] sm:ml-0 mt-[-27rem] relative "
             ></Image>
             <Image
-              src={logo}
-              className="h-[7rem] w-[7rem] ml-[77rem] mt-[3rem] relative "
+              src={ieee}
+              className="h-[14rem] w-[14rem] ml-[75rem] mt-[-1rem] relative "
             ></Image>
           </div>
         </div>
