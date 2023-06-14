@@ -117,12 +117,12 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> General Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[25rem] bg-red w-[25rem]    rounded-[2rem]">
+          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
               height={250}
-              className="ml-[4.5rem] mt-[3.5rem] rounded-[rem]"
+              className="ml-[4.5rem] mt-[3.5rem] rounded-[1rem]"
             />
             <h2 className="text-center text-primary-light font-bold mt-[2rem] text-2xl">
               Dr. Md. Abul Kalam

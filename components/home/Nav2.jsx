@@ -13,12 +13,15 @@ const Nav2 = () => {
           </li>
           {/* <li></li> */}
           <li>
-            <a href="" className="text-[white] font-bold">
+            <a
+              href="/Comitte/OrganizingComitte"
+              className="text-[white] font-bold"
+            >
               Committe
             </a>
           </li>
           <li>
-            <a href="" className="text-[white] font-bold">
+            <a href="/CallForPaper" className="text-[white] font-bold">
               Call for Papers
             </a>
           </li>

@@ -263,7 +263,7 @@ function Navbar() {
           <a
             className={
               (styles.navLink,
-              `bg-primary-light text-sm p-[0.8rem] text-[#002E73]  rounded-sm font-bold`)
+              `bg-primary-light text-sm p-[0.8rem] text-[#002E73] hover:bg-[#FAC804] hover:text-primary-light  rounded-sm font-bold`)
             }
           >
             CONTACT US

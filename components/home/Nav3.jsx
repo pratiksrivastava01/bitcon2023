@@ -16,8 +16,8 @@ const Nav3 = () => {
           <li></li>
           <li>
             <a
-              // href="/Comitte/OrganizingComitte"
-              href="  "
+              href="/Comitte/OrganizingComitte"
+              // href="  "
               className="text-primary text-lg font-bold"
             >
               Committe

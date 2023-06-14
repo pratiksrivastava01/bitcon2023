@@ -19,7 +19,7 @@ const registeration = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="h-auto w-[85rem] border-2 justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
+      <div className="h-auto w-[85rem] border-2 justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4">
         <div className="flex gap-[32rem]">
           <h2 className="text-primary  p-4 flex text-5xl sm:text-2xl">
             Registereation Guidelines
@@ -335,7 +335,7 @@ const registeration = () => {
               Account Details for Payment of the Registration Fee:
             </p>
           </div>
-          <div className="flex">
+          <div className="flex ">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
               <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
                 Bank
@@ -356,6 +356,68 @@ const registeration = () => {
                 Account no:
               </h1>
             </div>
+          </div>
+          <div className="flex mt-[-0.5rem]">
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                Account Name
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
+              <h1 className="text-primary invisible p-4 flex text-lg text-left justify-center sm:text-sm">
+                State Bank of India
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                IFSC Code
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm ">
+                SBIN0011812
+              </h1>
+            </div>
+          </div>
+          <div className="flex mt-[-0.5rem]">
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                Account Type
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                Current Account
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                MICR Code
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm invisible">
+                Account no:
+              </h1>
+            </div>
+          </div>
+          <div className="flex flex-col items-left ml-[5rem] mt-[3rem]">
+            <span className="text-lg">
+              Authors are required to mention their Easy Chair “Paper ID”
+              without error in remark section, while paying the registration
+              fee. Please
+            </span>
+            <span className="text-lg">fill the registration form at</span>
+            <span className="text-blue">www.</span>
+            <span className="text-lg">
+              and upload all the relevant documents as asked in the google form,
+              e.g., fee payment receipt, student’s (1st author’s) ID card, IEEE
+              membership card (if applicable), etc
+            </span>
+            <li className="text-lg mt-[2rem]">
+              Registration deadline is 30.11.2023.
+            </li>
+            <li className="text-lg">Late registration is not allowed.</li>
           </div>
         </div>
       </div>
