@@ -1,12 +1,5 @@
 import Head from "next/head";
 import Styles from "@/components/teams/Team.module.css";
-import {
-  TeamData2k19,
-  TeamData2k20,
-  TeamData2k21,
-  Chief,
-} from "@/lib/data/TeamData";
-import TeamCard from "@/components/teams/TeamCard";
 import Navbar from "@/components/navbar/Navbar";
 import Nav3 from "@/components/home/Nav3";
 import Image from "next/image";
@@ -15,7 +8,7 @@ function Teams() {
   return (
     <>
       <Head>
-        <title>Our Amazing Team ✨</title>
+        <title>Our Organizing Comitte ✨</title>
         <meta
           name="description"
           content="Teams of HnCC (Hackathon & Coding Club), BIT Sindri, Dhanbad"
@@ -29,7 +22,9 @@ function Teams() {
       <Nav3 />
       <section className="mt-16 mb-12  container-70">
         <div className="my-16 w-full text-center">
-          <h1 className="text-5xl font-bold">Our Organizing Comitte</h1>
+          <h1 className="text-5xl text-[#002E73] font-bold">
+            Our Organizing Comitte ✨
+          </h1>
           {/* <h3 className="text-lg mt-8">
             The strength of the team is each individual member. The strength of
             each member is the team.
@@ -38,7 +33,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}>Chief Patron</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -52,7 +47,7 @@ function Teams() {
               IAS, DHTE, Ranchi
             </h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem] rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem] rounded-[1rem]">
             <Image
               src="/teams/comitte/dk.jpg"
               width={250}
@@ -69,7 +64,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Patron</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/pankaj.jpeg"
               width={200}
@@ -83,7 +78,7 @@ function Teams() {
               Dean (Academic)
             </h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem] rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem] rounded-[1rem]">
             <Image
               src="/teams/comitte/upendra.jpeg"
               width={200}
@@ -100,7 +95,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Honorary Chair</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23em] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23em] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -117,7 +112,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> General Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -134,7 +129,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> General Co-Chairs:</h2>
         <div className="flex flex-wrap justify-center gap-[6rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/dktanti.jpeg"
               width={200}
@@ -146,7 +141,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -158,7 +153,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/nirmala.jpeg"
               width={180}
@@ -173,7 +168,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Organizing Chairs:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/akc.jpeg"
               width={200}
@@ -188,7 +183,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Organizing Secretary:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/praveen.jpeg"
               width={210}
@@ -200,7 +195,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahman.jpeg"
               width={210}
@@ -215,7 +210,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Advisory Committee Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/suman.jpeg"
               width={200}
@@ -227,7 +222,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/dipesh.jpeg"
               width={200}
@@ -242,7 +237,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Technical Program Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -254,7 +249,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/murli.jpeg"
               width={200}
@@ -269,7 +264,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Publication Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/akc.jpeg"
               width={200}
@@ -284,7 +279,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Finance Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -297,7 +292,7 @@ function Teams() {
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
 
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -312,7 +307,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Hospitality Chairs:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rajesh.jpeg"
               width={200}
@@ -324,7 +319,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rakesh.jpg"
               width={200}
@@ -339,7 +334,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Publicity Chairs:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/matta.jpeg"
               width={200}
@@ -351,7 +346,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/anuj.png"
               width={250}
@@ -366,7 +361,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Tutorial Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -378,7 +373,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/hcv.jpeg"
               width={200}
@@ -393,7 +388,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Web-Management Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/akc.jpeg"
               width={200}
@@ -405,7 +400,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg"> EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/praveen.jpeg"
               width={200}
@@ -420,7 +415,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}> Registration Chair:</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -432,7 +427,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -447,7 +442,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}>Sponsorship Chair: </h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahul_purwa.jpg"
               width={250}
@@ -459,7 +454,7 @@ function Teams() {
             </h2>
             <h3 className="text-center text-primary-light text-lg">EED</h3>
           </div>
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rahman.jpeg"
               width={200}
@@ -474,7 +469,7 @@ function Teams() {
         </div>
         <h2 className={Styles.postHead}>Transportation & Accommodation</h2>
         <div className="flex flex-wrap justify-center gap-[8rem] ">
-          <div className="h-[23rem] bg-red w-[23rem]    rounded-[1rem]">
+          <div className="h-[23rem] bg-deepblue w-[23rem]    rounded-[1rem]">
             <Image
               src="/teams/comitte/rajesh.jpeg"
               width={200}

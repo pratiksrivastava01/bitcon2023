@@ -29,6 +29,9 @@ module.exports = {
       yellow: {
         DEFAULT: "#FFED79",
       },
+      deepblue: {
+        DEFAULT: "#002E73",
+      },
     },
     screens: {
       m2xl: { min: "1500px" },
