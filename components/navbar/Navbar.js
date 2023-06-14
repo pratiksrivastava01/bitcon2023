@@ -136,7 +136,7 @@ function Navbar() {
           </Dropdown.Menu>
         </Dropdown>
         <Link href="/registeration" legacyBehavior>
-          <a className={styles.navLink}>Registeration</a>
+          <a className={styles.navLink}>Registration </a>
         </Link>
         {/* <Dropdown>
           <Dropdown.Button color={"error"} light>

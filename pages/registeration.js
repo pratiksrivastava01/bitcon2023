@@ -22,7 +22,7 @@ const registeration = () => {
       <div className="h-auto w-[85rem] border-2 justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4">
         <div className="flex gap-[32rem]">
           <h2 className="text-primary  p-4 flex text-5xl sm:text-2xl">
-            Registereation Guidelines
+            Registration Guidelines
           </h2>
           <button className=" ">
             <span className="bg-red text-primary-light   delay-100 font-bold p-4">
