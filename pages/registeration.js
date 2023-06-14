@@ -7,7 +7,7 @@ const registeration = () => {
   return (
     <>
       <Head>
-        <title>Registeration</title>
+        <title>Registration </title>
         <meta
           name="description"
           content="Birla Institute of Technology Sindri (BIT Sindri) is a renowned engineering college located in Sindri, Jharkhand, India. Established in 1949, the institute offers undergraduate and postgraduate programs in various fields of engineering and technology. BIT Sindri is known for its quality education, highly qualified faculty, and strong alumni network. Its graduates have made significant contributions to various sectors around the world. Overall, BIT Sindri is a premier institution that has been at the forefront of technical education in India for over seven decades."
@@ -122,7 +122,7 @@ const registeration = () => {
               Bitcon 2023
             </h1>
             <h2 className="text-[#002E73] font-bold  p-4 flex text-3xl justify-center sm:text-lg">
-              Registeration Fee
+              Registration Fee
             </h2>
           </div>
           <div className="flex">
