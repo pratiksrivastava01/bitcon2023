@@ -42,19 +42,6 @@ const institute = () => {
             and abroad. With its commitment to academic excellence and emphasis
             on practical learning, BIT Sindri continues to be a top choice for
             engineering aspirants in India
-            {/* BIT Sindri is a premier technical institution offering undergraduate{" "}
-            <br />
-            and postgraduate courses in various disciplines of engineering{" "}
-            <br />
-            approved by AICTE, New Delhi. It is wholly owned and administered by{" "}
-            <br />
-            the Department of Science and Technology, Govt of Jharkhand, Ranchi.{" "}
-            <br /> <br />
-            BIT Sindri aims to provide valuable human resources for industry and{" "}
-            <br />
-            society through excellence in technical education and research for{" "}
-            <br />
-            sustainable development. */}
           </p>
         </div>
         <Image src={about} className="rounded-xl mr-[3rem] sm:p-4 sm:mt-0 " />

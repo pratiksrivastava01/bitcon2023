@@ -4,7 +4,7 @@ import styles from "./Notification.module.css";
 const notification = () => {
   return (
     <div className="flex flex-row ">
-      <div className="bg-[#002256] p-4 text-[white] sm:text-lg tfont-bold text-2xl">
+      <div className="bg-[#002256] p-4 text-[white] sm:text-lg font-bold text-2xl">
         {" "}
         Notification
       </div>

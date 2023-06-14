@@ -72,7 +72,7 @@ export default function Home() {
             ></Image>
             <Image
               src={logo}
-              className="h-[7rem] w-[7rem] sm:h-[5rem] sm:w-[5rem] sm:ml-0 sm:mt-0 ml-[7.5rem] mt-[3rem]  "
+              className="h-[8rem] w-[8rem] sm:h-[5rem] sm:w-[5rem] sm:ml-0 sm:mt-0 ml-[8.5rem] mt-[3rem]  "
             ></Image>
           </div>
           <div className="flex flex-col  items-center">
@@ -101,11 +101,11 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row  flex-wrap">
             <Image
               src={bitcon}
-              className="h-[10rem] w-[10rem] ml-[75rem] sm:ml-0 mt-[-27rem] relative "
+              className="h-[10rem] w-[10rem] ml-[80rem] sm:ml-0 mt-[-27rem] relative "
             ></Image>
             <Image
               src={ieee}
-              className="h-[14rem] w-[14rem] ml-[75rem] mt-[-1rem] relative "
+              className="h-[14rem] w-[16rem] ml-[77rem] mt-[-1rem] relative "
             ></Image>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Nav3 = () => {
         {/* <div className=""> */}
         <ul className="flex flex-row gap-[3rem] text-[white]">
           <li>
-            <a href="/speakers" className="text-primary  font-bold">
+            <a href="/speakers" className="text-primary text-lg font-bold">
               Invited Speakers
             </a>
           </li>
@@ -18,20 +18,26 @@ const Nav3 = () => {
             <a
               // href="/Comitte/OrganizingComitte"
               href="  "
-              className="text-primary font-bold"
+              className="text-primary text-lg font-bold"
             >
               Committe
             </a>
           </li>
           <li>
-            <a href="" className="text-primary font-bold">
+            <a href="" className="text-primary text-lg font-bold">
               Call for Papers
             </a>
           </li>
 
           <Dropdown>
-            <Dropdown.Button color={"error"} light className="border-[white]">
-              <p className="text-lg text-primary font-bold">Paper Submission</p>
+            <Dropdown.Button
+              color={"error"}
+              light
+              className="border-[white] mt-[-0.5rem]"
+            >
+              <p className="text-lg text-primary  font-bold">
+                Paper Submission
+              </p>
             </Dropdown.Button>
             <Dropdown.Menu
               variant="default"
@@ -85,7 +91,7 @@ const Nav3 = () => {
           </Dropdown>
 
           <li>
-            <a href="/sponsor" className="text-primary font-bold">
+            <a href="/sponsor" className="text-primary text-lg font-bold">
               Sponsership
             </a>
           </li>
