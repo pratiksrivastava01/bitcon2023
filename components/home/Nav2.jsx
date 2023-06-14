@@ -26,7 +26,10 @@ const Nav2 = () => {
             </a>
           </li>
           <li>
-            <a href="" className="text-[white] font-bold">
+            <a
+              href="https://bitcon2023.vercel.app/PaperSubmission/info"
+              className="text-[white] font-bold"
+            >
               Paper Submission
             </a>
           </li>

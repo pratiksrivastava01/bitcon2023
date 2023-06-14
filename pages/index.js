@@ -65,7 +65,7 @@ export default function Home() {
         <Notification />
 
         <div className="flex flex-wrap items-center gap-[5rem]">
-          <div className="flex flex-col  sm:flex-col">
+          <div className="flex flex-col ml-[-2rem]  sm:flex-col">
             <Image
               src={jh}
               className="h-[10rem] w-[10rem] sm:h-[5rem] sm:w-[5rem] ml-[7.5rem] mt-[2rem]  "
@@ -98,7 +98,7 @@ export default function Home() {
               BIT, Sindri, Dhanbad, Jharkhand, INDIA
             </h1>
           </div>
-          <div className="flex flex-col sm:flex-row  flex-wrap">
+          <div className="flex flex-col sm:flex-row ml-[-2rem]   flex-wrap">
             <Image
               src={bitcon}
               className="h-[10rem] w-[10rem] ml-[80rem] sm:ml-0 mt-[-27rem] relative "
