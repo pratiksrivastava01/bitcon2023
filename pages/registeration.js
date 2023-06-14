@@ -31,16 +31,26 @@ const registeration = () => {
           </button>
         </div>
         <div className="p-4 mt-2 ml-[2rem]">
-          <li>Registration fee is non-refundable and non-transferable.</li>
+          <li>
+            Please note that at least one registration among the authors of EACH
+            accepted paper is compulsory for the paper presentation and its
+            inclusion in the Conference proceeding.
+          </li>
+          <li>
+            To motivate the student authors, multiple author(s) registration
+            from a paper is allowed by paying the respective registration fee,
+            separately as per their applicable category
+          </li>
+          <li>
+            Registration fee is non-refundable and non-transferable.in all
+            circumstances, unless paid (a) multiple times or (b) more than the
+            defined amount.
+          </li>
           <li>
             All the delegates/authors must carry at least one original & valid
-            ID card with them at the Online platform used for the Conference.
+            ID card with them at the Online platform used for the Conference
           </li>
-          <li>
-            Each paper, in order to be published in the conference proceedings
-            and final program, requires at least one author to be registered and
-            to present the paper.
-          </li>
+
           <li>
             If multiple authors of a paper wish to attend the conference,
             separate registration will be mandatory for each author.
@@ -69,7 +79,7 @@ const registeration = () => {
           </li>
           <li>
             Organizing Committee reserves the right at all times to make any
-            changes to the RDCAPE 2023 Conference Program/Schedule in its sole
+            changes to the BITCON-2023 Conference Program/Schedule in its sole
             discretion.
           </li>
           <li>
@@ -83,10 +93,10 @@ const registeration = () => {
             scanned copy of the Identity Card along with the registration form.
           </li>
           <li>
-            Accepted, registered, and presented papers will be submitted to
-            Springer for publication in their prestigious LNEE series indexed in
-            SCOPUS. Springer will conduct quality checks on the accepted papers
-            and only papers that pass these checks will be published.
+            Accepted, registered, and presented papers will be submitted to IEEE
+            for publication in IEEEXplore indexed in SCOPUS. IEEE will conduct
+            quality checks on the accepted papers and only papers that pass
+            these checks will be published.
           </li>
         </div>
         <div className="">
@@ -99,9 +109,16 @@ const registeration = () => {
           </div>
         </div>
         {/* <li></li> */}
-        <div className="flex flex-col  justify-center">
-          <div className="h-[10rem] w-[75rem]  border-2 justify-center flex flex-col border-primary  mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-            <h1 className="text-red  p-4 flex text-5xl justify-center sm:text-2xl">
+        <div className="flex flex-col sm:overflow-scroll  justify-center">
+          <div className="flex ">
+            <p className="text-primary ml-[3.5rem] text-center text-xl font-bold p-4 flex  sm:text-lg">
+              The authors are requested to pay the registration fee according to
+              their applicable category as mentioned below:
+            </p>
+          </div>
+
+          <div className="h-[10rem] w-[75rem]  border-2 justify-center flex flex-col border-primary   sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[26.5rem] p-4">
+            <h1 className="text-red  p-4 flex text-5xl font-bold justify-center sm:text-2xl">
               Bitcon 2023
             </h1>
             <h2 className="text-[#002E73] font-bold  p-4 flex text-3xl justify-center sm:text-lg">
@@ -110,47 +127,47 @@ const registeration = () => {
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-2xl">
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
                 Category
               </h1>
             </div>
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                 Early Bird Registration till 31st May 2023
               </h1>
             </div>
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                 Registration after 31st May 2023
               </h1>
             </div>
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary invisible  p-4 flex text-lg text-left sm:text-2xl">
+              <h1 className="text-primary invisible  p-4 flex text-lg text-left sm:text-sm">
                 Category
               </h1>
             </div>
             <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[10rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                   Indian
                 </h1>
               </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[9rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                   Foreign
                 </h1>
               </div>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                   Indian
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
                   Foreign
                 </h1>
               </div>
@@ -158,126 +175,186 @@ const registeration = () => {
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-2xl">
-                Industry Delegate (Presenter)
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                IEEE Student Member
               </h1>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  7000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  1000 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  250USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  150 USD
                 </h1>
               </div>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  8000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  1500 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  300USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  200 USD
                 </h1>
               </div>
             </div>
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-2xl">
-                Academician (Presenter)
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                Non-IEEE Student Member
               </h1>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  6000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  1500 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  200USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  200 USD
                 </h1>
               </div>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  7000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  2000 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  250USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  250 USD
                 </h1>
               </div>
             </div>
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-2xl">
-                Full time Student (Presenter)
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                All Other IEEE Members
               </h1>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  4500INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  2000 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  150USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  200 USD
                 </h1>
               </div>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  5000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  3000 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  200USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  250 USD
                 </h1>
               </div>
             </div>
           </div>
           <div className="flex">
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-2xl">
-                Attendees
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                All Other Non-IEEE Members
               </h1>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  2000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  2500 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  100USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  300 USD
                 </h1>
               </div>
             </div>
             <div className="flex">
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  2000INR
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  3500 INR
                 </h1>
               </div>
               <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-2xl">
-                  100USD
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  400 USD
                 </h1>
               </div>
+            </div>
+          </div>
+          <div className="flex">
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                Listner (Other than Presenter)
+              </h1>
+            </div>
+            <div className="flex">
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  2000 INR
+                </h1>
+              </div>
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  250 USD
+                </h1>
+              </div>
+            </div>
+            <div className="flex">
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  2500 INR
+                </h1>
+              </div>
+              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
+                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                  300 USD
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col mt-[2rem] justify-center">
+          <div className="flex ">
+            <p className="text-primary ml-[3.5rem] text-center text-xl font-bold p-4 flex  sm:text-sm">
+              Account Details for Payment of the Registration Fee:
+            </p>
+          </div>
+          <div className="flex">
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
+              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
+                Bank
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                State Bank of India
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+                Account no:
+              </h1>
+            </div>
+            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
+              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm invisible">
+                Account no:
+              </h1>
             </div>
           </div>
         </div>
