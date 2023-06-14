@@ -50,11 +50,9 @@ const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      goToNext();
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+    const timer = setTimeout(goToNext, 5000);
+    return () => clearTimeout(timer);
+  }, [currentIndex]);
 
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0;

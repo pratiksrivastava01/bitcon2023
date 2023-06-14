@@ -114,9 +114,15 @@ const info = () => {
               <table className=" ml-[2rem] sm:ml-[-1rem]">
                 <thead className="gap-[5rem]">
                   <tr className="p-4">
-                    <th className="bg-blue text-primary-light">Margin</th>
-                    <th className="bg-blue text-primary-light">US Letter</th>
-                    <th className="bg-blue text-primary-light">A4</th>
+                    <th className="bg-blue text-center text-primary-light">
+                      Margin
+                    </th>
+                    <th className="bg-blue text-center text-primary-light">
+                      US Letter
+                    </th>
+                    <th className="bg-blue text-center text-primary-light">
+                      A4
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
@@ -149,8 +155,12 @@ const info = () => {
               <table className=" ml-[2rem] sm:ml-[-1rem]">
                 <thead className="gap-[5rem]">
                   <tr className="p-4">
-                    <th className="bg-blue text-primary-light">Content</th>
-                    <th className="bg-blue text-primary-light">Font</th>
+                    <th className="bg-blue text-center text-primary-light">
+                      Content
+                    </th>
+                    <th className="bg-blue text-center text-primary-light">
+                      Font
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
