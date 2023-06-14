@@ -155,7 +155,7 @@ const Footer = () => {
         </div>
 
         <div className=" flex justify-center mt-[2rem] ">
-          <Link href="google.com">
+          <Link href="/CallForPaper">
             <button className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] p-4">
               View More
             </button>
