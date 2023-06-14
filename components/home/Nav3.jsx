@@ -24,7 +24,7 @@ const Nav3 = () => {
             </a>
           </li>
           <li>
-            <a href="" className="text-primary text-lg font-bold">
+            <a href="/CallForPaper" className="text-primary text-lg font-bold">
               Call for Papers
             </a>
           </li>
