@@ -65,17 +65,17 @@ export default function Home() {
         <Notification />
 
         <div className="flex flex-wrap items-center gap-[5rem]">
-          <div className="flex flex-col ml-[-2rem]  sm:flex-col">
+          <div className="flex flex-col ml-[-2rem] sm:gap-[3rem] sm:ml-[5rem] sm:mt-[2rem] sm:flex-row">
             <Image
               src={jh}
-              className="h-[10rem] w-[10rem] sm:h-[5rem] sm:w-[5rem] ml-[7.5rem] mt-[2rem]  "
+              className="h-[10rem] w-[10rem] ml-[7.5rem] mt-[2rem] sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem] "
             ></Image>
             <Image
               src={logo}
-              className="h-[8rem] w-[8rem] sm:h-[5rem] sm:w-[5rem] sm:ml-0 sm:mt-0 ml-[8.5rem] mt-[3rem]  "
+              className="h-[8rem] w-[8rem]  sm:h-[4rem] sm:w-[4rem] sm:ml-0 sm:mt-0 ml-[8.5rem] mt-[3rem]  "
             ></Image>
           </div>
-          <div className="flex flex-col  items-center">
+          <div className="flex flex-col sm:mt-[-4rem] items-center">
             <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-xl mt-[2rem] ">
               Celebrating Platinum Jubilee of BIT SINDRI
             </h1>
@@ -98,14 +98,14 @@ export default function Home() {
               BIT, Sindri, Dhanbad, Jharkhand, INDIA
             </h1>
           </div>
-          <div className="flex flex-col sm:flex-row ml-[-2rem]   flex-wrap">
+          <div className="flex flex-col sm:flex-row ml-[-2rem] sm:ml-[5rem] sm:gap-[3rem] flex-wrap">
             <Image
               src={bitcon}
-              className="h-[10rem] w-[10rem] ml-[80rem] sm:ml-0 mt-[-27rem] relative "
+              className="h-[10rem] w-[10rem] ml-[80rem] sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem] mt-[-27rem] relative "
             ></Image>
             <Image
               src={ieee}
-              className="h-[14rem] w-[16rem] ml-[77rem] mt-[-1rem] relative "
+              className="h-[14rem] w-[16rem] ml-[77rem] mt-[-1rem] relative sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem]"
             ></Image>
           </div>
         </div>

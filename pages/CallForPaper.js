@@ -21,7 +21,7 @@ const CallForPaper = () => {
       <Nav3 />
       <div className="h-auto w-[90%] border-2 justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4 ">
         <div className="flex flex-wrap gap-[32rem]">
-          <h2 className="text-primary  p-4 flex text-5xl sm:text-2xl">
+          <h2 className="text-primary font-bold p-4 flex text-5xl sm:text-2xl">
             Call For Papers
           </h2>
         </div>
