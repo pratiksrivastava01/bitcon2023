@@ -69,7 +69,7 @@ const contact = () => {
                     >
                       <BsWhatsapp className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        WhasApp
+                        WhatsApp
                       </span>
                     </a>
                   </div>

@@ -250,7 +250,7 @@ function Navbar() {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown> */}
-        <Link href="/paper" legacyBehavior>
+        <Link href="/awards" legacyBehavior>
           <a className={styles.navLink}>Awards</a>
         </Link>
         <Link

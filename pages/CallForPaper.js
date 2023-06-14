@@ -167,7 +167,7 @@ const CallForPaper = () => {
             </a>
           </p>
           <div className="">
-            <h2 className="text-primary underline mt-[2rem] font-bold p-4 flex text-3xl sm:text-2xl">
+            <h2 className="text-primary underline mt-[2rem] ml-[-1rem] font-bold p-4 flex text-3xl sm:text-2xl">
               Submit a Paper
             </h2>
             <p className="ml-5">
@@ -182,7 +182,7 @@ const CallForPaper = () => {
             </p>
           </div>
           <div className="">
-            <h2 className="text-primary underline mt-[2rem] font-bold p-4 flex text-3xl sm:text-2xl">
+            <h2 className="text-primary underline mt-[2rem] ml-[-1rem] font-bold p-4 flex text-3xl sm:text-2xl">
               Deadline for Paper Submission: August 15, 2023
             </h2>
             <p className="ml-5">
@@ -199,7 +199,7 @@ const CallForPaper = () => {
             </p>
           </div>
           <div className="">
-            <h2 className="text-primary underline mt-[2rem] font-bold p-4 flex text-3xl sm:text-2xl">
+            <h2 className="text-primary underline mt-[2rem] ml-[-1rem] font-bold p-4 flex text-3xl sm:text-2xl">
               IEEE Policies
             </h2>
             <p className="ml-5">

@@ -2,7 +2,6 @@ import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import React from "react";
-
 const registeration = () => {
   return (
     <>
