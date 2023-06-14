@@ -25,8 +25,22 @@ export default function Home() {
       url: "https://res.cloudinary.com/du196ag4l/image/upload/v1683607435/Electrical_wdzoph.jpg",
       title: "boat",
     },
-    { url: "http://localhost:3000/image-4.jpg", title: "city" },
-    { url: "http://localhost:3000/image-5.jpg", title: "italy" },
+    {
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717651/IMG_1589_hs5ddo.jpg",
+      title: "city",
+    },
+    {
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717734/IMG_1736_oxl0yc.jpg",
+      title: "italy",
+    },
+    {
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717734/IMG_1603_jgd7er.jpg",
+      title: "indea",
+    },
+    {
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717808/IMG_1708_w03k1s.jpg",
+      title: "one",
+    },
   ];
   const containerStyles = {
     width: "500px",
