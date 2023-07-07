@@ -9,22 +9,14 @@ const notification = () => {
         Notification
       </div>
       <div className="bg-[#FAC804] overflow-hidden">
-        <div className={`${styles.animate}`}>
+        <div className={`${styles.animate} flex `}>
           {" "}
-          Lorem ipsum dolor sit amet{" "}
-          <span>
-            {" "}
-            consectetur, adipisicing elit. Doloremque autem asperiores{" "}
-          </span>{" "}
-          doloribus magni aspernatur, sequi quisquam quasi at!Lorem ipsum dolor
-          <span>sita</span>
-          <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-            eos odit atque fugiat iusto possimus quisquam sed laboriosam
-            commodi? Nam autem ex accusamus, nostrum deleniti, facere ratione
-            quibusdam velit rem tempore tempora placeat soluta ullam, tenetur
-            quod reiciendis. Ex placeat odio illo. Illum dolore accusamus autem
-            quisquam necessitatibus maiores cum.
+          Attempt is being made to publish the{" "}
+          <span> registered and only presented papers</span>
+          <span> on IEEE Xplore Digital Library.</span>
+          <span className="invisible">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+            voluptates! Lorem ipsum dolor sit amet consectetur adipisicing
           </span>
         </div>
       </div>

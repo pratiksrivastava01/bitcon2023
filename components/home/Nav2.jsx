@@ -3,7 +3,7 @@ import React from "react";
 const Nav2 = () => {
   return (
     <>
-      <div className="flex flex-col sm:hidden mt-[4rem] items-center bg-[#002E73] p-6">
+      <div className="flex flex-col sm:hidden mt-[2rem] items-center bg-[#002E73] p-6">
         {/* <div className=""> */}
         <ul className="flex flex-row gap-[3rem] text-[white]">
           <li>

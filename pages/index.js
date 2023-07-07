@@ -1,5 +1,4 @@
 import Footer from "@/components/home/Footer";
-import ImageSlider from "@/components/imageSlider";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import Notification from "@/components/Notification";
@@ -10,6 +9,8 @@ import bitcon from "@/assets/bitcon.png";
 import ieee from "@/assets/ieee.jpg";
 
 import Nav2 from "@/components/home/Nav2";
+import Slider from "@/components/Slider";
+import Foot from "@/components/Foot";
 
 export default function Home() {
   const slides = [
@@ -60,61 +61,65 @@ export default function Home() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <div className=" flex flex-col ">
+      <div className=" flex flex-col  ">
         <Navbar />
         <Notification />
+        <div className="flex justify-center">
+          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] overflow-hidden ">
+            <div className="  w-[12%] sm:w-[100%] sm:flex ">
+              <Image src={jh} alt="jh" className="h-[8rem] w-[8rem] "></Image>
+              <Image
+                src={logo}
+                alt="logo"
+                className="h-[8rem] w-[8rem]"
+              ></Image>
+            </div>
+            <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-[100%]">
+              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-xl mt-[2rem] ">
+                Celebrating Platinum Jubilee of BIT SINDRI
+              </h1>
+              <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
+                <span className="text-[#385623] font-sans">FLAGSHIP</span> BIT
+                CONFERENCE <span className="text-[#385623]">2023</span>
+              </h1>
+              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] ">
+                <span className="text-[#385623]">(BITCON-23)</span>
+              </h1>
 
-        <div className="flex flex-wrap items-center gap-[5rem]">
-          <div className="flex flex-col ml-[-2rem] sm:gap-[3rem] sm:ml-[5rem] sm:mt-[2rem] sm:flex-row">
-            <Image
-              src={jh}
-              className="h-[10rem] w-[10rem] ml-[7.5rem] mt-[2rem] sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem] "
-            ></Image>
-            <Image
-              src={logo}
-              className="h-[8rem] w-[8rem]  sm:h-[4rem] sm:w-[4rem] sm:ml-0 sm:mt-0 ml-[8.5rem] mt-[3rem]  "
-            ></Image>
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem]">
+                <span className="text-[#002E73] ">Theme:-</span>
+                Next Generation Applications in Green Engineering Technology
+              </p>
+              <h1 className="text-[red] text-xl sm:text-xs font-bold text-center ">
+                December 22-24, 2023 (3 days)
+              </h1>
+              <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
+                BIT, Sindri, Dhanbad, Jharkhand, INDIA
+              </h1>
+            </div>
+            <div className="w-[12%] sm:w-[100%] sm:flex sm:mt-0">
+              <Image
+                src={bitcon}
+                alt="bitcon"
+                className="h-[8rem] w-[8rem]"
+              ></Image>
+              <Image
+                src={ieee}
+                alt="ieee"
+                className="h-[8rem] w-[8rem]"
+              ></Image>
+            </div>
           </div>
-          <div className="flex flex-col sm:mt-[-4rem] items-center">
-            <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-xl mt-[2rem] ">
-              Celebrating Platinum Jubilee of BIT SINDRI
-            </h1>
-            <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] ">
-              <span className="text-[#385623] font-sans">FLAGSHIP</span> BIT
-              CONFERENCE <span className="text-[#385623]">2023</span>
-            </h1>
-            <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] ">
-              <span className="text-[#385623]">(BITCON-23)</span>
-            </h1>
-
-            <h3 className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem]">
-              <span className="text-[#002E73] ">Theme:-</span>
-              Next Generation Applications in Green Engineering Technology
-            </h3>
-            <h1 className="text-[red] text-xl sm:text-xs font-bold text-center mt-[2rem]">
-              December 22-24, 2023 (3 days)
-            </h1>
-            <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
-              BIT, Sindri, Dhanbad, Jharkhand, INDIA
-            </h1>
-          </div>
-          <div className="flex flex-col sm:flex-row ml-[-2rem] sm:ml-[5rem] sm:gap-[3rem] flex-wrap">
-            <Image
-              src={bitcon}
-              className="h-[10rem] w-[10rem] ml-[80rem] sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem] mt-[-27rem] relative "
-            ></Image>
-            <Image
-              src={ieee}
-              className="h-[14rem] w-[16rem] ml-[77rem] mt-[-1rem] relative sm:ml-0 sm:mt-0 sm:h-[5rem] sm:w-[5rem]"
-            ></Image>
-          </div>
-        </div>
-        <div className="w-[80rem] h-[30rem] ml-[8rem] mt-[2rem] sm:w-[23rem] sm:h-[20rem] sm:ml-[1.2rem]">
-          <ImageSlider slides={slides} />
         </div>
         <Nav2 />
+        <div className=" mt-[3rem] flex justify-center">
+          <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">
+            <Slider slides={slides} />
+          </div>
+        </div>
         <Footer />
       </div>
+      <Foot />
     </>
   );
 }

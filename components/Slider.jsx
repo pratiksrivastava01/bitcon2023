@@ -8,28 +8,6 @@ const slideStyles = {
   backgroundPosition: "center",
 };
 
-const rightArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  right: "32px",
-  fontSize: "45px",
-  color: "#fff",
-  zIndex: 1,
-  cursor: "pointer",
-};
-
-const leftArrowStyles = {
-  position: "absolute",
-  top: "50%",
-  transform: "translate(0, -50%)",
-  left: "32px",
-  fontSize: "45px",
-  color: "#fff",
-  zIndex: 1,
-  cursor: "pointer",
-};
-
 const sliderStyles = {
   position: "relative",
   height: "100%",
@@ -46,7 +24,7 @@ const dotStyle = {
   fontSize: "20px",
 };
 
-const ImageSlider = ({ slides }) => {
+const Slider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -77,16 +55,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <div style={sliderStyles}>
-      <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
-          ❰
-        </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
-          ❱
-        </div>
-      </div>
-      <div style={slideStylesWidthBackground}></div>
-      <div style={dotsContainerStyles}>
+      <div style={slideStylesWidthBackground} className="object-contain"></div>
+      <div style={dotsContainerStyles} className="invisible">
         {slides.map((slide, slideIndex) => (
           <div
             style={dotStyle}
@@ -101,4 +71,4 @@ const ImageSlider = ({ slides }) => {
   );
 };
 
-export default ImageSlider;
+export default Slider;

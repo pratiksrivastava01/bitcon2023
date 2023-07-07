@@ -1,56 +1,137 @@
 import Link from "next/link";
 import React from "react";
-// import { BsDot } from "react-icons/bs";
-// import { RxDotFilled } from "@react-icons/rx";
-import { RxDotFilled } from "react-icons/rx";
+import Image from "next/image";
+
+import team from "@/assets/team.png";
+import cp from "@/assets/cp.png";
+import pt from "@/assets/pt.png";
+import organizer from "@/assets/organizer.png";
+import manager from "@/assets/manager.png";
+import budget from "@/assets/budget.png";
+import coordination from "@/assets/coordination.png";
+import schedule from "@/assets/schedule.png";
+import topic from "@/assets/topic.png";
+import evaluation from "@/assets/evaluation.png";
+import point from "@/assets/point.png";
+import publication from "@/assets/publication.png";
+import document from "@/assets/document.png";
+import trophy from "@/assets/trophy.png";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row items-center sm:flex-col">
-      <div className="h-[93.8rem] w-[25rem] border-2  border-primary mt-[5rem] ml-[8rem] shadow-2xl sm:ml-[0.2rem] sm:h-auto sm:w-[21rem]">
+    <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center ">
+      <div className="h-auto w-[25rem]  mt-[5rem]  shadow-2xl  rounded-lg sm:h-auto sm:w-[21rem]">
         <div className="p-5">
-          <h1 className="font-bold text-3xl sm:text-lg">Core Team</h1>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">
-            Chief-Patron
-          </h2>
-          <p>
+          <div className="flex gap-5 rounded-lg p-2  shadow-lg bg-blue bg-opacity-20">
+            <Image
+              src={team}
+              alt="team"
+              className=" h-[4rem] w-[4rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h1 className="font-bold text-3xl sm:text-xl items-center flex justify-center">
+              Core Team
+            </h1>
+          </div>
+          <div className="flex gap-5 mt-[2rem] border-2 rounded-lg  p-2">
+            <Image
+              src={cp}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className=" font-bold text-lg sm:text-sm flex items-center ">
+              Chief-Patron
+            </h2>
+          </div>
+          <p className="p-2">
             Prof. D. K. Singh <br /> Director, BIT Sindri
           </p>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">Patron</h2>
-          <p>
+          <div className="flex gap-5 mt-[1rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={pt}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className=" font-bold text-lg sm:text-sm flex items-center">
+              Patron
+            </h2>
+          </div>
+          <p className="p-2">
             Dr. Md. Abul Kalam <br /> HOD, EED, BIT Sindri
           </p>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">
-            Organizing Chairman(s):
-          </h2>
-          <p>
+          <div className="flex gap-5 mt-[1rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={organizer}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className="flex items-center font-bold text-lg sm:text-sm">
+              Organizing Chairman(s):
+            </h2>
+          </div>
+          <p className="p-2">
             Dr Pankaj Rai <br /> Dept. of EE, BIT Sindri <br /> Dr. D. K. Tanti{" "}
             <br /> Dept. of EE, BIT Sindri
           </p>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">
-            Organizing Secretary(s):
-          </h2>
-          <p>
+          <div className="flex gap-5 mt-[1rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={manager}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className="flex items-center font-bold text-lg sm:text-sm">
+              Organizing Secretary(s):
+            </h2>
+          </div>
+          <p className="p-2">
             Dr. Vineet Shekher <br /> Dept. of EE, BIT Sindri <br /> Dr. A. K.
             Choudhary <br /> Dept. of EE, BIT Sindri
           </p>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">Treasurer:</h2>
-          <p>
+          <div className="flex gap-5 mt-[1rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={budget}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className="flex items-center font-bold text-lg sm:text-sm">
+              Treasurer:
+            </h2>
+          </div>
+          <p className="p-2">
             Dr. Nirmala Soren <br /> Dept. of EE, BIT Sindri <br /> Dr. Rajendra
             Murmu <br /> Dept. of EE, BIT Sindri
           </p>
-          <h2 className="mt-[2rem] font-bold text-lg sm:text-sm">
-            Coordinators
-          </h2>
-          <p>
+          <div className="flex gap-5 mt-[1rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={coordination}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h2 className="flex items-center font-bold text-lg sm:text-sm">
+              Coordinators
+            </h2>
+          </div>
+          <p className="p-2">
             Prof. Praveen Kumar <br /> Dept. of EE, BIT Sindri <br /> Prof.
             Mukhlesur Rahman <br />
             Dept. of EE, BIT Sindri
           </p>
-          <h1 className="mt-[5rem] font-bold text-lg sm:text-sm">
-            Key Dates (Tentative):
-          </h1>
-          <p>
+          <div className="flex gap-5 mt-[3rem] border-2 rounded-lg p-2">
+            {" "}
+            <Image
+              src={schedule}
+              alt="team"
+              className=" h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
+            />
+            <h1 className=" flex items-center font-bold text-lg sm:text-sm">
+              Key Dates (Tentative):
+            </h1>
+          </div>
+          <div className="p-2">
             Start of paper submission: <br />
             <span className="font-bold text-lg">
               {" "}
@@ -73,11 +154,11 @@ const Footer = () => {
               30 November, 2023
             </span> <br /> Conference Date: <br />
             <span className="font-bold text-lg">22-23 December, 2023</span>
-          </p>
+          </div>
         </div>
       </div>
-      <div className="h-auto w-[53rem] border-2  border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-        <p className="p-5 mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-center">
+      <div className="h-auto w-[53rem]  rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
+        <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-center  bg-red bg-opacity-10 rounded-lg">
           The Department of Electrical Engineering at BIT SINDRI proudly
           announces to host the{" "}
           <span className="text-xl text-[#002E73] sm:text-sm font-bold">
@@ -93,15 +174,27 @@ const Footer = () => {
           by eminent personalities from academia / industry, and peer-reviewed
           oral and poster presentations. BITCON-2023
           <br />
-          <span className="text-xl text-[#002E73] sm:text-sm font-bold">
-            Theme:
-          </span>
-          <br />
-          <span className="text-xl text-[#002E73] sm:text-sm font-bold ">
-            “Next Generation Applications in Green Engineering Technology”
-          </span>
-          <br className="mt-2" />
-          <p className="mt-[2rem]">
+          <div className="">
+            <div className="flex flex-wrap  items-center justify-center mt-4">
+              <div
+                className="flex 
+              "
+              >
+                <Image
+                  src={topic}
+                  alt="topic"
+                  className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
+                />
+                <p className="text-xl flex items-center  text-[#002E73] sm:text-sm font-bold">
+                  Theme:
+                </p>
+              </div>
+              <span className="text-xl text-[#002E73] sm:text-sm font-bold ">
+                “Next Generation Applications in Green Engineering Technology”
+              </span>
+            </div>
+          </div>
+          <p className="mt-[1rem]">
             <span className="text-xl text-[#af2a2a] sm:text-sm mr-3 mt-[2rem] font-bold gap-3 ">
               Highlights:
             </span>
@@ -113,48 +206,47 @@ const Footer = () => {
             discussions, e) Awards for best M.Tech Dissertation, and f) Awards
             for best PhD Thesis.
           </p>
-        </p>
-        <h1 className="p-5 mt-[2rem] text-primary font-bold text-2xl sm:mt-0 ml-[1rem] mr-[1rem] sm:text-lg text-center">
-          Topics included
-        </h1>
-        <div className="flex flex-row flex-wrap gap-8 ml-[2rem] ">
-          <div className="">
-            <h3 className=" text-primary font-medium text-lg sm:ml-[0rem] ml-8  sm:text-sm">
-              <span className="text-[#002E73] font-bold mr-3">Track 1:</span>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="flex items-center mt-[2rem]">
+            <Image
+              src={evaluation}
+              alt="evaluation"
+              className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
+            />
+            <h1 className="p-5  text-primary font-bold text-2xl sm:mt-0 ml-[1rem] mr-[1rem] sm:text-lg text-center">
+              Topics included
+            </h1>
+          </div>
+        </div>
+        <ul className=" p-4 flex justify-start flex-col  gap-5">
+          <li className="flex justify-between flex-wrap">
+            <li className="flex items-center gap-5 font-bold">
+              <Image src={point} alt="point" className=" h-[2rem] w-[2rem] " />
               Power System Dynamics:
-            </h3>
-          </div>
-          <div className="">
-            {" "}
-            <h3 className="text-primary  font-medium text-lg  sm:text-sm">
-              <span className="text-[#002E73] font-bold mr-3">Track 2:</span>
-              Power Electronics Drives <br /> & Applications:
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-row flex-wrap sm:gap-0 gap-[5rem] ml-[2rem] ">
-          <div className=" mt-[3rem]   ">
-            <h3 className="text-primary font-medium  text-lg sm:ml-0 ml-8  sm:text-sm">
-              <span className="text-[#002E73] font-bold mr-3">Track 3:</span>
-              Control System, <br />
+            </li>
+            <li className="flex items-center gap-5 font-bold">
+              <Image src={point} alt="point" className=" h-[2rem] w-[2rem] " />
+              Power Electronics Drives & Applications:
+            </li>
+          </li>
+          <li className="flex justify-between flex-wrap">
+            <li className="flex items-center gap-5 font-bold">
+              <Image src={point} alt="point" className=" h-[2rem] w-[2rem] " />
               Automation & Applications:
-            </h3>
-          </div>
-          <div className="  mt-[3rem]  ">
-            <h3 className="text-primary font-medium text-lg  sm:text-sm">
-              <span className="text-[#002E73] font-bold mr-3">Track 4:</span>
-              Green Energy Technology <br />& Applications:
-            </h3>
-          </div>
-        </div>
-        <div className="  mt-[3rem]  items-center sm:ml-[2rem] ml-[8rem]">
-          <h3 className="text-primary font-medium text-lg  sm:text-sm">
-            <span className="text-[#002E73] font-bold mr-3">Track 5:</span>
+            </li>
+            <li className="flex items-center gap-5 font-bold ">
+              <Image src={point} alt="point" className=" h-[2rem] w-[2rem] " />
+              Green Energy Technology & Applications:
+            </li>
+          </li>
+          <li className="flex items-center gap-5 font-bold">
+            <Image src={point} alt="point" className=" h-[2rem] w-[2rem] " />
             Artificial Intelligence, IoT and Signal Processing
-          </h3>
-        </div>
+          </li>
+        </ul>
 
-        <div className=" flex justify-center mt-[2rem] ">
+        <div className=" flex justify-center  ">
           <Link href="/CallForPaper">
             <button className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] p-4">
               View More
@@ -162,16 +254,28 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="mt-[2rem]">
-          <p className="p-4 sm:text-xs">
-            <span className="text-[#002E73] font-bold text-xl ml-8  sm:text-sm">
+        <div className="mt-[1rem]">
+          <p className="p-4 sm:text-xs ">
+            <span className="text-[#002E73] font-bold text-xl  flex items-center gap-3 sm:text-sm">
+              <Image
+                src={publication}
+                alt="publication"
+                className=" h-[2rem] w-[2rem] "
+              />
               Publication:{" "}
             </span>
-            Attempt is being made to publish the registered and only presented
-            papers on IEEE Xplore Digital Library.
+            <p className="">
+              Attempt is being made to publish the registered and only presented
+              papers on IEEE Xplore Digital Library.
+            </p>
           </p>{" "}
           <p className="p-4 sm:text-xs">
-            <span className="text-[#002E73] font-bold text-xl ml-8  sm:text-sm">
+            <span className="text-[#002E73] font-bold text-xl  flex items-center gap-3 sm:text-sm">
+              <Image
+                src={document}
+                alt="publication"
+                className=" h-[2rem] w-[2rem] "
+              />
               Paper Submission:{" "}
             </span>
             Papers submitted for both oral and poster presentations should
@@ -182,7 +286,12 @@ const Footer = () => {
             and in PDF format.
           </p>{" "}
           <p className="p-4 sm:text-xs">
-            <span className="text-[#002E73] font-bold text-xl ml-8  sm:text-sm">
+            <span className="text-[#002E73] font-bold text-xl  flex items-center gap-3 sm:text-sm">
+              <Image
+                src={trophy}
+                alt="publication"
+                className=" h-[2rem] w-[2rem] "
+              />
               Call for M.Tech Dissertation and PhD Thesis Awards:{" "}
             </span>
             BITCON-2023 will also provide the platform for young professionals

@@ -98,7 +98,6 @@ function Navbar() {
               >
                 <a
                   className={`text-primary`}
-                  target="_blank"
                   href="https://bitcon2023.vercel.app/About/institute"
                 >
                   About the Institutution{" "}
@@ -113,7 +112,6 @@ function Navbar() {
                 <a
                   className={`text-primary`}
                   href="https://bitcon2023.vercel.app/About/department"
-                  target="_blank"
                 >
                   About the Department
                 </a>
@@ -127,7 +125,6 @@ function Navbar() {
                 <a
                   className={`text-primary`}
                   href="https://bitcon2023.vercel.app/About/conference"
-                  target="_blank"
                 >
                   About the Conference
                 </a>
@@ -271,7 +268,6 @@ function Navbar() {
         </Link>
         <a
           href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
-          target="_blank"
           className="flex rounded-full"
           rel="noreferrer"
         >

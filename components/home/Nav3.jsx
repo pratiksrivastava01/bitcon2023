@@ -52,7 +52,6 @@ const Nav3 = () => {
                 >
                   <a
                     className={`text-primary`}
-                    target="_blank"
                     href="https://bitcon2023.vercel.app/PaperSubmission/info"
                   >
                     Information for Authors{" "}
@@ -67,7 +66,6 @@ const Nav3 = () => {
                   <a
                     className={`text-primary`}
                     href="https://bitcon2023.vercel.app/PaperSubmission/infrastructure"
-                    target="_blank"
                   >
                     Instruction for final paper
                   </a>
@@ -81,7 +79,6 @@ const Nav3 = () => {
                   <a
                     className={`text-primary`}
                     href="https://bitcon2023.vercel.app/PaperSubmission/presentation"
-                    target="_blank"
                   >
                     Presentation Instructions
                   </a>
@@ -92,7 +89,7 @@ const Nav3 = () => {
 
           <li>
             <a href="/sponsor" className="text-primary text-lg font-bold">
-              Sponsership
+              Sponsorship
             </a>
           </li>
           {/* <li>
