@@ -1,3 +1,4 @@
+import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
@@ -18,8 +19,8 @@ const registeration = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="h-auto w-[85rem] border-2 justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4">
-        <div className="flex gap-[32rem]">
+      <div className="w-[90%]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4">
+        <div className="flex justify-between">
           <h2 className="text-primary  p-4 flex text-5xl sm:text-2xl">
             Registration Guidelines
           </h2>
@@ -116,7 +117,7 @@ const registeration = () => {
             </p>
           </div>
 
-          <div className="h-[10rem] w-[75rem]  border-2 justify-center flex flex-col border-primary   sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[26.5rem] p-4">
+          <div className="h-[10rem] w-[90%]  border-2 justify-center flex flex-col border-primary   sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[26.5rem] p-4">
             <h1 className="text-red  p-4 flex text-5xl font-bold justify-center sm:text-2xl">
               Bitcon 2023
             </h1>
@@ -420,6 +421,7 @@ const registeration = () => {
           </div>
         </div>
       </div>
+      <Foot />
     </>
   );
 };

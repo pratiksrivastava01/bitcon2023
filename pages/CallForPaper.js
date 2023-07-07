@@ -1,3 +1,4 @@
+import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
@@ -30,7 +31,7 @@ const CallForPaper = () => {
           <span>
             {" "}
             <a
-              href="http://www.ieeebombay.org/ibssc2023/wp-content/uploads/2023/03/CFP-IBSSC-2023.pdf"
+              href="https://drive.google.com/file/d/1eipV56n386lbUG-NKRAyOKOas3oubENI/view?usp=sharing"
               className="text-blue font-bold hover:text-primary text-lg"
             >
               Download PDF
@@ -215,6 +216,7 @@ const CallForPaper = () => {
           </div>
         </div>
       </div>
+      <Foot />
     </>
   );
 };

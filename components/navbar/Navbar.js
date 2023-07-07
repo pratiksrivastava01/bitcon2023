@@ -69,13 +69,13 @@ function Navbar() {
     <section id="navbar" className={`${styles.navbar}`}>
       <div>
         <Link href="/" legacyBehavior>
-          <a className="flex items-center">
+          <a className="flex items-center cursor-pointer">
             <Image
               src={Logo}
               alt="HnCC"
               height="60px"
               width="60px"
-              className="h-[3rem] w-[3rem] "
+              className="h-[3rem] w-[3rem] cursor-pointer "
             />
           </a>
         </Link>
@@ -132,126 +132,15 @@ function Navbar() {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Link href="/registeration" legacyBehavior>
+        <Link href="/registeration" legacyBehavior className="cursor-pointer">
           <a className={styles.navLink}>Registration </a>
         </Link>
-        {/* <Dropdown>
-          <Dropdown.Button color={"error"} light>
-            <p className="text-lg text-primary-light">Success</p>
-          </Dropdown.Button>
-          <Dropdown.Menu
-            variant="default"
-            color={"error"}
-            aria-label="Actions"
-            background="red"
-          >
-            <Dropdown.Item>
-              <Link href="/success/2021" legacyBehavior>
-                <a className={`text-primary`} href="/success/2021">
-                  2021{" "}
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2020" legacyBehavior>
-                <a className={`text-primary`}>
-                  2020
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2019" legacyBehavior>
-                <a className={`text-primary`}>
-                  2019
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2018" legacyBehavior>
-                <a className={`text-primary`}>
-                  2018
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2017" legacyBehavior>
-                <a className={`text-primary`}>
-                  2017
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2016" legacyBehavior>
-                <a className={`text-primary`}>
-                  2016
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2015" legacyBehavior>
-                <a className={`text-primary`}>
-                  2015
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2014" legacyBehavior>
-                <a className={`text-primary`}>
-                  2014
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2013" legacyBehavior>
-                <a className={`text-primary`}>
-                  2013
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/success/2012" legacyBehavior>
-                <a className={`text-primary`}>
-                  2012
-                  <span className="text-white invisible">
-                    this is fiitjee dhanbad
-                  </span>
-                </a>
-              </Link>
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown> */}
+
         <Link href="/awards" legacyBehavior>
           <a className={styles.navLink}>Awards</a>
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1CvZ15e2S4nksVwlu95MxJgVvzfSX-P_e/view?usp=sharing"
+          href="https://drive.google.com/file/d/1eipV56n386lbUG-NKRAyOKOas3oubENI/view?usp=sharing"
           legacyBehavior
         >
           <a className={styles.navLink}>Download</a>
@@ -270,14 +159,7 @@ function Navbar() {
           href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
           className="flex rounded-full"
           rel="noreferrer"
-        >
-          {/* <Button
-            style={{ border: "none" }}
-            className="bg-primary-light text-primary hover:text-primary-light"
-          >
-            <span style={SpanStyle}>Join Us</span>
-          </Button> */}
-        </a>
+        ></a>
       </div>
       <div
         id="hamburger"

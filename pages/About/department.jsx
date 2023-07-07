@@ -116,12 +116,12 @@ const institute = () => {
       </div>
       {/* <div className="flex sm:flex-wrap gap-[-2rem] "> */}
       <div className="flex justify-center mt-[3rem]">
-        <div className="border-2 w-[90%]">
+        <div className="bg-primary-light shadow-2xl rounded-lg w-[90%]">
           <h1 className="text-3xl sm:text-3xl text-center font-bold p-4 text-[#002256]">
             Program Specific Outcomes(PSOs)
           </h1>
 
-          <ul className="text-left ml-[3rem] mt-5 text-xl font-thin sm:text-sm sm:ml-[2rem]">
+          <ul className="text-left ml-[3rem]  text-xl font-thin sm:text-sm sm:ml-[2rem]">
             <li>
               PSO1 : Ability to utilize the knowledge acquired from basic
               sciences, basic computing and electrical engineering courses to
@@ -150,7 +150,7 @@ const institute = () => {
         </div>
       </div>
       <div className="flex justify-center mt-[2rem]">
-        <div className="border-2 w-[90%] ">
+        <div className="bg-primary-light shadow-2xl rounded-lg w-[90%] ">
           <h1 className="text-3xl sm:text-3xl text-center font-bold p-4 text-[#002256]">
             Program Educational Objectives(PEOs)
           </h1>

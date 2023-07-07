@@ -35,7 +35,7 @@ const Nav2 = () => {
           </li>
           <li>
             <a href="" className="text-[white] font-bold">
-              Sponsership
+              Sponsorship
             </a>
           </li>
           {/* <li>
