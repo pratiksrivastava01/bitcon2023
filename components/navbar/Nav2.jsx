@@ -16,7 +16,7 @@ const SpanStyle = {
   transition: "all 300ms ease-in-out",
 };
 
-function Navbar() {
+function Nav2() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -67,19 +67,6 @@ function Navbar() {
 
   return (
     <section id="navbar" className={`${styles.navbar} h`}>
-      <div className="">
-        <Link href="/" legacyBehavior>
-          <a className="flex items-center cursor-pointer">
-            <Image
-              src={Logo}
-              alt="HnCC"
-              height="60px"
-              width="60px"
-              className="h-[3rem] w-[3rem] cursor-pointer "
-            />
-          </a>
-        </Link>
-      </div>
       <div id="navList" className={styles.navbarList}>
         <Dropdown>
           <Dropdown.Button color={"error"} light className="border-[white]">
@@ -139,6 +126,21 @@ function Navbar() {
         <Link href="/awards" legacyBehavior>
           <a className={styles.navLink}>Awards</a>
         </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={styles.navLink}>Invited Speakers</a>
+        </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={styles.navLink}>Committe</a>
+        </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={styles.navLink}>Call for Papers</a>
+        </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={styles.navLink}>Paper Submission</a>
+        </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={styles.navLink}>Sponsorship</a>
+        </Link>
         <Link
           href="https://drive.google.com/file/d/1eipV56n386lbUG-NKRAyOKOas3oubENI/view?usp=sharing"
           legacyBehavior
@@ -172,4 +174,4 @@ function Navbar() {
     </section>
   );
 }
-export default Navbar;
+export default Nav2;

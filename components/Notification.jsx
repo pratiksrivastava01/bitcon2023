@@ -4,11 +4,11 @@ import styles from "./Notification.module.css";
 const notification = () => {
   return (
     <div className="flex flex-row ">
-      <div className="bg-[#002256] p-4 text-[white] sm:text-lg font-bold text-2xl">
+      <div className="bg-[#002256] p-2 text-[white] sm:text-lg  text-2xl">
         {" "}
         Notification
       </div>
-      <div className="bg-[#FAC804] overflow-hidden">
+      <div className="bg-[#FAC804] flex justify-center overflow-hidden">
         <div className={`${styles.animate} flex `}>
           {" "}
           Attempt is being made to publish the{" "}

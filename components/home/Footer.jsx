@@ -158,7 +158,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-auto w-[53rem]  rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-        <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-center  bg-red bg-opacity-10 rounded-lg">
+        <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-left  bg-red bg-opacity-10 rounded-lg">
           The Department of Electrical Engineering at BIT SINDRI proudly
           announces to host the{" "}
           <span className="text-xl text-[#002E73] sm:text-sm font-bold">

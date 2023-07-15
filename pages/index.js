@@ -8,9 +8,10 @@ import logo from "@/assets/logo.png";
 import bitcon from "@/assets/bitcon.png";
 import ieee from "@/assets/ieee.jpg";
 
-import Nav2 from "@/components/home/Nav2";
+import Nav2 from "@/components/navbar/Nav2";
 import Slider from "@/components/Slider";
 import Foot from "@/components/Foot";
+import Nav3 from "@/components/home/Nav3";
 
 export default function Home() {
   const slides = [
@@ -62,7 +63,7 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  ">
-        <Navbar />
+        {/* <Navbar /> */}
         <Notification />
         <div className="flex justify-center">
           <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] overflow-hidden ">
@@ -94,7 +95,7 @@ export default function Home() {
                 December 22-24, 2023 (3 days)
               </h1>
               <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
-                BIT, Sindri, Dhanbad, Jharkhand, INDIA
+                BIT Sindri, Dhanbad, Jharkhand, INDIA
               </h1>
             </div>
             <div className="w-[12%] sm:w-[100%] sm:flex sm:mt-0">
@@ -106,12 +107,14 @@ export default function Home() {
               <Image
                 src={ieee}
                 alt="ieee"
-                className="h-[8rem] w-[8rem]"
+                className="h-[8rem] w-[10rem]"
               ></Image>
             </div>
           </div>
         </div>
-        <Nav2 />
+        <Navbar />
+        <Nav3 />
+
         <div className=" mt-[3rem] flex justify-center">
           <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">
             <Slider slides={slides} />
