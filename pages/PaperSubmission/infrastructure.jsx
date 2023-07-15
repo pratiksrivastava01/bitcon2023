@@ -1,9 +1,16 @@
+import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
+
+import mandatory from "@/assets/mandatory.png";
+import pin from "@/assets/pin.png";
+import kyc from "@/assets/kyc.png";
+import copyright from "@/assets/copyright.png";
 
 const infrastructure = () => {
   return (
@@ -21,53 +28,26 @@ const infrastructure = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="flex items-center text-center  justify-center mt-[3rem]">
-        <h1 className="font-bold text-center text-5xl text-[#002E73]">
-          INSTRUCTIONS FOR FINAL PAPER UPLOAD
-        </h1>
-      </div>
-      <div className="flex flex-row items-center sm:flex-col">
-        <div className="h-auto   w-[25rem] border-2  border-primary mt-[-99.2rem] ml-[8rem] shadow-2xl sm:ml-[0.2rem] sm:h-auto sm:w-[21rem]">
-          <div className="p-5">
-            <h1 className="font-bold text-4xl sm:text-lg">Quick Links</h1>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/info"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INFORMATION FOR AUTHORS
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/infrastructure"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR FINAL PAPER SUBMISSION
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/presentation"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR PRESENTATION
-              </a>
-            </h2>
+
+      <div className="flex flex-row items-center justify-center sm:flex-col">
+        <div className="h-auto w-[80%] mt-5  shadow-2xl rounded-lg">
+          <div className="flex p-5 gap-3 items-center">
+            <Image src={mandatory} className="h-[3rem] w-[3rem]" />
+            <h1 className="p-5  font-bold text-3xl">
+              INSTRUCTIONS FOR FINAL PAPER UPLOAD
+            </h1>
           </div>
-        </div>
-        <div className="h-auto w-[53rem] border-2  border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-          <h1 className="p-5  font-bold text-3xl">
-            INSTRUCTIONS FOR FINAL PAPER UPLOAD
-          </h1>
           <h3 className="p-5   text-lg">
             INSTRUCTIONS FOR{" "}
             <span className="font-bold">TECHNICAL SYMPOSIUMS ONLY - </span>{" "}
             FINAL PAPER UPLOAD (ACCEPTED PAPERS)
           </h3>
-          <h3 className="p-5 font-bold text-[#002E73]  text-lg">
-            IMPORTANT INFORMATION
-          </h3>
+          <div className="flex p-5 gap-2 items-center">
+            <Image src={pin} className="h-[3rem] w-[3rem]" />
+            <h3 className="p-5 font-bold text-[#002E73]  text-lg">
+              IMPORTANT INFORMATION
+            </h3>
+          </div>
           <p className="p-4 mt-[-2rem]">
             The Conference Proceedings will be included in{" "}
             <a
@@ -90,9 +70,13 @@ const infrastructure = () => {
             Articles excluded from further distribution shall be archived by
             IEEE but shall not be indexed or appear on IEEE Xplore.
           </p>
-          <h3 className="p-4 font-bold text-[#002E73]  text-lg">
-            ACCEPTED PAPERS{" "}
-          </h3>
+
+          <div className="flex p-5 gap-2 items-center">
+            <Image src={kyc} className="h-[3rem] w-[3rem]" />
+            <h3 className="p-4 font-bold text-[#002E73]  text-lg">
+              ACCEPTED PAPERS{" "}
+            </h3>
+          </div>
           <ul className="ml-[2rem] p-5">
             <li>
               <p>
@@ -241,20 +225,24 @@ const infrastructure = () => {
                   Upload your paper directly to “Final Manuscript” by selecting
                   the upload icon. Submissions are due by 15 February 2023.
                 </p>
-                <p className="p-4">
-                  <span className="font-bold">
-                    IMPORTANT COPYRIGHT NOTICE FOR WEB AND INTERNET POSTING{" "}
-                  </span>
+                <div className="p-4">
+                  <div className="flex p-5 gap-2 items-center">
+                    <Image src={copyright} className="h-[3rem] w-[3rem]" />
+                    <span className="font-bold">
+                      IMPORTANT COPYRIGHT NOTICE FOR WEB AND INTERNET POSTING{" "}
+                    </span>{" "}
+                  </div>
                   If authors wish to post their papers electronically on any
                   website, any ftp site, or any other electronic dissemination
                   technique, they must include the IEEE Copyright notice on the
                   initial screen displaying the IEEE-copyrighted material.
-                </p>
+                </div>
               </p>
             </li>
           </ul>
         </div>
       </div>
+      <Foot />
     </>
   );
 };

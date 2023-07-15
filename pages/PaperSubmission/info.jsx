@@ -1,9 +1,12 @@
+import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
+import preparation from "@/assets/preparation.png";
+import Image from "next/image";
 
 const info = () => {
   return (
@@ -21,49 +24,19 @@ const info = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="flex items-center text-center  justify-center mt-[3rem]">
-        <h1 className="font-bold text-center text-5xl text-[#002E73]">
-          INFORMATION FOR AUTHORS
-        </h1>
-      </div>
-      <div className="flex flex-row items-center sm:flex-col">
-        <div className="h-auto   w-[25rem] border-2  border-primary mt-[-49.5rem] ml-[8rem] shadow-2xl sm:ml-[0.2rem] sm:h-auto sm:w-[21rem]">
-          <div className="p-5">
-            <h1 className="font-bold text-4xl sm:text-lg">Quick Links</h1>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/info"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INFORMATION FOR AUTHORS
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/infrastructure"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR FINAL PAPER SUBMISSION
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/presentation"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR PRESENTATION
-              </a>
-            </h2>
+
+      <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
+        <div className="h-auto w-[80%] rounded-lg p-4  border-primary shadow-2xl  ">
+          <div className="flex gap-3">
+            <Image src={preparation} className="h-[3rem] w-[3rem] " />
+            <h1 className=" font-bold text-3xl">MANUSCRIPT PREPARATION</h1>
           </div>
-        </div>
-        <div className="h-auto w-[53rem] border-2  border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-          <h1 className="p-5  font-bold text-3xl">MANUSCRIPT PREPARATION</h1>
           <p className="p-5">
             If you have not already finalized your manuscript this section
             provides guidelines regarding acceptable manuscript applications,
             layout, fonts, and graphics.
           </p>
-          <ul className="ml-[2rem] p-5">
+          <ul className="ml-[2rem] ">
             <li>
               <p>
                 <span className="font-bold text-lg">1. Templates: </span> Please
@@ -221,6 +194,7 @@ const info = () => {
           </ul>
         </div>
       </div>
+      <Foot />
     </>
   );
 };

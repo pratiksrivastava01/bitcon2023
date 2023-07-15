@@ -1,9 +1,19 @@
+import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
+
+import ppt from "@/assets/ppt.png";
+import pppt from "@/assets/pppt.png";
+import clapperboard from "@/assets/clapperboard.png";
+import font from "@/assets/font.png";
+import present from "@/assets/present.png";
+import workshop from "@/assets/workshop.png";
+
+import Image from "next/image";
 
 const presentation = () => {
   return (
@@ -21,45 +31,12 @@ const presentation = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="flex items-center text-center  justify-center mt-[3rem]">
-        <h1 className="font-bold text-center text-5xl text-[#002E73]">
-          INSTRUCTIONS FOR PRESENTERS
-        </h1>
-      </div>
-      <div className="flex flex-row items-center sm:flex-col">
-        <div className="h-auto   w-[25rem] border-2  border-primary mt-[-85.2rem] ml-[8rem] shadow-2xl sm:ml-[0.2rem] sm:h-auto sm:w-[21rem]">
-          <div className="p-5">
-            <h1 className="font-bold text-4xl sm:text-lg">Quick Links</h1>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/info"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INFORMATION FOR AUTHORS
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/infrastructure"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR FINAL PAPER SUBMISSION
-              </a>
-            </h2>
-            <h2 className="mt-[2rem] font-bold text-2xl sm:text-sm">
-              <a
-                href="/PaperSubmission/presentation"
-                className="text-blue mt-[2rem] font-bold text-2xl sm:text-lg"
-              >
-                INSTRUCTION FOR PRESENTATION
-              </a>
-            </h2>
+      <div className="flex flex-row justify-center p-4 items-center sm:flex-col">
+        <div className="h-auto w-[80%] shadow-2xl mt-[5rem] ">
+          <div className="flex p-5  gap-3">
+            <Image src={ppt} className="w-[3rem] h-[3rem]" />
+            <h1 className=" font-bold text-3xl">SYMPOSIA ORAL PRESENTATIONS</h1>
           </div>
-        </div>
-        <div className="h-auto w-[53rem] border-2  border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-          <h1 className="p-5  font-bold text-3xl">
-            SYMPOSIA ORAL PRESENTATIONS
-          </h1>
           <p className="p-4 ">
             Oral presentations for the ICC Symposia have been allocated 18
             minutes (15 minutes of effective presentation time, plus 3 minutes
@@ -108,9 +85,12 @@ const presentation = () => {
             To avoid any compatibility problems, please read carefully the
             instructions below.
           </p>
-          <h3 className="p-4 font-bold text-[#002E73]  text-lg">
-            POWERPOINT INSTRUCTIONS{" "}
-          </h3>
+          <div className="flex p-5  gap-3">
+            <Image src={pppt} className="w-[3rem] h-[3rem]" />
+            <h3 className="p-4 font-bold text-[#002E73]  text-lg">
+              POWERPOINT INSTRUCTIONS{" "}
+            </h3>
+          </div>
           <ul className="ml-[2rem] mt-[-2rem] p-5">
             <li className="flex gap-3">
               <GoPrimitiveDot className="mt-1" />
@@ -122,9 +102,12 @@ const presentation = () => {
               automatically!
             </li>
           </ul>
-          <h3 className="p-4 font-bold text-[#002E73]  text-lg">
-            PICTURES/VIDEOS{" "}
-          </h3>
+          <div className="flex p-5  gap-3">
+            <Image src={clapperboard} className="w-[3rem] h-[3rem]" />
+            <h3 className="p-4 font-bold text-[#002E73]  text-lg">
+              PICTURES/VIDEOS{" "}
+            </h3>
+          </div>
           <ul className="ml-[2rem] mt-[-2rem] p-5">
             <li className="flex gap-3">
               <GoPrimitiveDot className="mt-1" />
@@ -133,7 +116,10 @@ const presentation = () => {
               laptop and ensure that it works accordingly prior to the session.
             </li>
           </ul>
-          <h3 className="p-4 font-bold text-[#002E73]  text-lg">FONTS </h3>
+          <div className="flex p-5  gap-3">
+            <Image src={font} className="w-[3rem] h-[3rem]" />
+            <h3 className="p-4 font-bold text-[#002E73]  text-lg">FONTS </h3>
+          </div>
           <ul className="ml-[2rem] mt-[-2rem] p-5">
             <li className="flex gap-3">
               <GoPrimitiveDot className="mt-1" />
@@ -143,9 +129,12 @@ const presentation = () => {
             </li>
           </ul>
           <div className="">
-            <h3 className="p-4 font-bold text-[#002E73]  text-lg">
-              SYMPOSIA INTERACTIVE PRESENTATIONS
-            </h3>
+            <div className="flex p-5  gap-3">
+              <Image src={present} className="w-[3rem] h-[3rem]" />
+              <h3 className="p-4 font-bold text-[#002E73]  text-lg">
+                SYMPOSIA INTERACTIVE PRESENTATIONS
+              </h3>
+            </div>
             <p className="p-4 mt-[-2rem]">
               Interactive sessions for the ICC Symposia are scheduled in
               45-minute time slots (please note that the interactive session
@@ -213,9 +202,13 @@ const presentation = () => {
               from one presenter to another during the session so that they too
               can maximize their time at the session.
             </p>
-            <h3 className="p-4 font-bold text-[#002E73]  text-lg">
-              WORKSHOP PRESENTATIONS
-            </h3>
+
+            <div className="flex p-5  gap-3">
+              <Image src={workshop} className="w-[3rem] h-[3rem]" />
+              <h3 className="p-4 font-bold text-[#002E73]  text-lg">
+                WORKSHOP PRESENTATIONS
+              </h3>
+            </div>
             <p className="p-4 mt-[-2rem]">
               Presenters at workshops should follow the same general guidance as
               given above for oral presentations in the Symposia. However,
@@ -226,6 +219,7 @@ const presentation = () => {
           </div>
         </div>
       </div>
+      <Foot />
     </>
   );
 };
