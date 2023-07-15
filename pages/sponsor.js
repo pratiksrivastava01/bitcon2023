@@ -11,6 +11,7 @@ import contact from "@/assets/contact.png";
 import payment from "@/assets/payment.png";
 
 import Image from "next/image";
+import Foot from "@/components/Foot";
 
 function sponsor() {
   return (
@@ -151,6 +152,7 @@ function sponsor() {
           </div>
         </div>{" "}
       </div>
+      <Foot />
     </>
   );
 }
