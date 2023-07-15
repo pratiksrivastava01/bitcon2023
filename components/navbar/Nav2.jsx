@@ -69,7 +69,10 @@ function Nav2() {
     <section id="navbar" className={`${styles.navbar} h`}>
       <div id="navList" className={styles.navbarList}>
         <Dropdown>
-          <Dropdown.Button color={"error"} light className="border-[white]">
+          <Dropdown.Button  isDisabled
+            style={{ color: "#fff", TextColor: "black" }}
+            css={"background: red"}
+            light>
             <p className="text-lg text-primary-light">About Us</p>
           </Dropdown.Button>
           <Dropdown.Menu
@@ -126,19 +129,74 @@ function Nav2() {
         <Link href="/awards" legacyBehavior>
           <a className={styles.navLink}>Awards</a>
         </Link>
-        <Link href="/awards" legacyBehavior>
+        <Link href="/speakers" legacyBehavior>
           <a className={styles.navLink}>Invited Speakers</a>
         </Link>
-        <Link href="/awards" legacyBehavior>
+        <Link href="/Comitte/OrganizingComitte" legacyBehavior>
           <a className={styles.navLink}>Committe</a>
         </Link>
-        <Link href="/awards" legacyBehavior>
+        <Link href="/CallForPaper" legacyBehavior>
           <a className={styles.navLink}>Call for Papers</a>
         </Link>
-        <Link href="/awards" legacyBehavior>
-          <a className={styles.navLink}>Paper Submission</a>
-        </Link>
-        <Link href="/awards" legacyBehavior>
+         <Dropdown>
+            <Dropdown.Button
+               isDisabled
+            style={{ color: "#fff", TextColor: "black" }}
+            css={"background: red"}
+            light
+            >
+              <p className="text-lg text-primary-light  ">
+                Paper Submission
+              </p>
+            </Dropdown.Button>
+            <Dropdown.Menu
+              variant="default"
+              color={"error"}
+              aria-label="Actions"
+              background="red"
+            >
+              <Dropdown.Item>
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/info"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary`}
+                    href="https://bitcon2023.vercel.app/PaperSubmission/info"
+                  >
+                    Information for Authors{" "}
+                  </a>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/infrastructure"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary`}
+                    href="https://bitcon2023.vercel.app/PaperSubmission/infrastructure"
+                  >
+                    Instruction for final paper
+                  </a>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link
+                  href="https://bitcon2023.vercel.app/PaperSubmission/presentation"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary`}
+                    href="https://bitcon2023.vercel.app/PaperSubmission/presentation"
+                  >
+                    Presentation Instructions
+                  </a>
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        <Link href="/sponsor" legacyBehavior>
           <a className={styles.navLink}>Sponsorship</a>
         </Link>
         <Link
@@ -154,7 +212,7 @@ function Nav2() {
               `bg-primary-light text-sm p-[0.8rem] text-[#002E73] hover:bg-[#FAC804] hover:text-primary-light  rounded-sm font-bold`)
             }
           >
-            CONTACT US
+            CONTACT
           </a>
         </Link>
         <a

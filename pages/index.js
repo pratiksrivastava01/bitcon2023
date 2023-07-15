@@ -64,7 +64,7 @@ export default function Home() {
       </Head>
       <div className=" flex flex-col  ">
         {/* <Navbar /> */}
-        <Notification />
+        {/* <Notification /> */}
         <div className="flex justify-center">
           <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] overflow-hidden ">
             <div className="  w-[12%] sm:w-[100%] sm:flex ">
@@ -112,8 +112,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Navbar />
-        <Nav3 />
+        {/* <Navbar /> */}
+        <Nav2 />
+        <Notification />
 
         <div className=" mt-[3rem] flex justify-center">
           <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">

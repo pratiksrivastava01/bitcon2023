@@ -1,7 +1,7 @@
 .navbar {
-  @apply sticky top-0 left-0 right-0 w-full py-2 px-20 flex justify-between items-center overflow-hidden z-[100];
+  @apply sticky top-0 left-0 right-0 w-full py-2 px-14 flex justify-between items-center overflow-hidden z-[100];
   @apply 2xl:px-10;
-  @apply xl:px-8;
+  @apply xl:px-5;
   @apply sm:px-6;
   @apply xs:px-3;
   background-color: #002e73;
@@ -14,9 +14,9 @@
 }
 
 .navbarList {
-  @apply flex gap-12 justify-evenly items-center text-primary-light;
+  @apply flex gap-5 justify-evenly items-center text-primary-light;
   transition: all 300ms ease-in-out;
-  @apply 2xl:gap-10;
+  @apply 2xl:gap-8;
   @apply xl:gap-4;
   @apply lg:hidden;
 }
@@ -27,7 +27,7 @@
   width: fit-content;
 }
 .navbarList > .navLink:hover {
-  @apply text-blue font-medium;
+  @apply text-[#000] font-medium bg-[#FAC804] rounded-lg p-2;
 }
 
 .humburgerMenu {
