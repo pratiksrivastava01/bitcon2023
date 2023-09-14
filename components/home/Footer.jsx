@@ -2,25 +2,18 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-import team from "@/assets/team.png";
-import cp from "@/assets/cp.png";
-import pt from "@/assets/pt.png";
-import organizer from "@/assets/organizer.png";
-import manager from "@/assets/manager.png";
-import budget from "@/assets/budget.png";
-import coordination from "@/assets/coordination.png";
-import schedule from "@/assets/schedule.png";
 import topic from "@/assets/topic.png";
 import evaluation from "@/assets/evaluation.png";
 import point from "@/assets/point.png";
 import publication from "@/assets/publication.png";
 import document from "@/assets/document.png";
 import trophy from "@/assets/trophy.png";
+import union from "@/assets/union.png";
 
 const Footer = () => {
   return (
     <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center ">
-      <div className="h-auto w-[25rem]  mt-[5rem]  shadow-2xl  rounded-lg sm:h-auto sm:w-[21rem]">
+      {/* <div className="h-auto w-[25rem]  mt-[5rem]  shadow-2xl  rounded-lg sm:h-auto sm:w-[21rem]">
         <div className="p-5">
           <div className="flex gap-5 rounded-lg p-2  shadow-lg bg-blue bg-opacity-20">
             <Image
@@ -156,9 +149,9 @@ const Footer = () => {
             <span className="font-bold text-lg">22-23 December, 2023</span>
           </div>
         </div>
-      </div>
-      <div className="h-auto w-[53rem]  rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
-        <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-left  bg-red bg-opacity-10 rounded-lg">
+      </div> */}
+      <div className="h-auto w-[80rem] mt-[3rem] rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
+        <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-left mt-[2rem] bg-red bg-opacity-10 rounded-lg">
           The Department of Electrical Engineering at BIT SINDRI proudly
           announces to host the{" "}
           <span className="text-xl text-[#002E73] sm:text-sm font-bold">
@@ -302,6 +295,18 @@ const Footer = () => {
             evaluated by the senior panel of experts, on their recommendations,
             one thesis in each area will be awarded the best PhD thesis award
             for year 2022.
+          </p>
+          <p className="p-4 sm:text-xs">
+            <span className="text-[#002E73] font-bold text-xl  flex items-center gap-3 sm:text-sm">
+              <Image
+                src={union}
+                alt="publication"
+                className=" h-[2rem] w-[2rem] "
+              />
+              Inclusion in IEEE Explore:{" "}
+            </span>
+            All the excepted and presented papers in the BITCON-2023 will be
+            submitted from inclusion in IEEE EXPLORE digital library
           </p>
         </div>
         <p className="p-4 sm:text-xs">

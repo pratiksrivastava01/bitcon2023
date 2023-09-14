@@ -4,7 +4,7 @@ import React from "react";
 import Nav3 from "@/components/home/Nav3";
 import Image from "next/image";
 import about from "@/assets/Electrical.jpg";
-import engineers from "@/assets/engineers.png";
+import vision from "@/assets/vision.jpg";
 import Foot from "@/components/Foot";
 
 const institute = () => {
@@ -74,6 +74,7 @@ const institute = () => {
           <h1 className="text-5xl sm:text-3xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
+
           <p className="text-2xl mt-[3rem] sm:text-lg p-2 font-thin sm:mt-4">
             To emerge as a globally recognized centre in the field of Electrical
             Engineering to provide valuable human resource and ambience for
@@ -108,79 +109,13 @@ const institute = () => {
               holistic personality development so as to ensure human
               intellectual capacity to its full potential.
             </li>
-            {/* <li>
-            5. To provide consultancy services to industries and organizations
-          </li> */}
+            <li>
+              5. To provide consultancy services to industries and organizations
+            </li>
           </ul>
         </div>
       </div>
-      {/* <div className="flex sm:flex-wrap gap-[-2rem] "> */}
-      <div className="flex justify-center mt-[3rem]">
-        <div className="bg-primary-light shadow-2xl rounded-lg w-[90%]">
-          <h1 className="text-3xl sm:text-3xl text-center font-bold p-4 text-[#002256]">
-            Program Specific Outcomes(PSOs)
-          </h1>
 
-          <ul className="text-left ml-[3rem]  text-xl font-thin sm:text-sm sm:ml-[2rem]">
-            <li>
-              PSO1 : Ability to utilize the knowledge acquired from basic
-              sciences, basic computing and electrical engineering courses to
-              work in multi-disciplinary environment and to cater the
-              diversified needs of industry and academia.
-            </li>
-            <li>
-              PSO2 : Ability to identify and solve different technical issues
-              related with electrical engineering by integrating the knowledge
-              acquired from the curriculum and industry- academia interactions.
-            </li>
-            <li>
-              PSO3 : Able to demonstrate effective communication and
-              inter-personal skills with management principles for career and
-              professional advancement.
-            </li>
-            <li>
-              {/* 4. To instil moral and ethical values among the students through
-            holistic personality development so as to ensure human intellectual
-            capacity to its full potential. */}
-            </li>
-            {/* <li>
-            5. To provide consultancy services to industries and organizations
-          </li> */}
-          </ul>
-        </div>
-      </div>
-      <div className="flex justify-center mt-[2rem]">
-        <div className="bg-primary-light shadow-2xl rounded-lg w-[90%] ">
-          <h1 className="text-3xl sm:text-3xl text-center font-bold p-4 text-[#002256]">
-            Program Educational Objectives(PEOs)
-          </h1>
-
-          <ul className="text-left ml-[3rem] mt-5 text-xl font-thin sm:text-sm sm:ml-[2rem]">
-            <li>
-              PEO1 : To inculcate the attitude to solve real life engineering
-              problems with the implication of the fundamental knowledge based
-              on science and electrical engineering.
-            </li>
-            <li>
-              PEO2 : To impart quality technical education to students, which
-              enables them to face challenges in industry, society and pursuing
-              higher studies.
-            </li>
-            <li>
-              PEO3 : To envisage expertise in career enhancement with industrial
-              training and to promote leadership skills.
-            </li>
-            <li>
-              PEO4 : To foster values and ethics with strong foundation to
-              undertake team work with effective communication skills.
-            </li>
-            {/* <li>
-            5. To provide consultancy services to industries and organizations
-          </li> */}
-          </ul>
-        </div>
-      </div>
-      {/* </div> */}
       <Foot />
     </>
   );

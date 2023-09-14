@@ -31,18 +31,6 @@ export default function Home() {
       url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717651/IMG_1589_hs5ddo.jpg",
       title: "city",
     },
-    {
-      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717734/IMG_1736_oxl0yc.jpg",
-      title: "italy",
-    },
-    {
-      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717734/IMG_1603_jgd7er.jpg",
-      title: "indea",
-    },
-    {
-      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717808/IMG_1708_w03k1s.jpg",
-      title: "one",
-    },
   ];
   const containerStyles = {
     width: "500px",
@@ -63,10 +51,11 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  ">
-        {/* <Navbar /> */}
+        <Navbar />
+        <Nav3 />
         {/* <Notification /> */}
         <div className="flex justify-center">
-          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] overflow-hidden ">
+          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] md:w-[80%] overflow-hidden ">
             <div className="  w-[12%] sm:w-[100%] sm:flex ">
               <Image src={jh} alt="jh" className="h-[8rem] w-[8rem] "></Image>
               <Image
@@ -113,8 +102,8 @@ export default function Home() {
           </div>
         </div>
         {/* <Navbar /> */}
-        <Nav2 />
-        <Notification />
+
+        {/* <Notification /> */}
 
         <div className=" mt-[3rem] flex justify-center">
           <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">

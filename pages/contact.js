@@ -6,6 +6,7 @@ import React from "react";
 import { CiMail } from "react-icons/ci";
 import { FcCallback } from "react-icons/fc";
 import { BsWhatsapp } from "react-icons/bs";
+import Foot from "@/components/Foot";
 
 const contact = () => {
   return (
@@ -45,11 +46,14 @@ const contact = () => {
                 </h1>
                 <div className="flex gap-[50rem]">
                   <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
-                    Dhanbad Road, <br /> Sindri, <br /> Jharkhand 828123
+                    Sindri, Dhanbad <br /> Jharkhand 828123
                   </p>
+                  {/* <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
+                    Note: All commeties are required to ma
+                  </p> */}
                   <div className=" flex-1">
                     <Link
-                      href="mailto:srivastavapratik35@gmail.com"
+                      href="mailto:amit.ee@bitsindri.ac.in"
                       className="flex gap-[2rem]"
                     >
                       <CiMail className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
@@ -57,14 +61,18 @@ const contact = () => {
                         Send Email
                       </span>
                     </Link>
-                    <a href="tel:+917280005056" className="flex gap-[2rem]">
+                    <a
+                      href="tel:
++91 94516 40369"
+                      className="flex gap-[2rem]"
+                    >
                       <FcCallback className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
                         Call Us
                       </span>
                     </a>
                     <a
-                      href="https://wa.me/7280005056"
+                      href="https://wa.me/94516 40369"
                       className="flex gap-[2rem] text-[green]"
                     >
                       <BsWhatsapp className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
@@ -80,6 +88,7 @@ const contact = () => {
           </div>
         </div>
       </div>
+      <Foot />
     </>
   );
 };
