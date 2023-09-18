@@ -55,13 +55,17 @@ export default function Home() {
         <Nav3 />
         {/* <Notification /> */}
         <div className="flex justify-center">
-          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] md:w-[80%] overflow-hidden ">
+          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] md:w-[70%] overflow-hidden ">
             <div className="  w-[12%] sm:w-[100%] sm:flex ">
-              <Image src={jh} alt="jh" className="h-[8rem] w-[8rem] "></Image>
+              <Image
+                src={jh}
+                alt="jh"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
+              ></Image>
               <Image
                 src={logo}
                 alt="logo"
-                className="h-[8rem] w-[8rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
               ></Image>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-[100%]">
@@ -91,12 +95,12 @@ export default function Home() {
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[8rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
               ></Image>
               <Image
                 src={ieee}
                 alt="ieee"
-                className="h-[8rem] w-[10rem]"
+                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem]"
               ></Image>
             </div>
           </div>
