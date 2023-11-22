@@ -92,6 +92,11 @@ const Nav3 = () => {
               Sponsorship
             </a>
           </li>
+          <li>
+            <a href="/dates" className="text-primary text-lg font-bold">
+              Imp Dates
+            </a>
+          </li>
           {/* <li>
             <a href="" className="text-[white]">
               Paper Submission
