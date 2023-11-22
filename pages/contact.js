@@ -27,7 +27,7 @@ const contact = () => {
         <Nav3 />
         <div className="items-center ">
           <h1 className="text-bold text-5xl p-[5rem] text-center sm:text-3xl ">
-            Contact US
+            Contact Us
           </h1>
           <div className="flex flex-col flex-wrap p-[5rem] mt-[-8rem]">
             <iframe
@@ -58,9 +58,10 @@ const contact = () => {
                     >
                       <CiMail className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        Send Email
+                        amit.ee@bitsindri.ac.in
                       </span>
                     </Link>
+                    {/* <span>amit.ee@bitsindri.ac.in</span> */}
                     <a
                       href="tel:
 +91 94516 40369"
@@ -68,16 +69,16 @@ const contact = () => {
                     >
                       <FcCallback className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        Call Us
+                        94516 40369
                       </span>
                     </a>
                     <a
-                      href="https://wa.me/94516 40369"
+                      href="https://wa.me/9451640369"
                       className="flex gap-[2rem] text-[green]"
                     >
                       <BsWhatsapp className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        WhatsApp
+                        9451640369
                       </span>
                     </a>
                   </div>
