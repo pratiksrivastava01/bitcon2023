@@ -54,9 +54,9 @@ export default function Home() {
         <Navbar />
         <Nav3 />
         {/* <Notification /> */}
-        <div className="flex justify-center">
-          <div className="flex flex-wrap items-center gap-[5rem]  w-[90%] md:w-[70%] overflow-hidden ">
-            <div className="  w-[12%] sm:w-[100%] sm:flex ">
+        <div className="flex justify-center  ">
+          <div className="flex flex-wrap padding-container items-center justify-center w-[90%] md:w-[70%] overflow-hidden ">
+            <div className="  w-[12%] sm:w-[100%]  sm:flex sm:mb-10 sm:items-center sm:justify-center sm:gap-10 sm:mt-2">
               <Image
                 src={jh}
                 alt="jh"
@@ -68,7 +68,7 @@ export default function Home() {
                 className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
               ></Image>
             </div>
-            <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-[100%]">
+            <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-auto sm:paddin-container">
               <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-xl mt-[2rem] ">
                 Celebrating Platinum Jubilee of BIT SINDRI
               </h1>
@@ -91,7 +91,7 @@ export default function Home() {
                 BIT Sindri, Dhanbad, Jharkhand, INDIA
               </h1>
             </div>
-            <div className="w-[12%] sm:w-[100%] sm:flex sm:mt-0">
+            <div className="w-[12%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
               <Image
                 src={bitcon}
                 alt="bitcon"

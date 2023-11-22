@@ -34,6 +34,7 @@ module.exports = {
       },
     },
     screens: {
+      "3xl": "1680px",
       m2xl: { min: "1500px" },
 
       "2xl": { max: "1500px" },

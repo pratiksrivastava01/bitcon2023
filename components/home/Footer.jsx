@@ -12,7 +12,7 @@ import union from "@/assets/union.png";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center ">
+    <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center padding-container ">
       {/* <div className="h-auto w-[25rem]  mt-[5rem]  shadow-2xl  rounded-lg sm:h-auto sm:w-[21rem]">
         <div className="p-5">
           <div className="flex gap-5 rounded-lg p-2  shadow-lg bg-blue bg-opacity-20">
@@ -150,7 +150,7 @@ const Footer = () => {
           </div>
         </div>
       </div> */}
-      <div className="h-auto w-[80rem] mt-[3rem] rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
+      <div className="h-auto w-[80rem] mt-[3rem] padding-container rounded-lg shadow-2xl  sm:ml-[0.2rem] ml-[2rem] sm:h-auto sm:w-[21rem]">
         <div className="p-5 sm:mt-[2rem] ml-[1rem] mr-[1rem] sm:text-xs text-left mt-[2rem] bg-red bg-opacity-10 rounded-lg">
           The Department of Electrical Engineering at BIT SINDRI proudly
           announces to host the{" "}
@@ -208,7 +208,7 @@ const Footer = () => {
               className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
             />
             <h1 className="p-5  text-primary font-bold text-2xl sm:mt-0 ml-[1rem] mr-[1rem] sm:text-lg text-center">
-              Topics included
+              Tracs
             </h1>
           </div>
         </div>
