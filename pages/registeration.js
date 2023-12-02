@@ -99,15 +99,7 @@ const registeration = () => {
             these checks will be published.
           </li>
         </div>
-        <div className="">
-          <h2 className="text-red  p-4 flex text-lg sm:text-2xl">
-            Please Click the link below to download
-          </h2>
-          <div className="p-4 mt-[-2rem] ml-[2rem]">
-            <li>Publishing Agreement</li>
-            <li>Permission Request Form</li>
-          </div>
-        </div>
+
         {/* <li></li> */}
         <div className="flex flex-col sm:overflow-scroll  justify-center">
           <div className="flex ">

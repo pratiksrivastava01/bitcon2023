@@ -117,19 +117,6 @@ function Navbar() {
                 </a>
               </Link>
             </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                href="https://bitcon2023.vercel.app/About/conference"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://bitcon2023.vercel.app/About/conference"
-                >
-                  About the Conference
-                </a>
-              </Link>
-            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Link href="/registeration" legacyBehavior className="cursor-pointer">

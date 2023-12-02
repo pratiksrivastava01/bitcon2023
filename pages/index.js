@@ -50,37 +50,37 @@ export default function Home() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <div className=" flex flex-col  ">
+      <div className=" flex flex-col  mb-10">
         <Navbar />
         <Nav3 />
         {/* <Notification /> */}
         <div className="flex justify-center  ">
-          <div className="flex flex-wrap padding-container items-center justify-center w-[90%] md:w-[70%] overflow-hidden ">
+          <div className="flex flex-wrap padding-container items-center justify-center w-[90%] md:w-full overflow-hidden ">
             <div className="  w-[12%] sm:w-[100%]  sm:flex sm:mb-10 sm:items-center sm:justify-center sm:gap-10 sm:mt-2">
               <Image
                 src={jh}
                 alt="jh"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
               <Image
                 src={logo}
                 alt="logo"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-auto sm:paddin-container">
-              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-xl mt-[2rem] ">
+              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-lg mt-[2rem] ">
                 Celebrating Platinum Jubilee of BIT SINDRI
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
                 <span className="text-[#385623] font-sans">FLAGSHIP</span> BIT
                 CONFERENCE <span className="text-[#385623]">2023</span>
               </h1>
-              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] ">
+              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] sm:mt-[1rem]">
                 <span className="text-[#385623]">(BITCON-23)</span>
               </h1>
 
-              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem]">
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem] sm:mt-[1rem]">
                 <span className="text-[#002E73] ">Theme:-</span>
                 Next Generation Applications in Green Engineering Technology
               </p>
@@ -95,13 +95,13 @@ export default function Home() {
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <Image
+              {/* <Image
                 src={ieee}
                 alt="ieee"
-                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem]"
-              ></Image>
+                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+              ></Image> */}
             </div>
           </div>
         </div>
@@ -109,14 +109,14 @@ export default function Home() {
 
         {/* <Notification /> */}
 
-        <div className=" mt-[3rem] flex justify-center">
+        <div className=" mt-[3rem] flex justify-center mb-10">
           <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">
             <Slider slides={slides} />
           </div>
         </div>
         <Footer />
       </div>
-      <Foot />
+      {/* <Foot /> */}
     </>
   );
 }
