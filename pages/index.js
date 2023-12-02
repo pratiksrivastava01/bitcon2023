@@ -77,15 +77,15 @@ export default function Home() {
                 CONFERENCE <span className="text-[#385623]">2023</span>
               </h1>
               <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] sm:mt-[1rem]">
-                <span className="text-[#385623]">(BITCON-23)</span>
+                <span className="text-[#385623]">(BITCON-24)</span>
               </h1>
 
               <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem] sm:mt-[1rem]">
                 <span className="text-[#002E73] ">Theme:-</span>
-                Next Generation Applications in Green Engineering Technology
+                Next Generation Applications in Green Energy Technology
               </p>
               <h1 className="text-[red] text-xl sm:text-xs font-bold text-center ">
-                December 22-24, 2023 (3 days)
+                13-14 July, 2024 (Tentative)
               </h1>
               <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
                 BIT Sindri, Dhanbad, Jharkhand, INDIA

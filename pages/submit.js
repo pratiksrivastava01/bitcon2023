@@ -17,8 +17,7 @@ const submit = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
-      <Nav3 />
+
       <h1 className="font-bold mt-[15rem] flex justify-center text-5xl">
         To Be Updated Soon.............
       </h1>
