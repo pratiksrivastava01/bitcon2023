@@ -22,8 +22,6 @@ const info = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
-      <Nav3 />
 
       <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
         <div className="h-auto w-[80%] rounded-lg p-4  border-primary shadow-2xl  ">
