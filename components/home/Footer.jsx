@@ -23,12 +23,12 @@ const Footer = () => {
           </span>{" "}
           This would be a beginning of the annual conference at BIT-Sindri and
           will commemorate its Platinum Jubilee. <br />
-          <br /> The Conference 2023 will be a three-day event starting with
+          <br /> The Conference 2024 will be a two-day event starting with
           tutorials on emerging and proven technologies in different areas of
           electrical on day one. Following days will accumulate the formal
           conference. The conference will feature plenary and semi-plenary talks
           by eminent personalities from academia / industry, and peer-reviewed
-          oral and poster presentations. BITCON-2023
+          oral and poster presentations. BITCON-2024
           <br />
           <div className="">
             <div className="flex flex-wrap sm:justify-start  items-center justify-center mt-4">
@@ -138,7 +138,7 @@ const Footer = () => {
             any recognised Indian Institute/University. The submitted theses
             will be evaluated by the senior panel of experts, on their
             recommendations, one thesis in each area will be awarded the best
-            PhD thesis award for year 2023.
+            PhD thesis award for year 2024.
           </p>
         </div>
       </div>
