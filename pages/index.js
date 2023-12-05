@@ -69,7 +69,7 @@ export default function Home() {
               ></Image>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-auto sm:paddin-container">
-              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold xxl:text-lg sm:text-lg mt-[2rem] ">
+              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
                 Celebrating Platinum Jubilee of BIT SINDRI
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
