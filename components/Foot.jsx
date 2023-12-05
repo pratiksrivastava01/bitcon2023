@@ -15,8 +15,8 @@ const Foot = () => {
           Developed By :
         </h1>
       </div>
-      <h1 className=" flex font-semibold items-center text-primary-light sm:text-2xl text-4xl">
-        Pratik Srivastava
+      <h1 className=" flex font-semibold items-center text-primary-light sm:text-2xl text-2xl">
+        Pratik Srivastava (EE 2021-24)
       </h1>
     </div>
   );

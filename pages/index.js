@@ -99,7 +99,7 @@ export default function Home() {
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
               {/* <Image
                 src={ieee}
@@ -113,7 +113,7 @@ export default function Home() {
 
         {/* <Notification /> */}
 
-        <div className=" mt-[3rem] flex justify-center mb-10">
+        <div className=" mt-[1rem] flex justify-center mb-10">
           <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">
             <Slider slides={slides} />
           </div>
