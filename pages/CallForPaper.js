@@ -99,7 +99,7 @@ const CallForPaper = () => {
           ].map((track, index) => (
             <div key={index} className="mt-6">
               <p className="font-bold text-primary text-lg">{track.title}</p>
-              <ul className="list-disc ml-8">
+              <ul className="list-disc ml-20">
                 {track.topics.map((topic, idx) => (
                   <li key={idx}>{topic}</li>
                 ))}

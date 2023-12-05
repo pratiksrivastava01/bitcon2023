@@ -79,7 +79,7 @@ const registeration = () => {
           </li>
           <li>
             Organizing Committee reserves the right at all times to make any
-            changes to the BITCON-2023 Conference Program/Schedule in its sole
+            changes to the BITCON-2024 Conference Program/Schedule in its sole
             discretion.
           </li>
           <li>
@@ -111,7 +111,7 @@ const registeration = () => {
 
           <div className="h-[10rem] w-[90%]  border-2 justify-center flex flex-col border-primary   sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[26.5rem] p-4">
             <h1 className="text-red  p-4 flex text-5xl font-bold justify-center sm:text-2xl">
-              Bitcon 2023
+              Bitcon 2024
             </h1>
             <h2 className="text-[#002E73] font-bold  p-4 flex text-3xl justify-center sm:text-lg">
               Registration Fee
@@ -125,12 +125,12 @@ const registeration = () => {
             </div>
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
               <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                Early Bird Registration till 31st May 2023
+                Early Bird Registration till 31st May 2024
               </h1>
             </div>
             <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-2">
               <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                Registration after 31st May 2023
+                Registration after 31st May 2024
               </h1>
             </div>
           </div>

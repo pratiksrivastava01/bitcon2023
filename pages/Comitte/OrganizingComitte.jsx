@@ -23,12 +23,13 @@ import planning from "@/assets/planning.png";
 import registration from "@/assets/registration.png";
 import deal from "@/assets/deal.png";
 import eventmanagement from "@/assets/eventmanagement.png";
+import Foot from "@/components/Foot";
 
 function Teams() {
   return (
     <>
       <Head>
-        <title>Our Organizing Comitte ✨</title>
+        <title> Organizing Committee ✨</title>
         <meta
           name="description"
           content="Teams of HnCC (Hackathon & Coding Club), BIT Sindri, Dhanbad"
@@ -43,7 +44,7 @@ function Teams() {
       <section className="mt-16 mb-12  container-70">
         <div className="my-16 w-full text-center">
           <h1 className="text-5xl text-[#002E73] font-bold">
-            Our Organizing Comitte ✨
+            Organizing Committee ✨
           </h1>
           {/* <h3 className="text-lg mt-8">
             The strength of the team is each individual member. The strength of
@@ -70,16 +71,8 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Mr. Rahul Purwar, IAS, DHTE, Ranchi</p>
-              </li>
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
                 <p className="mt-2 ml-2">
-                  Dr. D.K. Singh, Vice Chancellor, JUT, Ranchi{" "}
+                  Mr. Rahul Purwar, (IAS) Secretary , DHTE, Ranchi
                 </p>
               </li>
             </ul>
@@ -97,14 +90,6 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
-              {/* <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">Mr. Rahul Purwar, IAS, DHTE, Ranchi</p>
-              </li> */}
               <li className="flex">
                 <Image
                   src={member}
@@ -112,7 +97,27 @@ function Teams() {
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
                 <p className="mt-2 ml-2">
-                  Dr. Pankaj Rai, Director, BIT Sindri
+                  Mr. Syed Riyaz Ahmed, (IAS) Under Secretary, DHTE, Ranchi
+                </p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">
+                  Prof. Pankaj Rai, Director, BIT Sindri
+                </p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">
+                  Prof. D.K. Singh, Vice Chancellor, JUT, Ranchi{" "}
                 </p>
               </li>
             </ul>
@@ -143,7 +148,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Md. Abul Kalam, Head, EED </p>
+                <p className="mt-2 ml-2">Prof. Md. Abul Kalam, Head, EED </p>
               </li>
             </ul>
           </div>
@@ -165,7 +170,9 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Upendra Prasad, EED</p>
+                <p className="mt-2 ml-2">
+                  Prof. R.K Singh, Joint Director, D.H.T.E Ranchi
+                </p>
               </li>
               <li className="flex">
                 <Image
@@ -173,7 +180,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. D. K. Tanti, EED</p>
+                <p className="mt-2 ml-2">Prof. Upendra Prasad, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -181,7 +188,15 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Nirmala Soren, EED</p>
+                <p className="mt-2 ml-2">Prof. D. K. Tanti, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Nirmala Soren, EED</p>
               </li>
             </ul>
           </div>
@@ -231,7 +246,7 @@ function Teams() {
                 className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
               />
               <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Organizing Secretary{" "}
+                Convenor Cum Secretary{" "}
               </h1>
             </div>
             <ul className="p-4 ">
@@ -241,7 +256,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Amit Kr. Choudhary, EED</p>
+                <p className="mt-2 ml-2">Prof. Vineet Shekher, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -249,7 +264,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Vineet Shekher, EED</p>
+                <p className="mt-2 ml-2">Prof. Amit Kr. Choudhary, EED</p>
               </li>
             </ul>
           </div>
@@ -309,7 +324,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Suman Ranjan, EED</p>
+                <p className="mt-2 ml-2">Prof. Suman Ranjan, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -317,7 +332,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Dipesh Kumar, EED</p>
+                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
               </li>
             </ul>
           </div>
@@ -339,7 +354,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Murli Manohar, EED</p>
+                <p className="mt-2 ml-2">Prof. Murli Manohar, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -347,7 +362,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Kaushik Pal, EED</p>
+                <p className="mt-2 ml-2">Prof. Kaushik Pal, EED</p>
               </li>
             </ul>
           </div>
@@ -369,7 +384,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Amit Kumar Choudhary, EED</p>
+                <p className="mt-2 ml-2">Prof. Amit Kumar Choudhary, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -399,7 +414,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Rajendra Murmu, EED</p>
+                <p className="mt-2 ml-2">Prof. Rajendra Murmu, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -407,7 +422,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Shashi Minz, EED</p>
+                <p className="mt-2 ml-2">Prof. Shashi Minz, EED</p>
               </li>
             </ul>
           </div>
@@ -519,7 +534,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Amit Kr. Choudhary, EED</p>
+                <p className="mt-2 ml-2">Prof. Amit Kr. Choudhary, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -543,6 +558,14 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Rekha Jha, EED</p>
+              </li>
               <li className="flex">
                 <Image
                   src={member}
@@ -609,7 +632,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Rahul Kumar, EED</p>
+                <p className="mt-2 ml-2">Prof. Rahul Kumar, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -617,7 +640,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Murli Manohar, EED</p>
+                <p className="mt-2 ml-2">Prof. Murli Manohar, EED</p>
               </li>
             </ul>
           </div>
@@ -639,7 +662,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Dr. Dipesh Kumar, EED</p>
+                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -653,6 +676,7 @@ function Teams() {
           </div>
         </div>
       </section>
+      <Foot />
     </>
   );
 }

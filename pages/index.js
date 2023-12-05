@@ -73,14 +73,18 @@ export default function Home() {
                 Celebrating Platinum Jubilee of BIT SINDRI
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
-                <span className="text-[#385623] font-sans">FLAGSHIP</span> BIT
-                CONFERENCE <span className="text-[#385623]">2023</span>
+                <span className="text-[#385623] font-sans">
+                  FLAGSHIP INTERNATIONAL
+                </span>{" "}
               </h1>
-              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[2rem] sm:mt-[1rem]">
+              <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-xl ">
+                BIT CONFERENCE <span className="text-[#385623]">2024</span>
+              </h1>
+              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[1rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>
               </h1>
 
-              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[2rem] sm:mt-[1rem]">
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[1rem] sm:mt-[1rem]">
                 <span className="text-[#002E73] ">Theme:-</span>
                 Next Generation Applications in Green Energy Technology
               </p>
@@ -116,7 +120,7 @@ export default function Home() {
         </div>
         <Footer />
       </div>
-      {/* <Foot /> */}
+      <Foot />
     </>
   );
 }

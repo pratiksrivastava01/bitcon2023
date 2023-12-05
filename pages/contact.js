@@ -58,27 +58,14 @@ const contact = () => {
                     >
                       <CiMail className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        amit.ee@bitsindri.ac.in
+                        bitcon.2024@bitsindri.ac.in
                       </span>
                     </Link>
                     {/* <span>amit.ee@bitsindri.ac.in</span> */}
-                    <a
-                      href="tel:
-+91 94516 40369"
-                      className="flex gap-[2rem]"
-                    >
+                    <a href="" className="flex gap-[2rem]">
                       <FcCallback className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
-                        94516 40369
-                      </span>
-                    </a>
-                    <a
-                      href="https://wa.me/9451640369"
-                      className="flex gap-[2rem] text-[green]"
-                    >
-                      <BsWhatsapp className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
-                      <span className="mt-[2.2rem]  hover:text-primary">
-                        9451640369
+                        0326 2350495
                       </span>
                     </a>
                   </div>

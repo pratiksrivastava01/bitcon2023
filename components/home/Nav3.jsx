@@ -8,7 +8,7 @@ const Nav3 = () => {
         <ul className="flex flex-row gap-[3rem] text-[white]">
           <li>
             <a href="/dates" className="text-primary text-lg font-bold">
-              Imp Dates
+              Important Dates
             </a>
           </li>
 
@@ -18,7 +18,7 @@ const Nav3 = () => {
               // href="  "
               className="text-primary text-lg ml-[-0.5rem] font-bold"
             >
-              Committe
+              Committee
             </a>
           </li>
           <li>

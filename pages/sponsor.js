@@ -45,8 +45,8 @@ function sponsor() {
                 Benefaction/Sponsorship
               </h1>
             </div>
-            By becoming a Benefactor at BITCON-2023, you can showcase your
-            leadership in the industry and gain maximum exposure to RDCAPE 2023
+            By becoming a Benefactor at BITCON-2024, you can showcase your
+            leadership in the industry and gain maximum exposure to BITCON-2024
             attendees. As a Benefactor, your company will enjoy prominent
             visibility and be recognized as a sponsor of this prestigious
             conference. This is a prime opportunity to showcase your brand to a
@@ -64,7 +64,7 @@ function sponsor() {
             </div>
             <ul>
               <li className="flex items-start gap-2">
-                BITCON-2023 is an international event that presents the latest
+                BITCON-2024 is an international event that presents the latest
                 research results and trends in the power and control,
                 electronics, and instrumentation industries.
               </li>
@@ -76,7 +76,7 @@ function sponsor() {
               </li>
               <li>
                 {" "}
-                Sponsors at BITCON-2023 enjoy high visibility, gaining exposure
+                Sponsors at BITCON-2024 enjoy high visibility, gaining exposure
                 to a targeted audience of engineers and researchers.
               </li>
               <li>
