@@ -33,9 +33,7 @@ function sponsor() {
         <div className="w-[80%] mt-5 rounded-lg  p-4">
           <div className="flex gap-3">
             <h1 className="font-bold text-5xl text-center">
-              <span className="text-[#002E73]">
-                Sponsorship Opportunities at BITCON-2023
-              </span>
+              <span className="text-[#002E73]">Sponsorship Opportunities</span>
             </h1>
           </div>{" "}
           <div className="p-4">
