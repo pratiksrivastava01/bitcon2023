@@ -72,7 +72,7 @@ function Navbar() {
           <a className="flex items-center cursor-pointer">
             <Image
               src={Logo}
-              alt="HnCC"
+              alt="BIT"
               height="60px"
               width="60px"
               className="h-[3rem] w-[3rem] cursor-pointer "
@@ -93,12 +93,12 @@ function Navbar() {
           >
             <Dropdown.Item>
               <Link
-                href="https://bitcon2023.vercel.app/About/institute"
+                href="https://bitcon2024.vercel.app/About/institute"
                 legacyBehavior
               >
                 <a
                   className={`text-primary`}
-                  href="https://bitcon2023.vercel.app/About/institute"
+                  href="https://bitcon2024.vercel.app/About/institute"
                 >
                   About the Institutution{" "}
                 </a>
@@ -106,14 +106,27 @@ function Navbar() {
             </Dropdown.Item>
             <Dropdown.Item>
               <Link
-                href="https://bitcon2023.vercel.app/About/department"
+                href="https://bitcon2024.vercel.app/About/department"
                 legacyBehavior
               >
                 <a
                   className={`text-primary`}
-                  href="https://bitcon2023.vercel.app/About/department"
+                  href="https://bitcon2024.vercel.app/About/department"
                 >
                   About the Department
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="https://bitcon2024.vercel.app/About/department"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary`}
+                  href="https://bitcon2024.vercel.app/About/department"
+                >
+                  About the Logo
                 </a>
               </Link>
             </Dropdown.Item>
