@@ -99,7 +99,7 @@ export default function Home() {
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[18rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
               {/* <Image
                 src={ieee}
