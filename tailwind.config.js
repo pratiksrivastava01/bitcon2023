@@ -39,6 +39,7 @@ module.exports = {
 
       "2xl": { max: "1500px" },
       // => @media (max-width: 1535px) { ... }
+      xxl: { max: "1400px" },
 
       xl: { max: "1200px" },
       // => @media (max-width: 1200px) { ... }
