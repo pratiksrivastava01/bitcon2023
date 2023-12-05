@@ -17,13 +17,13 @@ const Footer = () => {
       <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center  ">
         <div className="h-auto w-[80rem] sm:w-full mt-[3rem] padding-container rounded-lg shadow-2xl sm:ml-0  ml-[2rem]  ">
           <div className="p-5 sm:mt-[2rem] sm:ml-0 sm:mr-0  ml-[1rem] mr-[1rem] sm:text-xs text-left mt-[2rem] bg-red bg-opacity-10 rounded-lg">
-            The Department of Electrical Engineering at BIT SINDRI proudly
+            The Department of Electrical Engineering, BIT SINDRI proudly
             announces to host the{" "}
             <span className="text-xl text-[#002E73]  sm:text-sm font-bold">
               {" "}
               Flagship International BIT CONFERENCE-2024.
             </span>{" "}
-            This would be a beginning of the annual conference at BIT-Sindri and
+            This would be a beginning of the annual conference BIT-Sindri and
             will commemorate its Platinum Jubilee. <br />
             <br /> The Conference will be a two-day event starting with
             tutorials on emerging and proven technologies in different areas of

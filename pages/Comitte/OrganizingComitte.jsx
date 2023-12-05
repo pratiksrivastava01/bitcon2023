@@ -246,7 +246,7 @@ function Teams() {
                 className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
               />
               <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Convenor Cum Secretary{" "}
+                Convenor{" "}
               </h1>
             </div>
             <ul className="p-4 ">
@@ -276,7 +276,7 @@ function Teams() {
                 className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
               />
               <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Organizing Coordinators{" "}
+                Conference Secretary{" "}
               </h1>
             </div>
             <ul className="p-4 ">
@@ -307,6 +307,9 @@ function Teams() {
             </ul>
           </div>
           <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+            Faculty Coordinators
+          </div>
+          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image
                 src={counselor}
@@ -324,6 +327,14 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
+                <p className="mt-2 ml-2">Prof. Rahul Kumar, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
                 <p className="mt-2 ml-2">Prof. Suman Ranjan, EED</p>
               </li>
               <li className="flex">
@@ -332,7 +343,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
+                <p className="mt-2 ml-2">Prof. Biswaranjan Mishra, EED</p>
               </li>
             </ul>
           </div>
@@ -363,6 +374,14 @@ function Teams() {
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
                 <p className="mt-2 ml-2">Prof. Kaushik Pal, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
               </li>
             </ul>
           </div>
@@ -564,14 +583,6 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Rekha Jha, EED</p>
-              </li>
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
                 <p className="mt-2 ml-2">Prof. Manimala, EED</p>
               </li>
               <li className="flex">
@@ -610,7 +621,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Hari Charan Verma, EED</p>
+                <p className="mt-2 ml-2">Prof. Rajesh Narayan Deo, EED</p>
               </li>
             </ul>
           </div>
@@ -662,7 +673,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
+                <p className="mt-2 ml-2">Prof. Rekha Jha, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -670,7 +681,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Manimala, EED</p>
+                <p className="mt-2 ml-2">Prof. Hari Charan Verma, EED</p>
               </li>
             </ul>
           </div>
