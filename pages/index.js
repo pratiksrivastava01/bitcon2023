@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>BITCON-2023</title>
+        <title>BITCON-2024</title>
         <meta
           name="description"
           content="Birla Institute of Technology Sindri (BIT Sindri) is a renowned engineering college located in Sindri, Jharkhand, India. Established in 1949, the institute offers undergraduate and postgraduate programs in various fields of engineering and technology. BIT Sindri is known for its quality education, highly qualified faculty, and strong alumni network. Its graduates have made significant contributions to various sectors around the world. Overall, BIT Sindri is a premier institution that has been at the forefront of technical education in India for over seven decades."
@@ -69,7 +69,7 @@ export default function Home() {
               ></Image>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-auto sm:paddin-container">
-              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold sm:text-lg mt-[2rem] ">
+              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold md:text-lg sm:text-lg mt-[2rem] ">
                 Celebrating Platinum Jubilee of BIT SINDRI
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
@@ -78,7 +78,7 @@ export default function Home() {
                 </span>{" "}
               </h1>
               <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-xl ">
-                BIT CONFERENCE <span className="text-[#385623]">2024</span>
+                BIT CONFERENCE 2024
               </h1>
               <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[1rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>

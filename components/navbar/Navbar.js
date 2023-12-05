@@ -124,7 +124,7 @@ function Navbar() {
               >
                 <a
                   className={`text-primary`}
-                  href="https://bitcon2024.vercel.app/About/department"
+                  href="https://bitcon2024.vercel.app/About/conference "
                 >
                   About the Logo
                 </a>
