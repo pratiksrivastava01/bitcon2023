@@ -88,8 +88,7 @@ const institute = () => {
             className="w-[50%] h-[50%] sm:w-[100%] sm:h-[100%]"
           />
           <h2 className="text-3xl sm:text-xl mt-[3rem] text-center font-bold text-[#002256] sm:mt-0 ">
-            The Birla Institute of Technology functions with the following
-            missions:
+            The BIT Sindri functions with the following missions:
           </h2>
 
           <ul className="text-left  text-2xl font-thin mt-[1rem] sm:text-sm sm:ml-[2rem]">

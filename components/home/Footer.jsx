@@ -48,7 +48,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <span className="text-xl text-[#002E73] sm:text-xs font-bold ">
-                  “Next Generation Applications in Green Engineering Technology”
+                  “Next Generation Applications in Green Energy Technology”
                 </span>
               </div>
             </div>
