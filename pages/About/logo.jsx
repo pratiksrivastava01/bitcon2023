@@ -3,7 +3,7 @@ import Head from "next/head";
 import React from "react";
 import Nav3 from "@/components/home/Nav3";
 import welcome from "@/assets/bitcon.png";
-import confetti from "@/assets/confetti.png";
+import confetti from "@/assets/bitcon.png";
 import evaluation from "@/assets/evaluation.png";
 import research from "@/assets/research.png";
 import schedule from "@/assets/schedule.png";
@@ -17,7 +17,7 @@ const conference = () => {
   return (
     <>
       <Head>
-        <title>About the Conference</title>
+        <title>About the Logo</title>
         <meta
           name="description"
           content="Birla Institute of Technology Sindri (BIT Sindri) is a renowned engineering college located in Sindri, Jharkhand, India. Established in 1949, the institute offers undergraduate and postgraduate programs in various fields of engineering and technology. BIT Sindri is known for its quality education, highly qualified faculty, and strong alumni network. Its graduates have made significant contributions to various sectors around the world. Overall, BIT Sindri is a premier institution that has been at the forefront of technical education in India for over seven decades."
@@ -31,103 +31,90 @@ const conference = () => {
       <Nav3 />
       <div className="flex item-center justify-center ">
         <div className="w-[80%] mt-5 rounded-lg  p-4">
-          <div className="flex gap-3">
-            {/* <Image src={welcome} className="w-[3rem] h-[3rem]" /> */}
-
-            <h1 className="font-bold text-5xl text-center">
-              <span className="text-[#002E73]">
-                Welcome to <span className="text-[#385623]"> BITCON-2023:</span>{" "}
-                The International Conference{" "}
+          <div className="flex gap-3 items-center justify-center">
+            <h1 className="font-bold text-5xl flex items-center justify-center text-center">
+              <span className="text-[#385623] text-center flex justify-center items-center">
+                B.I.T CONFERENCE’s LOGO :
               </span>
             </h1>
           </div>
-          <div className="p-4 mt-5 text-center flex gap-3 flex-wrap">
-            <Image src={confetti} className="h-[3rem] w-[3rem] " />
-            <h2 className="font-bold text-3xl text-center">
-              Hosted by the Department of Electrical Engineering at BIT Sindri
-            </h2>
+          <div className="p-4 mt-5 text-center justify-center flex gap-3 flex-wrap">
+            <Image src={confetti} className="h-[35rem] w-[50rem] " />
           </div>
           <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={evaluation} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
-                About the Conference
+            <div className="p-4 mt-5  flex flex-col gap-3 flex-wrap ">
+              <h1 className="font-bold text-3xl items-center">
+                Letter “B” stands for{" "}
+                <span className="text-[#002E73] ">
+                  Birsa Institute of Technology.
+                </span>{" "}
               </h1>
+              <h1 className="font-bold text-3xl items-center">
+                Letter “C” stands for{" "}
+                <span className="text-[#002E73] "> Conference.</span>
+              </h1>
+              <p className="text-2xl mt-4">
+                The letter “C” is drawn in such a way that it looks like a
+                magnifying glass.{" "}
+                <span className="font-bold"> A magnifying glass icon </span>can
+                represent the idea of exploring, investigating and searching for
+                new ideas which are key elements of research.
+              </p>
+              <p className="text-2xl mt-4">
+                Research conference often involve collaboration between
+                different groups of people. So, B and C are interconnected
+                (intertwined B and C) to convey the sense of collaboration.
+              </p>
+              <p className="text-2xl mt-4">
+                Since the conference is technology oriented, it is incorporated
+                with lightning bolt, plug, gear and nanowires (flowing lines).
+                <span className="font-bold"> Plug</span> symbolizes the
+                connection and flow of electricity. It represents the exchange
+                of ideas and networking at the conference.
+                <span className="font-bold"> Lightning bolt </span> is
+                associated with electricity.{" "}
+                <span className="font-bold"> Gear </span>
+                is a mechanical term and it represent innovation and
+                interconnectivity of components. It conveys the idea of progress
+                and technological advancements.
+                <span className="font-bold"> Flowing lines </span>represent the
+                flow of electricity and energy. And the curve line evokes the
+                sense of movement and progress, highlighting the continuous
+                advancements in electrical technology. So, the curve “C”
+                incorporated with flowing lines.{" "}
+                <span className="font-bold"> Nodes</span> or interconnected
+                points can symbolize the network of professionals, researchers
+                and innovators. It emphasizing the collaborative nature of the
+                conference and the importance of connections.
+              </p>
+              <p className="text-2xl mt-4">
+                <span className="font-bold"> Colour scheme </span>is associated
+                with research as{" "}
+                <span className="text-[#02BCDD] font-bold">blue</span> and{" "}
+                <span className="text-[#385623] font-bold">green</span> colour
+                convey the sense of professionalism and seriousness. Blue colour
+                tone also represents the sense of trust while the green
+                represents the sense of hope. Green colour gear represents green
+                energy technology which the theme of the conference.
+              </p>
+              <p className="text-2xl mt-4">
+                <span className="font-bold">
+                  {" "}
+                  Tagline (Together towards research){" "}
+                </span>
+                emphasize the unity in the research community, working together
+                can achieve greater heights in the field of research and
+                contribution towards growth and innovation. Every Individuals
+                can do research and can share their ideas in more areas under
+                one umbrella.
+              </p>
+              <p className="text-2xl mt-4">
+                Overall, the conference conveys the intended message of
+                innovation and connectivity among the professionals in the
+                technical field. The logo is designed as simple as possible
+                making it memorable.
+              </p>
             </div>
-            The Department of Electrical Engineering at BIT Sindri proudly
-            announces the hosting of the flagship BITCON-2023, an International
-            Conference. This conference holds special significance as it
-            commemorates the Platinum Jubilee of our institution.
-          </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={research} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl">Conference Overview</h1>{" "}
-            </div>
-            BITCON-2023 is a three-day event that brings together experts,
-            researchers, and professionals from various fields of electrical
-            engineering. It provides a platform for knowledge exchange,
-            collaboration, and networking, fostering innovation and advancements
-            in the electrical engineering domain.
-          </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={schedule} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl">Conference Schedule</h1>{" "}
-            </div>
-            <h1 className="font-bold text-xl">Day 1:</h1>
-            Tutorials on Emerging Technologies The conference kicks off with a
-            series of tutorials focused on emerging and proven technologies in
-            different areas of electrical engineering. These tutorials offer
-            attendees the opportunity to deepen their understanding and gain
-            practical insights into cutting-edge developments.
-            <h1 className="font-bold text-xl">Day 2 and 3:</h1>
-            Formal Conference The subsequent days of the conference are
-            dedicated to formal sessions featuring plenary and semi-plenary
-            talks by eminent personalities from academia and industry. These
-            sessions will cover a wide range of topics, highlighting the latest
-            research findings, experiences, and visions for the future of
-            electrical engineering.
-          </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={review} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl">
-                Peer-Reviewed Presentations
-              </h1>{" "}
-            </div>
-            BITCON-2023 also provides a platform for researchers to present
-            their work through peer-reviewed oral and poster presentations.
-            These presentations will showcase the latest research and
-            advancements in various sub-disciplines of electrical engineering,
-            offering participants the opportunity to explore diverse topics and
-            engage in meaningful discussions.
-          </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={collaboration} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl">
-                {" "}
-                Collaboration and Innovation
-              </h1>{" "}
-            </div>
-            BITCON-2023 aims to create an inclusive and dynamic environment that
-            encourages interdisciplinary collaborations and fosters a spirit of
-            innovation. It serves as a unique platform for researchers,
-            academicians, industry professionals, and students to interact,
-            exchange ideas, and forge new partnerships.
-          </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={invitation} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl">Invitation to Attend</h1>{" "}
-            </div>
-            We cordially invite you to be a part of this prestigious event. Join
-            us at BIT Sindri as we embark on this exciting journey towards
-            shaping the future of electrical engineering. Stay tuned for further
-            updates on the conference schedule, registration details, and
-            submission guidelines. Let's come together and make BITCONF-2023 a
-            resounding success!
           </div>
         </div>
       </div>

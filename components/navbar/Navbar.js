@@ -119,12 +119,12 @@ function Navbar() {
             </Dropdown.Item>
             <Dropdown.Item>
               <Link
-                href="https://bitcon2024.vercel.app/About/department"
+                href="https://bitcon2024.vercel.app/About/logo"
                 legacyBehavior
               >
                 <a
                   className={`text-primary`}
-                  href="https://bitcon2024.vercel.app/About/conference "
+                  href="https://bitcon2024.vercel.app/About/logo "
                 >
                   About the Logo
                 </a>
