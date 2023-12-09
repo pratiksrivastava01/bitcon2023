@@ -28,7 +28,7 @@ export default function Home() {
       title: "boat",
     },
     {
-      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686717651/IMG_1589_hs5ddo.jpg",
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1702122086/pic_lhbszh.jpg",
       title: "city",
     },
   ];
@@ -89,7 +89,7 @@ export default function Home() {
                 Next Generation Applications in Green Energy Technology
               </p>
               <h1 className="text-[red] text-xl sm:text-xs font-bold text-center ">
-                13-14 July, 2024 (Tentative)
+                13-14 July, 2024
               </h1>
               <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
                 BIT Sindri, Dhanbad, Jharkhand, INDIA
