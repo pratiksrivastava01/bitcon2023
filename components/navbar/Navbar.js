@@ -68,7 +68,7 @@ function Navbar() {
   return (
     <section id="navbar" className={`${styles.navbar} h`}>
       <div className="">
-        <Link href="/" legacyBehavior>
+        <Link href="https://www.bitsindri.ac.in/" legacyBehavior>
           <a className="flex items-center cursor-pointer">
             <Image
               src={Logo}
