@@ -28,7 +28,7 @@ export default function Home() {
       title: "boat",
     },
     {
-      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1702122086/pic_lhbszh.jpg",
+      url: "https://res.cloudinary.com/du196ag4l/image/upload/v1702144864/pic_c17uu3.jpg",
       title: "city",
     },
   ];
