@@ -16,7 +16,7 @@ const Foot = () => {
         </h1>
       </div>
       <h1 className=" flex font-semibold items-center text-primary-light sm:text-2xl text-2xl">
-        Pratik Srivastava (EE 2021-24)
+        Pratik Srivastava (EE 2021-25)
       </h1>
     </div>
   );
