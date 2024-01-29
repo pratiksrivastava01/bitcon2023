@@ -128,7 +128,7 @@ function sponsor() {
                 • All payments for sponsorship/stall bookings are to be made in
                 advance.
               </li>{" "}
-              <li> • All transactions are subject to Delhi jurisdiction. </li>{" "}
+              <li> • All transactions are subject to Dhanbad jurisdiction. </li>{" "}
               <li>
                 {" "}
                 • All stall requirements shall be made known seven days prior to
