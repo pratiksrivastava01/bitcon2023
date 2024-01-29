@@ -108,216 +108,62 @@ const registeration = () => {
               their applicable category as mentioned below:
             </p>
           </div>
-
-          <div className="h-[10rem] w-[90%]  border-2 justify-center flex flex-col border-primary   sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[26.5rem] p-4">
-            <h1 className="text-red  p-4 flex text-5xl font-bold justify-center sm:text-2xl">
-              Bitcon 2024
-            </h1>
-            <h2 className="text-[#002E73] font-bold  p-4 flex text-3xl justify-center sm:text-lg">
-              Registration Fee
+          <div className="p-4">
+            <h2 className="text-lg font-bold mb-4 items-center text-center">
+              Registeration Fees
             </h2>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Category
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                Early Bird Registration till 31st May 2024
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                Registration after 31st May 2024
-              </h1>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary invisible  p-4 flex text-lg text-left sm:text-sm">
-                Category
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[10rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  Indian
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[9rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  Foreign
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  Indian
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  Foreign
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                IEEE Student Member
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  1000 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  150 USD
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  1500 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  200 USD
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Non-IEEE Student Member
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  1500 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  200 USD
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  2000 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  250 USD
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                All Other IEEE Members
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  2000 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  200 USD
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  3000 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  250 USD
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                All Other Non-IEEE Members
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  2500 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  300 USD
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  3500 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  400 USD
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="flex">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Listner (Other than Presenter)
-              </h1>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  2000 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  250 USD
-                </h1>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  2500 INR
-                </h1>
-              </div>
-              <div className="h-[3rem] w-[12rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[0.5rem] sm:h-auto sm:w-[29rem] p-1">
-                <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                  300 USD
-                </h1>
-              </div>
+            <div className="overflow-x-auto">
+              <table className="table-auto min-w-full border-collapse">
+                <thead>
+                  <tr>
+                    <th className="border px-4 py-2">Indian Authors</th>
+                    <th className="border px-4 py-2">IEEE Members</th>
+                    <th className="border px-4 py-2">Non-IEEE Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">
+                      Researcher (UG, PG, PhD)
+                    </td>
+                    <td className="border px-4 py-2">₹ 4,000/-</td>
+                    <td className="border px-4 py-2">₹ 5,000/-</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Academicians</td>
+                    <td className="border px-4 py-2">₹ 5,000/-</td>
+                    <td className="border px-4 py-2">₹ 6,000/-</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Industry</td>
+                    <td className="border px-4 py-2">₹ 9,000/-</td>
+                    <td className="border px-4 py-2">₹ 10,000/-</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Non-Authors</td>
+                    <td className="border px-4 py-2">₹ 3,000/-</td>
+                    <td className="border px-4 py-2">₹ 3,500/-</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table className="table-auto min-w-full mt-[2rem] border-collapse">
+                <thead>
+                  <tr>
+                    <th className="border px-4 py-2">Foreign Authors</th>
+                    <th className="border px-4 py-2">IEEE Members</th>
+                    <th className="border px-4 py-2">Non-IEEE Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">
+                      Researcher / Academicians / Industry
+                    </td>
+                    <td className="border px-4 py-2">$ 130</td>
+                    <td className="border px-4 py-2">$ 150</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

@@ -75,6 +75,16 @@ function Teams() {
                   Mr. Rahul Purwar, (IAS) Secretary , DHTE, Ranchi
                 </p>
               </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">
+                  Prof. D.K. Singh, Vice Chancellor, JUT, Ranchi
+                </p>
+              </li>
             </ul>
           </div>
 
@@ -110,16 +120,6 @@ function Teams() {
                   Prof. Pankaj Rai, Director, BIT Sindri
                 </p>
               </li>
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">
-                  Prof. D.K. Singh, Vice Chancellor, JUT, Ranchi{" "}
-                </p>
-              </li>
             </ul>
           </div>
           <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
@@ -134,14 +134,6 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">Person for IEEE </p>
-              </li>
               <li className="flex">
                 <Image
                   src={member}
@@ -164,16 +156,6 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">
-                  Prof. R.K Singh, Joint Director, D.H.T.E Ranchi
-                </p>
-              </li>
               <li className="flex">
                 <Image
                   src={member}
@@ -403,7 +385,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
-                <p className="mt-2 ml-2">Prof. Amit Kumar Choudhary, EED</p>
+                <p className="mt-2 ml-2">Prof. Manimala , EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -415,7 +397,7 @@ function Teams() {
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image
                 src={accounting}
@@ -444,7 +426,7 @@ function Teams() {
                 <p className="mt-2 ml-2">Prof. Shashi Minz, EED</p>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image

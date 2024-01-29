@@ -31,10 +31,17 @@ function sponsor() {
       <Nav3 />
       <div className="flex item-center justify-center  ">
         <div className="w-[80%] mt-5 rounded-lg border-primary shadow-2xl  p-4">
-          <div className="flex gap-3">
-            <h1 className="font-bold text-5xl text-center">
+          <div className="flex flex-col gap-3">
+            <h1 className="font-bold text-5xl ">
               <span className="text-[#002E73]">Sponsorship Opportunities</span>
             </h1>
+            <a
+              href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+              className="text-blue font-bold hover:text-primary text-lg"
+              target="_blank"
+            >
+              Download the brochure here
+            </a>
           </div>{" "}
           <div className="p-4">
             <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
@@ -94,12 +101,10 @@ function sponsor() {
             <ul>
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}
-                Platinum Sponsor: 5,00,000 INR / 10,000 USD
+                Platinum Sponsor: ₹1,00,000
               </li>
-              <li>Gold Sponsor: 2,00,000 INR / 4,000 USD</li>{" "}
-              <li>Silver Sponsor: 1,00,000 INR / 2,000 USD</li>{" "}
-              <li> Bronze Sponsor: 75,000 INR / 1,500 USD </li>{" "}
-              <li> Patron Sponsor: Up to 50,000 INR / 1,000 USD</li>
+              <li>Gold Sponsor: ₹50,000</li> <li>Silver Sponsor: ₹ 30,000/</li>{" "}
+              <li> Bronze Sponsor: ₹ 15,000 </li>{" "}
             </ul>
           </div>
           <div className="p-4">

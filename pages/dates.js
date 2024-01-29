@@ -9,12 +9,12 @@ import Image from "next/image";
 import schedule from "@/assets/schedule.png";
 
 const dates = [
-  { date: "15 December, 2023", event: "Start of Paper Submission" },
-  { date: "15 February, 2024", event: "Deadline for Submission" },
-  { date: "01 February, 2024", event: "Paper Acceptance Notification" },
-  { date: "01 February, 2024", event: "Camera Ready Version" },
-  { date: "01 March, 2024", event: "Registration Commences" },
-  { date: "31 March, 2024", event: "Registration Closes" },
+  { date: "15 January, 2024", event: "Start of Paper Submission" },
+  { date: "15 March, 2024", event: "Deadline for Submission" },
+  { date: "16 March, 2024", event: "Paper Acceptance Notification" },
+  { date: "01 April, 2024", event: "Camera Ready Version" },
+  { date: "01 May, 2024", event: "Registration Commences" },
+  { date: "30 May, 2024", event: "Registration Closes" },
   { date: "13-14 July, 2024", event: "Date of Conference (Tentative)" },
   // Add more dates and events as needed
 ];

@@ -110,8 +110,9 @@ const CallForPaper = () => {
           <p className="text-lg mt-[1rem]">
             Paper submission guidelines are{" "}
             <a
-              href="http://www.ieeebombay.org/ibssc2023/paper-submission/"
+              href="https://www.ewh.ieee.org/r10/calcutta/"
               className="text-blue font-bold hover:text-primary text-lg"
+              target="_blank"
             >
               Here
             </a>

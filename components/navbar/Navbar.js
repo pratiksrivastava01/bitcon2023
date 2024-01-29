@@ -139,12 +139,44 @@ function Navbar() {
         <Link href="/awards" legacyBehavior>
           <a className={styles.navLink}>Awards</a>
         </Link>
-        <Link
-          href="https://drive.google.com/file/d/1eipV56n386lbUG-NKRAyOKOas3oubENI/view?usp=sharing"
-          legacyBehavior
-        >
-          <a className={styles.navLink}>Download</a>
-        </Link>
+        <Dropdown>
+          <Dropdown.Button color={"error"} light className="border-[white]">
+            <p className="text-lg text-primary-light">Downloads</p>
+          </Dropdown.Button>
+          <Dropdown.Menu
+            variant="default"
+            color={"error"}
+            aria-label="Actions"
+            background="red"
+          >
+            <Dropdown.Item>
+              <Link
+                href="https://drive.google.com/file/d/1PZmhR10ebovLWypAbL52yivz42aopc0e/view?usp=drive_link"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary`}
+                  href="https://drive.google.com/file/d/1PZmhR10ebovLWypAbL52yivz42aopc0e/view?usp=drive_link "
+                >
+                  BITCON Flyer
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary`}
+                  href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+                >
+                  Sponsorship Details
+                </a>
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <Link href="/contact" legacyBehavior>
           <a
             className={
