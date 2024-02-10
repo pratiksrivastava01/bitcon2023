@@ -167,96 +167,55 @@ const registeration = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mt-[2rem] justify-center">
-          <div className="flex ">
-            <p className="text-primary ml-[3.5rem] text-center text-xl font-bold p-4 flex  sm:text-sm">
-              Account Details for Payment of the Registration Fee:
-            </p>
-          </div>
-          <div className="flex ">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Bank
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+        <table className="border-collapse w-full">
+          <tbody>
+            <tr>
+              <td
+                colSpan="4"
+                className="text-primary text-center text-xl font-bold p-4"
+              >
+                Account Details for Payment of the Registration Fee:
+              </td>
+            </tr>
+            <tr>
+              <td className="border-2 border-primary p-4">Bank</td>
+              <td className="border-2 border-primary p-4">
                 State Bank of India
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
+              </td>
+              <td className="border-2 border-primary p-4">Account no:</td>
+              <td className="border-2 border-primary p-4 ">42663611130</td>
+            </tr>
+            <tr>
+              <td className="border-2 border-primary p-4">Account Name</td>
+              <td className="border-2 border-primary p-4 ">BITCON 2024</td>
+              <td className="border-2 border-primary p-4">IFSC Code</td>
+              <td className="border-2 border-primary p-4">SBIN0011812</td>
+            </tr>
+            <tr>
+              <td className="border-2 border-primary p-4">Account Type</td>
+              <td className="border-2 border-primary p-4">Current Account</td>
+              <td className="border-2 border-primary p-4">MICR Code</td>
+              <td className="border-2 border-primary p-4 invisible">
                 Account no:
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm invisible">
-                Account no:
-              </h1>
-            </div>
-          </div>
-          <div className="flex mt-[-0.5rem]">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Account Name
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
-              <h1 className="text-primary invisible p-4 flex text-lg text-left justify-center sm:text-sm">
-                State Bank of India
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                IFSC Code
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm ">
-                SBIN0011812
-              </h1>
-            </div>
-          </div>
-          <div className="flex mt-[-0.5rem]">
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto sm:w-[29rem] p-4">
-              <h1 className="text-primary  p-4 flex text-lg text-left sm:text-sm">
-                Account Type
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem] sm:h-auto sm:w-[29rem] p-1">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                Current Account
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm">
-                MICR Code
-              </h1>
-            </div>
-            <div className="h-[3rem] w-[24.5rem]  border-2 justify-center flex flex-col border-primary  mt-[0.5rem] sm:ml-[0.2rem]  sm:h-auto sm:w-[29rem] p-2">
-              <h1 className="text-primary  p-4 flex text-lg text-left justify-center sm:text-sm invisible">
-                Account no:
-              </h1>
-            </div>
-          </div>
-          <div className="flex flex-col items-left ml-[5rem] mt-[3rem]">
-            <span className="text-lg">
-              Authors are required to mention their Easy Chair “Paper ID”
-              without error in remark section, while paying the registration
-              fee. Please
-            </span>
-            <span className="text-lg">fill the registration form at</span>
-            <span className="text-blue">www.</span>
-            <span className="text-lg">
-              and upload all the relevant documents as asked in the google form,
-              e.g., fee payment receipt, student’s (1st author’s) ID card, IEEE
-              membership card (if applicable), etc
-            </span>
-            <li className="text-lg mt-[2rem]">
-              Registration deadline is 30.11.2023.
-            </li>
-            <li className="text-lg">Late registration is not allowed.</li>
-          </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div className="mt-8 ml-5">
+          <p className="text-lg">
+            Authors are required to mention their Easy Chair “Paper ID” without
+            error in remark section, while paying the registration fee. Please
+            fill the registration form at{" "}
+            <span className="text-blue">www.</span> and upload all the relevant
+            documents as asked in the google form, e.g., fee payment receipt,
+            student’s (1st author’s) ID card, IEEE membership card (if
+            applicable), etc
+          </p>
+          <ul className="list-disc ml-5 mt-2 text-lg">
+            <li>Registration deadline is 30.11.2023.</li>
+            <li>Late registration is not allowed.</li>
+          </ul>
         </div>
       </div>
       <Foot />

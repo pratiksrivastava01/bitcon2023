@@ -75,7 +75,10 @@ const info = () => {
           </ul>
 
           <div className=" flex justify-center  ">
-            <Link href="/submit">
+            <Link
+              href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
+              target="_blank"
+            >
               <button className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] p-4">
                 Submit Your Paper
               </button>

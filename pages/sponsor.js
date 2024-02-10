@@ -152,6 +152,42 @@ function sponsor() {
             </div>
             All payments are to be made through DD/local cheque drawn in favor
             of “BIT Sindri Sponsorship Account” payable at Dhanbad, Jharkhand.
+            <table className="border-collapse w-full">
+              <tbody>
+                <tr>
+                  <td
+                    colSpan="4"
+                    className="text-primary text-center text-xl font-bold p-4"
+                  >
+                    Account Details for Payment of the Registration Fee:
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-2 border-primary p-4">Bank</td>
+                  <td className="border-2 border-primary p-4">
+                    State Bank of India
+                  </td>
+                  <td className="border-2 border-primary p-4">Account no:</td>
+                  <td className="border-2 border-primary p-4 ">42663611130</td>
+                </tr>
+                <tr>
+                  <td className="border-2 border-primary p-4">Account Name</td>
+                  <td className="border-2 border-primary p-4 ">BITCON 2024</td>
+                  <td className="border-2 border-primary p-4">IFSC Code</td>
+                  <td className="border-2 border-primary p-4">SBIN0011812</td>
+                </tr>
+                <tr>
+                  <td className="border-2 border-primary p-4">Account Type</td>
+                  <td className="border-2 border-primary p-4">
+                    Current Account
+                  </td>
+                  <td className="border-2 border-primary p-4">MICR Code</td>
+                  <td className="border-2 border-primary p-4 invisible">
+                    Account no:
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>{" "}
       </div>

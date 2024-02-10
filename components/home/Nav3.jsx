@@ -45,11 +45,15 @@ const Nav3 = () => {
               Invited Speakers
             </a>
           </li>
-          {/* <li>
-            <a href="" className="text-[white]">
+          <li>
+            <a
+              href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
+              className="text-primary text-lg font-bold"
+              target="_blank"
+            >
               Paper Submission
             </a>
-          </li> */}
+          </li>
         </ul>
         {/* </div> */}
       </div>
