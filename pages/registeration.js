@@ -213,7 +213,7 @@ const registeration = () => {
             applicable), etc
           </p>
           <ul className="list-disc ml-5 mt-2 text-lg">
-            <li>Registration deadline is 30.11.2023.</li>
+            <li>Registration deadline is 30.05.2024.</li>
             <li>Late registration is not allowed.</li>
           </ul>
         </div>
