@@ -100,7 +100,7 @@ export default function Home() {
                 BIT Sindri, Dhanbad, Jharkhand, INDIA
               </h1>
             </div>
-            <div className="w-[14%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
+            <div className="w-[15%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
               <Image
                 src={bitcon}
                 alt="bitcon"
