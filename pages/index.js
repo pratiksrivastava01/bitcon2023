@@ -85,7 +85,7 @@ export default function Home() {
               </h1>
               <h3 className="text-center text-lg text-[#002E73] mt-[1rem] sm:mt-[1rem]">
                 <span className="text-primary">
-                  Conference Record No: #63716
+                  IEEE Conference Record No: #63716
                 </span>
               </h3>
 
@@ -94,7 +94,7 @@ export default function Home() {
                 Next Generation Applications in Green Energy Technology
               </p>
               <h1 className="text-[red] text-xl sm:text-xs font-bold text-center ">
-                13-14 July, 2024
+                07-08 December, 2024
               </h1>
               <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
                 BIT Sindri, Dhanbad, Jharkhand, INDIA
@@ -107,7 +107,7 @@ export default function Home() {
                 className="h-[8rem] w-[18rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
               <div className="mt-[1rem]">
-                <h1 className="font-bold">Technical Co-Sposor:</h1>
+                <h1 className="font-bold">Technical Co-Sponsor:</h1>
                 <Image
                   src={ieee}
                   alt="ieee"
