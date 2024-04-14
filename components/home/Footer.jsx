@@ -121,9 +121,9 @@ const Footer = () => {
                 Publication:{" "}
               </span>
               <p className="">
-                Attempt is being made to publish the registered and only
-                presented papers on IEEE Xplore Digital Library. Keep visiting
-                the website for updates.
+                All the Selected, Registerd and only presented papers will be
+                sent to and make abailable on IEEE Digital Xplore based on the
+                IEEE publications ethics.
               </p>
             </p>{" "}
             <p className="p-4 sm:text-xs">

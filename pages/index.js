@@ -6,7 +6,7 @@ import Image from "next/image";
 import jh from "@/assets/jh_logo.png";
 import logo from "@/assets/logo.png";
 import bitcon from "@/assets/bitcon.png";
-import ieee from "@/assets/ieee.jpg";
+import ieee from "@/assets/ieee.png";
 
 import Nav2 from "@/components/navbar/Nav2";
 import Slider from "@/components/Slider";
@@ -83,8 +83,13 @@ export default function Home() {
               <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[1rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>
               </h1>
+              <h3 className="text-center text-lg text-[#002E73] mt-[1rem] sm:mt-[1rem]">
+                <span className="text-primary">
+                  Conference Record No: #63716
+                </span>
+              </h3>
 
-              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[1rem] sm:mt-[1rem]">
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[0.8rem] sm:mt-[1rem]">
                 <span className="text-[#002E73] ">Theme:-</span>
                 Next Generation Applications in Green Energy Technology
               </p>
@@ -95,17 +100,20 @@ export default function Home() {
                 BIT Sindri, Dhanbad, Jharkhand, INDIA
               </h1>
             </div>
-            <div className="w-[12%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
+            <div className="w-[14%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
               <Image
                 src={bitcon}
                 alt="bitcon"
                 className="h-[8rem] w-[18rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              {/* <Image
-                src={ieee}
-                alt="ieee"
-                className="h-[8rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
-              ></Image> */}
+              <div className="mt-[1rem]">
+                <h1 className="font-bold">Technical Co-Sposor:</h1>
+                <Image
+                  src={ieee}
+                  alt="ieee"
+                  className="h-[6rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                ></Image>
+              </div>
             </div>
           </div>
         </div>

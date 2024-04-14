@@ -65,7 +65,7 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
-              <li className="flex">
+              {/* <li className="flex">
                 <Image
                   src={member}
                   alt="topic"
@@ -74,7 +74,7 @@ function Teams() {
                 <p className="mt-2 ml-2">
                   Mr. Rahul Purwar, (IAS) Secretary , DHTE, Ranchi
                 </p>
-              </li>
+              </li> */}
               <li className="flex">
                 <Image
                   src={member}
@@ -100,7 +100,7 @@ function Teams() {
               </h1>
             </div>
             <ul className="p-4 ">
-              <li className="flex">
+              {/* <li className="flex">
                 <Image
                   src={member}
                   alt="topic"
@@ -109,7 +109,7 @@ function Teams() {
                 <p className="mt-2 ml-2">
                   Mr. Syed Riyaz Ahmed, (IAS) Under Secretary, DHTE, Ranchi
                 </p>
-              </li>
+              </li> */}
               <li className="flex">
                 <Image
                   src={member}
