@@ -151,12 +151,12 @@ function Navbar() {
           >
             <Dropdown.Item>
               <Link
-                href="https://drive.google.com/file/d/1PZmhR10ebovLWypAbL52yivz42aopc0e/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing"
                 legacyBehavior
               >
                 <a
                   className={`text-primary`}
-                  href="https://drive.google.com/file/d/1PZmhR10ebovLWypAbL52yivz42aopc0e/view?usp=drive_link "
+                  href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing "
                 >
                   BITCON Flyer
                 </a>
@@ -164,12 +164,12 @@ function Navbar() {
             </Dropdown.Item>
             <Dropdown.Item>
               <Link
-                href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
                 legacyBehavior
               >
                 <a
                   className={`text-primary`}
-                  href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
                 >
                   Sponsorship Details
                 </a>
