@@ -299,7 +299,7 @@ function Teams() {
                 className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
               />
               <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Advisory Committee Coordinators{" "}
+                Coordinators{" "}
               </h1>
             </div>
             <ul className="p-4 ">
@@ -309,7 +309,93 @@ function Teams() {
                   alt="topic"
                   className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
                 />
+                <p className="mt-2 ml-2">Prof. Manimala, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Hari Charan Verma, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Rajesh Narayan Deo, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
                 <p className="mt-2 ml-2">Prof. Rahul Kumar, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Murli Manoha, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
+              </li>
+            </ul>
+          </div>
+          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+            <div className=" flex gap-2 ">
+              <Image
+                src={eventmanagement}
+                alt="topic"
+                className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
+              />
+              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
+                Team Members{" "}
+              </h1>
+            </div>
+            <ul className="p-4 ">
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Rekha Jha, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Anuj Kumar Pandey, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Rakesh Rohan, EED</p>
+              </li>
+              <li className="flex">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
+                />
+                <p className="mt-2 ml-2">Prof. Kaushik Paul, EED</p>
               </li>
               <li className="flex">
                 <Image
@@ -329,45 +415,7 @@ function Teams() {
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
-            <div className=" flex gap-2 ">
-              <Image
-                src={technical}
-                alt="topic"
-                className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
-              />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Technical Program Coordinators{" "}
-              </h1>
-            </div>
-            <ul className="p-4 ">
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">Prof. Murli Manohar, EED</p>
-              </li>
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">Prof. Kaushik Pal, EED</p>
-              </li>
-              <li className="flex">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
-                />
-                <p className="mt-2 ml-2">Prof. Dipesh Kumar, EED</p>
-              </li>
-            </ul>
-          </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image
                 src={publication}
@@ -396,7 +444,7 @@ function Teams() {
                 <p className="mt-2 ml-2">Prof. Praveen Kumar, EED</p>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image
@@ -427,7 +475,7 @@ function Teams() {
               </li>
             </ul>
           </div> */}
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 ">
               <Image
                 src={hospitality}
@@ -666,7 +714,8 @@ function Teams() {
                 <p className="mt-2 ml-2">Prof. Hari Charan Verma, EED</p>
               </li>
             </ul>
-          </div>
+          </div> */}
+          {/* <div></div> */}
         </div>
       </section>
       <Foot />
