@@ -2,7 +2,10 @@ import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
+import payment from "@/assets/payment.png";
+
 const registeration = () => {
   return (
     <>
@@ -25,9 +28,12 @@ const registeration = () => {
             Registration Guidelines
           </h2>
           <button className=" ">
-            <span className="bg-red text-primary-light   delay-100 font-bold p-4">
+            <a
+              className="bg-red text-primary-light   delay-100 font-bold p-4"
+              href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+            >
               Register Now
-            </span>
+            </a>
           </button>
         </div>
         <div className="p-4 mt-2 ml-[2rem]">
@@ -201,6 +207,48 @@ const registeration = () => {
             </tr>
           </tbody>
         </table>
+        <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
+          <Image src={payment} className="h-[3rem] w-[3rem] " />
+          <h1 className="font-bold text-xl items-center">
+            Payment Instructions
+          </h1>
+        </div>
+        <div className="p-4 mt-5 text-start flex gap-3 flex-wrap items-start">
+          <ul>
+            <li>
+              <span className="font-bold">Step 1: </span>
+              Open{" "}
+              <a
+                href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+                className="text-blue"
+              >
+                {" "}
+                https://www.onlinesbi.sbi/sbicollect/icollecthome.htm
+              </a>
+            </li>
+            <li>
+              <span className="font-bold">Step 2:</span>
+              Select Education instutions
+            </li>
+            <li>
+              <span className="font-bold">Step 3:</span>
+              Filter by state: Select Jharkhand
+            </li>
+            <li>
+              <span className="font-bold">Step 4:</span>
+              From educational institutions select{" "}
+              <span className="font-bold"> "Director BIT Sindri"</span>
+            </li>
+            <li>
+              <span className="font-bold">Step 5:</span>
+              Payment category - <span className="font-bold"> BITCON-2024</span>
+            </li>
+            <li>
+              <span className="font-bold">Step 6:</span>
+              Fill details and proceed for payment
+            </li>
+          </ul>
+        </div>
 
         <div className="mt-8 ml-5">
           <p className="text-lg">
