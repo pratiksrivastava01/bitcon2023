@@ -152,6 +152,41 @@ function sponsor() {
             </div>
             All payments are to be made through DD/local cheque drawn in favor
             of “BIT Sindri Sponsorship Account” payable at Dhanbad, Jharkhand.
+            <ul className="mt-5 mb-3 ">
+              <li>
+                <span className="font-bold">Step 1: </span>
+                Open{" "}
+                <a
+                  href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+                  className="text-blue"
+                >
+                  {" "}
+                  https://www.onlinesbi.sbi/sbicollect/icollecthome.htm
+                </a>
+              </li>
+              <li>
+                <span className="font-bold">Step 2:</span>
+                Select Education instutions
+              </li>
+              <li>
+                <span className="font-bold">Step 3:</span>
+                Filter by state: Select Jharkhand
+              </li>
+              <li>
+                <span className="font-bold">Step 4:</span>
+                From educational institutions select{" "}
+                <span className="font-bold"> "Director BIT Sindri"</span>
+              </li>
+              <li>
+                <span className="font-bold">Step 5:</span>
+                Payment category -{" "}
+                <span className="font-bold"> BITCON-2024(SPONSORS)</span>
+              </li>
+              <li>
+                <span className="font-bold">Step 6:</span>
+                Fill details and proceed for payment
+              </li>
+            </ul>
             <table className="border-collapse w-full">
               <tbody>
                 <tr>
