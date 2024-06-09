@@ -110,7 +110,7 @@ const CallForPaper = () => {
           <p className="text-lg mt-[1rem]">
             Paper submission guidelines are{" "}
             <a
-              href="https://www.ewh.ieee.org/r10/calcutta/"
+              href="https://www.ieee.org/conferences/publishing/templates.html"
               className="text-blue font-bold hover:text-primary text-lg"
               target="_blank"
             >
