@@ -10,7 +10,7 @@ import schedule from "@/assets/schedule.png";
 
 const dates = [
   { date: "15 April, 2024", event: "Start of Paper Submission" },
-  { date: "30 July, 2024", event: "Deadline for Submission" },
+  { date: "30 July, 2024", event: "Deadline for Submission", extendedDate: "31 August, 2024" },
   { date: "01 August, 2024", event: "Paper Acceptance Notification" },
   { date: "15 August, 2024", event: "Camera Ready Version" },
   { date: "01 September, 2024", event: "Registration Commences" },
@@ -29,12 +29,12 @@ const ImportantDates = () => {
       <div>
         <Navbar /> {/* Update with your actual Navbar component */}
         <Nav3 />
-        <div className="container mx-auto mt-10 p-8  rounded-lg shadow-md">
+        <div className="container mx-auto mt-10 p-8 rounded-lg shadow-md">
           <div className="flex items-center justify-center mb-6">
             <Image
               src={schedule}
               alt="schedule"
-              className="h-12 w-12 md:h-10 md:w-10 mr-3 "
+              className="h-12 w-12 md:h-10 md:w-10 mr-3"
             />
             <h1 className="text-4xl font-extrabold text-white">
               Important Dates
@@ -47,7 +47,10 @@ const ImportantDates = () => {
                 className="p-4 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md"
               >
                 <p className="text-lg font-semibold text-[#7E22CE] mb-2">
-                  {item.date}
+                  <span className="line-through">{item.date}</span>
+                  {item.extendedDate && (
+                    <span className="block text-[#7E22CE]">Extended date: {item.extendedDate}</span>
+                  )}
                 </p>
                 <p className="text-gray-700">{item.event}</p>
               </li>
