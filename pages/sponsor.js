@@ -32,7 +32,7 @@ function sponsor() {
       <div className="flex item-center justify-center  ">
         <div className="w-[80%] mt-5 rounded-lg border-primary shadow-2xl  p-4">
           <div className="flex flex-col gap-3">
-            <h1 className="font-bold text-5xl ">
+            <h1 className="font-bold text-4xl ">
               <span className="text-[#002E73]">Sponsorship Opportunities</span>
             </h1>
             <a
@@ -50,15 +50,17 @@ function sponsor() {
                 Benefaction/Sponsorship
               </h1>
             </div>
-            By becoming a Benefactor at BITCON-2024, you can showcase your
-            leadership in the industry and gain maximum exposure to BITCON-2024
-            attendees. As a Benefactor, your company will enjoy prominent
-            visibility and be recognized as a sponsor of this prestigious
-            conference. This is a prime opportunity to showcase your brand to a
-            highly influential audience in the social media, mobile, analytics,
-            and cloud domains. Additionally, you can utilize this event to share
-            your company's products and services with important decision-makers
-            in the industry.
+            <span className="text-sm">
+              By becoming a Benefactor at BITCON-2024, you can showcase your
+              leadership in the industry and gain maximum exposure to
+              BITCON-2024 attendees. As a Benefactor, your company will enjoy
+              prominent visibility and be recognized as a sponsor of this
+              prestigious conference. This is a prime opportunity to showcase
+              your brand to a highly influential audience in the social media,
+              mobile, analytics, and cloud domains. Additionally, you can
+              utilize this event to share your company's products and services
+              with important decision-makers in the industry.
+            </span>
           </div>
           <div className="p-4">
             <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
@@ -67,7 +69,7 @@ function sponsor() {
                 Why Become a Benefactor?
               </h1>
             </div>
-            <ul>
+            <ul className="text-sm">
               <li className="flex items-start gap-2">
                 BITCON-2024 is an international event that presents the latest
                 research results and trends in the power and control,
@@ -98,7 +100,7 @@ function sponsor() {
                 Benefactor Overview
               </h1>
             </div>
-            <ul>
+            <ul className="text-sm">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}
                 Platinum Sponsor: ₹1,00,000
@@ -114,7 +116,7 @@ function sponsor() {
                 General Terms & Conditions
               </h1>
             </div>
-            <ul>
+            <ul className="text-sm">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}•
                 Due to limited sponsorship opportunities, sponsors shall be
@@ -150,9 +152,11 @@ function sponsor() {
                 Mode of Payment
               </h1>
             </div>
-            All payments are to be made through DD/local cheque drawn in favor
-            of “BIT Sindri Sponsorship Account” payable at Dhanbad, Jharkhand.
-            <ul className="mt-5 mb-3 ">
+            <span className="text-sm">
+              All payments are to be made through DD/local cheque drawn in favor
+              of “BIT Sindri Sponsorship Account” payable at Dhanbad, Jharkhand.
+            </span>
+            <ul className="mt-5 mb-3 text-sm">
               <li>
                 <span className="font-bold">Step 1: </span>
                 Open{" "}

@@ -24,19 +24,19 @@ const registeration = () => {
       <Nav3 />
       <div className="w-[90%]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4">
         <div className="flex justify-between">
-          <h2 className="text-primary  p-4 flex text-5xl sm:text-2xl">
+          <h2 className="text-primary font-bold  p-4 flex text-4xl sm:text-2xl">
             Registration Guidelines
           </h2>
           <button className=" ">
             <a
-              className="bg-red text-primary-light   delay-100 font-bold p-4"
+              className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold p-4"
               href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
             >
               Register Now
             </a>
           </button>
         </div>
-        <div className="p-4 mt-2 ml-[2rem]">
+        <div className="p-4 mt-2 ml-[2rem] text-sm">
           <li>
             Please note that at least one registration among the authors of EACH
             accepted paper is compulsory for the paper presentation and its
@@ -109,7 +109,7 @@ const registeration = () => {
         {/* <li></li> */}
         <div className="flex flex-col sm:overflow-scroll  justify-center">
           <div className="flex ">
-            <p className="text-primary ml-[3.5rem] text-center text-xl font-bold p-4 flex  sm:text-lg">
+            <p className="text-primary ml-[3.5rem] text-center text-lg font-bold p-4 flex  sm:text-lg">
               The authors are requested to pay the registration fee according to
               their applicable category as mentioned below:
             </p>
@@ -214,7 +214,7 @@ const registeration = () => {
           </h1>
         </div>
         <div className="p-4 mt-5 text-start flex gap-3 flex-wrap items-start">
-          <ul>
+          <ul className="text-sm flex-col gap-4">
             <li>
               <span className="font-bold">Step 1: </span>
               Open{" "}
@@ -251,7 +251,7 @@ const registeration = () => {
         </div>
 
         <div className="mt-8 ml-5">
-          <p className="text-lg">
+          <p className="text-sm">
             Authors are required to mention their Easy Chair “Paper ID” without
             error in remark section, while paying the registration fee. Please
             fill the registration form at{" "}
@@ -260,7 +260,7 @@ const registeration = () => {
             student’s (1st author’s) ID card, IEEE membership card (if
             applicable), etc
           </p>
-          <ul className="list-disc ml-5 mt-2 text-lg">
+          <ul className="list-disc ml-5 mt-2 text-sm">
             <li>Registration deadline is 30.05.2024.</li>
             <li>Late registration is not allowed.</li>
           </ul>

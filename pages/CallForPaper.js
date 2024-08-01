@@ -20,14 +20,14 @@ const CallForPaper = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="h-auto w-[90%]  rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[5rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4 ">
+      <div className="h-auto w-[90%]  rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[3rem] sm:ml-[0.2rem] ml-[5rem] sm:h-auto p-4 ">
         <div className="flex flex-wrap gap-[32rem]">
-          <h2 className="text-primary font-bold p-4 flex text-5xl sm:text-2xl">
+          <h2 className="text-primary font-bold p-4 flex text-4xl sm:text-2xl">
             Call For Papers
           </h2>
         </div>
         <div className="ml-[1.5rem]">
-          <p>
+          <p className="text-sm">
             Authors are invited to contribute to the conference by submitting
             articles that illustrate research results, projects, experimental
             works, and industrial experiences in the following tracks:
@@ -99,7 +99,7 @@ const CallForPaper = () => {
           ].map((track, index) => (
             <div key={index} className="mt-6">
               <p className="font-bold text-primary text-lg">{track.title}</p>
-              <ul className="list-disc ml-20">
+              <ul className="list-disc ml-10 text-sm">
                 {track.topics.map((topic, idx) => (
                   <li key={idx}>{topic}</li>
                 ))}
@@ -107,7 +107,7 @@ const CallForPaper = () => {
             </div>
           ))}
 
-          <p className="text-lg mt-[1rem]">
+          <p className="text-sm mt-[1rem]">
             Paper submission guidelines are{" "}
             <a
               href="https://www.ieee.org/conferences/publishing/templates.html"

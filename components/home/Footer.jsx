@@ -58,7 +58,7 @@ const Footer = () => {
               <Image
                 src={evaluation}
                 alt="evaluation"
-                className=" h-[3rem] w-[3rem] sm:h-[3rem] border-2 sm:w-[3rem]"
+                className=" h-[2rem] w-[2rem] sm:h-[2rem] border-2 sm:w-[2rem]"
               />
               <h1 className="p-5  text-primary font-bold text-2xl sm:mt-0 ml-[1rem] mr-[1rem] sm:text-lg text-center">
                 Tracks

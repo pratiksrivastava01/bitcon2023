@@ -3,11 +3,11 @@ import React from "react";
 const Nav3 = () => {
   return (
     <>
-      <div className="flex flex-col sm:hidden justify-center items-center bg-[#FAC804] p-6">
+      <div className="flex flex-col sm:hidden justify-center items-center bg-[#FAC804] p-4">
         {/* <div className=""> */}
         <ul className="flex flex-row gap-[3rem] text-[white]">
           <li>
-            <a href="/dates" className="text-primary text-lg font-bold">
+            <a href="/dates" className="text-primary text-m font-bold">
               Important Dates
             </a>
           </li>
@@ -16,39 +16,39 @@ const Nav3 = () => {
             <a
               href="/Comitte/OrganizingComitte"
               // href="  "
-              className="text-primary text-lg ml-[-0.5rem] font-bold"
+              className="text-primary text-m ml-[-0.5rem] font-bold"
             >
               Committee
             </a>
           </li>
           <li>
-            <a href="/CallForPaper" className="text-primary text-lg font-bold">
+            <a href="/CallForPaper" className="text-primary text-m font-bold">
               Call for Papers
             </a>
           </li>
           <li>
             <a
               href="/PaperSubmission/info"
-              className="text-primary text-lg font-bold"
+              className="text-primary text-m font-bold"
             >
               Paper Submission
             </a>
           </li>
 
           <li>
-            <a href="/sponsor" className="text-primary text-lg font-bold">
+            <a href="/sponsor" className="text-primary text-m font-bold">
               Sponsorship
             </a>
           </li>
           <li>
-            <a href="/speakers" className="text-primary text-lg font-bold">
+            <a href="/speakers" className="text-primary text-m font-bold">
               Invited Speakers
             </a>
           </li>
           <li>
             <a
               href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
-              className="text-primary text-lg font-bold"
+              className="text-primary text-m font-bold"
               target="_blank"
             >
               Paper Submission
