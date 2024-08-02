@@ -29,28 +29,28 @@ function sponsor() {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="flex item-center justify-center  ">
-        <div className="w-[80%] mt-5 rounded-lg border-primary shadow-2xl  p-4">
+      <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[4rem] sm:mt-[2rem] sm:mx-[0rem] sm:h-auto">
+        <div className="sm:mx-0 rounded-lg border-primary shadow-2xl p-4">
           <div className="flex flex-col gap-3">
-            <h1 className="font-bold text-4xl ">
+            <h1 className="font-bold text-4xl sm:text-xl">
               <span className="text-[#002E73]">Sponsorship Opportunities</span>
             </h1>
             <a
               href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
-              className="text-blue font-bold hover:text-primary text-lg"
+              className="text-blue font-bold hover:text-primary text-sm sm:text-xs"
               target="_blank"
             >
               Download the brochure here
             </a>
           </div>{" "}
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={deal} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 sm:mb-4 text-center flex flex-row gap-3 flex-wrap items-center">
+              <Image src={deal} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
+              <h1 className="font-bold text-xl sm:text-sm items-center">
                 Benefaction/Sponsorship
               </h1>
             </div>
-            <span className="text-sm">
+            <span className="text-sm mt-8 sm:text-xs text-justify">
               By becoming a Benefactor at BITCON-2024, you can showcase your
               leadership in the industry and gain maximum exposure to
               BITCON-2024 attendees. As a Benefactor, your company will enjoy
@@ -62,15 +62,15 @@ function sponsor() {
               with important decision-makers in the industry.
             </span>
           </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={question} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 text-center flex gap-3 flex-row items-center">
+              <Image src={question} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
+              <h1 className="font-bold text-xl sm:text-sm text-wrap items-center">
                 Why Become a Benefactor?
               </h1>
             </div>
-            <ul className="text-sm">
-              <li className="flex items-start gap-2">
+            <ul className="text-sm mt-4 sm:text-xs">
+              <li className="flex items-start gap-2  text-justify">
                 BITCON-2024 is an international event that presents the latest
                 research results and trends in the power and control,
                 electronics, and instrumentation industries.
@@ -93,14 +93,14 @@ function sponsor() {
               </li>
             </ul>
           </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={list} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 text-center flex gap-3 flex-wrap items-center">
+              <Image src={list} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
+              <h1 className="font-bold text-xl sm:text-sm items-center">
                 Benefactor Overview
               </h1>
             </div>
-            <ul className="text-sm">
+            <ul className="mt-4 text-sm sm:text-xs">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}
                 Platinum Sponsor: ₹1,00,000
@@ -109,14 +109,14 @@ function sponsor() {
               <li> Bronze Sponsor: ₹ 15,000 </li>{" "}
             </ul>
           </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={contact} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 text-center flex gap-3 flex-wrap items-center">
+              <Image src={contact} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
+              <h1 className="font-bold text-xl sm:text-sm text-wrap items-center">
                 General Terms & Conditions
               </h1>
             </div>
-            <ul className="text-sm">
+            <ul className="mt-4 text-sm sm:text-xs">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}•
                 Due to limited sponsorship opportunities, sponsors shall be
@@ -145,18 +145,18 @@ function sponsor() {
               </li>
             </ul>
           </div>
-          <div className="p-4">
-            <div className="p-4 mt-5 text-center flex gap-3 flex-wrap items-center">
-              <Image src={payment} className="h-[3rem] w-[3rem] " />
-              <h1 className="font-bold text-xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 mb-4 text-center flex gap-3 flex-wrap items-center">
+              <Image src={payment} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
+              <h1 className="font-bold text-xl sm:text-sm text-wrap items-center">
                 Mode of Payment
               </h1>
             </div>
-            <span className="text-sm">
+            <span className="text-sm sm:mt-4 sm:text-xs">
               All payments are to be made through DD/local cheque drawn in favor
               of “BIT Sindri Sponsorship Account” payable at Dhanbad, Jharkhand.
             </span>
-            <ul className="mt-5 mb-3 text-sm">
+            <ul className="mt-4 mb-3 text-sm sm:text-xs">
               <li>
                 <span className="font-bold">Step 1: </span>
                 Open{" "}
@@ -165,7 +165,7 @@ function sponsor() {
                   className="text-blue"
                 >
                   {" "}
-                  https://www.onlinesbi.sbi/sbicollect/icollecthome.htm
+                  Click here to Make payment
                 </a>
               </li>
               <li>
@@ -191,42 +191,44 @@ function sponsor() {
                 Fill details and proceed for payment
               </li>
             </ul>
-            <table className="border-collapse w-full">
-              <tbody>
+            <div className="">
+            <table className="border-collapse w-full sm:w-auto">
+              <tbody className="border-collapse w-full sm:w-auto  text-sm sm:text-xs">
                 <tr>
                   <td
                     colSpan="4"
-                    className="text-primary text-center text-xl font-bold p-4"
+                    className="text-primary text-center text-sm sm:text-xs font-bold p-4"
                   >
                     Account Details for Payment of the Registration Fee:
                   </td>
                 </tr>
                 <tr>
-                  <td className="border-2 border-primary p-4">Bank</td>
-                  <td className="border-2 border-primary p-4">
+                  <td className="border-2 border-primary p-2">Bank</td>
+                  <td className="border-2 border-primary p-2">
                     State Bank of India
                   </td>
-                  <td className="border-2 border-primary p-4">Account no:</td>
-                  <td className="border-2 border-primary p-4 ">42663611130</td>
+                  <td className="border-2 border-primary p-2">Account no:</td>
+                  <td className="border-2 border-primary p-2 ">42663611130</td>
                 </tr>
                 <tr>
-                  <td className="border-2 border-primary p-4">Account Name</td>
-                  <td className="border-2 border-primary p-4 ">BITCON 2024</td>
-                  <td className="border-2 border-primary p-4">IFSC Code</td>
-                  <td className="border-2 border-primary p-4">SBIN0011812</td>
+                  <td className="border-2 border-primary p-2">Account Name</td>
+                  <td className="border-2 border-primary p-2 ">BITCON 2024</td>
+                  <td className="border-2 border-primary p-2">IFSC Code</td>
+                  <td className="border-2 border-primary p-2">SBIN0011812</td>
                 </tr>
                 <tr>
-                  <td className="border-2 border-primary p-4">Account Type</td>
-                  <td className="border-2 border-primary p-4">
+                  <td className="border-2 border-primary p-2">Account Type</td>
+                  <td className="border-2 border-primary p-2">
                     Current Account
                   </td>
-                  <td className="border-2 border-primary p-4">MICR Code</td>
-                  <td className="border-2 border-primary p-4 invisible">
+                  <td className="border-2 border-primary p-2">MICR Code</td>
+                  <td className="border-2 border-primary p-2 invisible">
                     Account no:
                   </td>
                 </tr>
               </tbody>
             </table>
+            </div>
           </div>
         </div>{" "}
       </div>

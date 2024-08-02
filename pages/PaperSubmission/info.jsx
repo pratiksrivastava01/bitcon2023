@@ -26,12 +26,12 @@ const info = () => {
       <Nav3 />
 
       <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
-        <div className="h-auto w-[80%] rounded-lg p-4  border-primary shadow-2xl  ">
+        <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  border-primary shadow-2xl  ">
           <div className="flex gap-3">
-            <Image src={preparation} className="h-[2.5rem] w-[2.5rem] " />
-            <h1 className=" font-bold text-3xl">PAPER SUBMISSION</h1>
+            <Image src={preparation} className="h-[2.5rem] w-[auto] " />
+            <h1 className=" font-bold text-4xl sm:text-2xl">PAPER SUBMISSION</h1>
           </div>
-          <p className="p-5 text-sm">
+          <p className="p-5 text-sm sm:text-xs text-justify">
             Prospective authors are encouraged to submit high quality original,
             previously unpublished, experimental or theoretical research papers
             for presentation at the Conference. Articles submitted to the
@@ -45,7 +45,7 @@ const info = () => {
             papers through Easy Chair. Kindly do not submit the paper multiple
             times; it may lead to cancellation of your paper
           </p>
-          <ul className="ml-[2rem] text-sm">
+          <ul className="ml-[2rem] text-sm sm:text-xs">
             <li>
               <p>
                 <span className="font-bold">1. Template Download: </span>{" "}
@@ -65,17 +65,16 @@ const info = () => {
                 misconduct and cannot be tolerated. The conference team will be
                 checking the plagiarism level of all the submitted papers for
                 ensuring the originality of content using iThenticate with an
-                acceptable limit of 30% including References.
+                acceptable limit of 10% .
               </p>
             </li>
           </ul>
-
           <div className=" flex justify-center  ">
             <Link
               href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
               target="_blank"
             >
-              <button className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 mt-4 ">
+              <button className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 mt-4 sm:text-xs">
                 Submit Your Paper
               </button>
             </Link>

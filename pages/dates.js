@@ -29,14 +29,14 @@ const ImportantDates = () => {
       <div>
         <Navbar /> {/* Update with your actual Navbar component */}
         <Nav3 />
-        <div className="container mx-auto mt-10 p-8 rounded-lg shadow-md">
+        <div className="container mx-auto mt-4 p-4 rounded-lg shadow-md">
           <div className="flex items-center justify-center mb-6">
             <Image
               src={schedule}
               alt="schedule"
-              className="h-12 w-12 md:h-10 md:w-10 mr-3"
+              className="h-12 w-auto md:h-10 mr-3"
             />
-            <h1 className="text-4xl font-extrabold text-white">
+            <h1 className="text-4xl sm:text-2xl font-extrabold text-white">
               Important Dates
             </h1>
           </div>
@@ -46,7 +46,7 @@ const ImportantDates = () => {
                 key={item.date}
                 className="p-4 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md"
               >
-                <p className="text-lg font-semibold text-[#7E22CE] mb-2">
+                <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] mb-2">
                   {item.date === "30 July, 2024" ? (
                     <>
                       <span className="line-through">{item.date}</span>
@@ -57,7 +57,7 @@ const ImportantDates = () => {
                     item.date
                   )}
                 </p>
-                <p className="text-gray-700">{item.event}</p>
+                <p className="text-gray-700 text-sm sm:text-xs">{item.event}</p>
               </li>
             ))}
           </ul>

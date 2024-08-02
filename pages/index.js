@@ -50,13 +50,13 @@ export default function Home() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <div className=" flex flex-col  mb-10">
+      <div className=" flex flex-col  mb-0">
         <Navbar />
         <Nav3 />
         {/* <Notification /> */}
-        <div className="flex justify-center  ">
-          <div className="flex flex-wrap padding-container items-center justify-center w-[90%] md:w-full overflow-hidden ">
-            <div className="  w-[12%] sm:w-[100%]  sm:flex sm:mb-10 sm:items-center sm:justify-center sm:gap-10 sm:mt-2">
+        <div className="flex justify-center">
+          <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
+            <div className="w-[12%] sm:w-[50%]  sm:flex sm:order-2 sm:mb-10 sm:items-start sm:justify-evenly sm:gap-0 sm:mt-2">
               <Image
                 src={jh}
                 alt="jh"
@@ -65,54 +65,54 @@ export default function Home() {
               <Image
                 src={logo}
                 alt="logo"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem] mt-2 sm:mt-0"
               ></Image>
             </div>
-            <div className="flex flex-col sm:mt-[-4rem] items-center  w-[62%] sm:w-auto sm:paddin-container">
-              <h1 className="text-center text-4xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
-                Celebrating Platinum Jubilee of BIT SINDRI
+            <div className="flex flex-col sm:mt-[-4rem] sm:order-1 items-center  w-[62%] sm:w-auto sm:pt-[4rem]">
+              <h1 className="text-center text-3xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
+                Celebrating Platinum Jubilee of BIT Sindri
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
                 <span className="text-[#385623] font-sans">
                   FLAGSHIP INTERNATIONAL
                 </span>{" "}
               </h1>
-              <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-xl ">
+              <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-3xl ">
                 BIT CONFERENCE 2024
               </h1>
-              <h1 className="text-center text-5xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[1rem]">
+              <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[0.2rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>
               </h1>
-              <h3 className="text-center text-lg text-[#002E73] mt-[1rem] sm:mt-[1rem]">
+              <h3 className="text-center text-lg sm:text-sm text-[#002E73] mt-[1rem]  sm:mt-[0.2rem]">
                 <span className="text-primary">
-                  IEEE Conference Record No: #63716
+                  IEEE Conference Record No: <b>#63716</b>
                 </span>
               </h3>
-
-              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[0.8rem] sm:mt-[1rem]">
-                <span className="text-[#002E73] ">Theme:-</span>
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[0.8rem]  sm:mt-[0.2rem]">
+                <span className="text-[#002E73] ">Theme:- </span>
                 Next Generation Applications in Green Energy Technology
               </p>
               <h1 className="text-[red] text-xl sm:text-xs font-bold text-center ">
-                07-08 December, 2024
+                (07-08 December, 2024)
               </h1>
               <h1 className="text-[#002E73] text-3xl sm:text-lg font-bold text-center ">
-                BIT Sindri, Dhanbad, Jharkhand, INDIA
+                BIT Sindri, Dhanbad, Jharkhand, India
               </h1>
             </div>
-            <div className="w-[15%] sm:w-[100%] sm:flex sm:mt-0 sm:justify-center sm:gap-10">
+            <div className="w-[15%] sm:w-[50%] sm:flex-row sm:order-3 sm:items-center sm:flex sm:mt-2 sm:gap-0 sm:justify-evenly">
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[18rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <div className="mt-[1rem]">
-                <h1 className="font-bold">Technical Co-Sponsor:</h1>
+              <div className="mt-[1rem] sm:mt-0 text-center">
+              <span className="text-xs sm:hidden">Technical Co-Sponsor</span>
                 <Image
                   src={ieee}
                   alt="ieee"
-                  className="h-[6rem] w-[10rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] sm:w-[5rem]"
                 ></Image>
+                
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
         {/* <Notification /> */}
 
         <div className=" mt-[1rem] flex justify-center mb-10">
-          <div className="w-[80%] h-[20rem] sm:w-[100%] sm:h-[10rem] ">
+          <div className="w-[100%] mx-12 sm:mx-4 h-[20rem] sm:h-[10rem] ">
             <Slider slides={slides} />
           </div>
         </div>

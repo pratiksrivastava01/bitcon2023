@@ -22,11 +22,11 @@ const contact = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <div className=" flex flex-col ">
         <Navbar />
         <Nav3 />
+        <div className=" flex flex-col ">
         <div className="items-center ">
-          <h1 className="text-bold text-5xl p-[5rem] text-center sm:text-3xl ">
+          <h1 className="text-bold text-4xl p-[5rem] text-center sm:text-2xl ">
             Contact Us
           </h1>
           <div className="flex flex-col flex-wrap p-[5rem] mt-[-8rem]">
@@ -38,14 +38,14 @@ const contact = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <div className="flex gap-[13rem] sm:gap-0 flex-row flex-wrap">
+             className="sm:w-full"></iframe>
+            <div className="flex gap-[13rem] sm:gap-0 flex-row sm:flex-col flex-wrap">
               <div className="mt-[2rem]">
-                <h1 className="text-primary font-bold flex text-5xl sm:text-2xl">
+                <h1 className="text-primary font-bold flex text-4xl sm:text-xl">
                   Address
                 </h1>
-                <div className="flex gap-[50rem]">
-                  <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
+                <div className="flex gap-[50rem] flex-row sm:flex-col sm:gap-[1rem]">
+                  <p className="text-white flex text-lg mt-[2rem] sm:text-xs">
                     Sindri, Dhanbad <br /> Jharkhand 828123
                   </p>
                   {/* <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
@@ -56,14 +56,15 @@ const contact = () => {
                       href="mailto:amit.ee@bitsindri.ac.in"
                       className="flex gap-[2rem]"
                     >
-                      <CiMail className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
+                      <CiMail className="text-white text-bold mt-[2rem] text-sm sm:text-xs text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
                         bitcon.2024@bitsindri.ac.in
                       </span>
                     </Link>
                     {/* <span>amit.ee@bitsindri.ac.in</span> */}
+                    
                     <a href="" className="flex gap-[2rem]">
-                      <FcCallback className="text-white text-bold mt-[2rem] text-3xl text-yellow" />
+                      <FcCallback className="text-white text-bold mt-[2rem]  text-sm sm:text-xs text-yellow" />
                       <span className="mt-[2.2rem]  hover:text-primary">
                         0326 2350495
                       </span>

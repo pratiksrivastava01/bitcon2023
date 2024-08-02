@@ -32,19 +32,19 @@ const institute = () => {
       <Nav3 />
       <div className="flex flex-row sm:flex-col  gap-[10rem] sm:gap-0 justify-center ">
         <div className="flex justify-center items-center">
-          <div className="flex flex-row  w-[90%] sm:w-[100%] sm:flex-col mt-[5rem] gap-5 sm:gap-0 justify-between  p-4 rounded-lg ">
-            <div className="text-center flex flex-col  w-[50%] sm:w-[100%]">
+          <div className="flex flex-row  mx-8  sm:mx-4 sm:flex-col mt-[3rem] gap-5 sm:gap-0 justify-between rounded-lg ">
+            <div className="text-center flex flex-col  w-[50%] sm:w-full">
               <div className="flex items-center  justify-center gap-5">
                 <Image
                   src={college}
                   alt="institute"
-                  className="h-[3rem] w-[3rem] "
+                  className="h-[3rem] w-[auto] sm:h-[2rem]"
                 />
-                <h1 className="font-bold text-5xl sm:text-3xl text-[#002256]">
+                <h1 className="font-bold text-4xl sm:text-2xl text-[#002256]">
                   About BIT Sindri
                 </h1>
               </div>
-              <p className="text-left overflow-auto  mt-[1rem] sm:p-4 sm:mt-0 bg-primary-light bg-opacity-20 rounded-lg shadow-2xl p-4">
+              <p className="text-left overflow-auto  mt-[1rem] sm:p-4 sm:mt-0 bg-primary-light bg-opacity-20 rounded-lg shadow-2xl p-4 text-sm sm:text-xs">
                 BIT Sindri, also known as Birsa Institute of Technology Sindri,
                 is a premier engineering college located in Sindri, Jharkhand,
                 India. Established in 1949, the college has a long and rich
@@ -64,19 +64,21 @@ const institute = () => {
                 India
               </p>
             </div>
+            <div>
             <Image
               src={about}
-              className="rounded-xl mr-[3rem] sm:p-4 sm:mt-0 "
+              className="rounded-xl mr-[3rem] sm:rounded-none sm:mr-0 sm:p-0 sm:m-0"
             />
+            </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="h-auto w-[85%] rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[5rem]  items-center sm:h-auto sm:w-[100%] p-4 t">
-          <h1 className="text-5xl sm:text-3xl text-center font-bold text-[#002256]">
+        <div className="h-auto mx-8 sm:mx-4 rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[3rem]  items-center sm:h-auto sm:w-[100%] p-4 t">
+          <h1 className="text-4xl sm:text-2xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
-          <p className="text-2xl mt-[1rem] sm:text-lg p-2 font-thin sm:mt-4">
+          <p className="mt-[1rem] text-sm sm:text-xs p-2 font-thin sm:mt-4">
             The vision of BIT Sindri is to nurture talented and skilled human
             resources. Through the best technical education and research, we
             hope to train individuals for professional roles in industry and
@@ -87,47 +89,47 @@ const institute = () => {
             alt="mission"
             className="w-[50%] h-[50%] sm:w-[100%] sm:h-[100%]"
           />
-          <h2 className="text-3xl sm:text-xl mt-[3rem] text-center font-bold text-[#002256] sm:mt-0 ">
+          <h2 className="text-2xl sm:text-sm mt-[3rem] text-center font-bold text-[#002256] sm:mt-0 ">
             The BIT Sindri functions with the following missions:
           </h2>
 
-          <ul className="text-left  text-2xl font-thin mt-[1rem] sm:text-sm sm:ml-[2rem]">
+          <ul className="text-left  text-sm sm:text-xs font-thin mt-[1rem] sm:ml-[2rem]">
             <li className="flex gap-3 items-center">
               <Image
                 src={classroom}
                 alt="classroom"
-                className="h-[2rem] w-[2rem]"
+                className="h-[1.5rem] w-[1.5rem]"
               />
               <p>
                 To provide quality education to students in various disciplines
               </p>
             </li>
-            <li className="flex gap-3 mt-[2rem] items-center">
+            <li className="flex gap-3 mt-[1rem] items-center">
               <Image src={seo} alt="classroom" className="h-[2rem] w-[2rem]" />
               To promote research and development in science and technology
             </li>
-            <li className="flex gap-3 mt-[2rem] items-center">
+            <li className="flex gap-3 mt-[1rem] items-center">
               <Image
                 src={knowledge}
                 alt="classroom"
-                className="h-[2rem] w-[2rem]"
+                className="h-[1.5rem] w-[1.5rem]"
               />{" "}
               To provide opportunities for students to develop their
               personalities and leadership skills
             </li>
-            <li className="flex gap-3 mt-[2rem] items-center">
+            <li className="flex gap-3 mt-[1rem] items-center">
               <Image
                 src={factory}
                 alt="classroom"
-                className="h-[2rem] w-[2rem]"
+                className="h-[1.5rem] w-[1.5rem]"
               />{" "}
               To promote industry-institute interaction and collaboration
             </li>
-            <li className="flex gap-3 mt-[2rem] items-center">
+            <li className="flex gap-3 mt-[1rem] items-center">
               <Image
                 src={conversation}
                 alt="classroom"
-                className="h-[2rem] w-[2rem]"
+                className="h-[1.5rem] w-[1.5rem]"
               />{" "}
               To provide consultancy services to industries and organizations
             </li>
