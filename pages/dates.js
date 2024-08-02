@@ -36,7 +36,7 @@ const ImportantDates = () => {
               alt="schedule"
               className="h-12 w-auto md:h-10 mr-3"
             />
-            <h1 className="text-4xl sm:text-2xl font-extrabold text-white">
+            <h1 className="text-4xl sm:text-2xl font-extrabold text-deepblue">
               Important Dates
             </h1>
           </div>

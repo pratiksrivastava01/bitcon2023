@@ -41,11 +41,11 @@ const contact = () => {
              className="sm:w-full"></iframe>
             <div className="flex gap-[13rem] sm:gap-0 flex-row sm:flex-col flex-wrap">
               <div className="mt-[2rem]">
-                <h1 className="text-primary font-bold flex text-4xl sm:text-xl">
+                <h1 className="text-primary font-bold flex text-4xl sm:text-xl ">
                   Address
                 </h1>
                 <div className="flex gap-[50rem] flex-row sm:flex-col sm:gap-[1rem]">
-                  <p className="text-white flex text-lg mt-[2rem] sm:text-xs">
+                  <p className="text-primary flex text-lg mt-[2rem] sm:text-xs">
                     Sindri, Dhanbad <br /> Jharkhand 828123
                   </p>
                   {/* <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
