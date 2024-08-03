@@ -29,43 +29,43 @@ const conference = () => {
       </Head>
       <Navbar />
       <Nav3 />
-      <div className="flex item-center justify-center ">
-        <div className="w-[80%] mt-5 rounded-lg  p-4">
+      <div className="flex item-center justify-center">
+        <div className="mx-8 sm:mx-4 mt-5 rounded-lg p-4">
           <div className="flex gap-3 items-center justify-center">
-            <h1 className="font-bold text-5xl flex items-center justify-center text-center">
+            <h1 className="font-bold text-4xl sm:text-2xl flex items-center justify-center text-center">
               <span className="text-[#385623] text-center flex justify-center items-center">
                 B.I.T CONFERENCE’s LOGO :
               </span>
             </h1>
           </div>
           <div className="p-4 mt-5 text-center justify-center flex gap-3 flex-wrap">
-            <Image src={confetti} className="h-[35rem] w-[50rem] " />
+            <Image src={confetti} className="h-[28rem] w-[auto] sm:h-[16rem]" />
           </div>
-          <div className="p-4">
-            <div className="p-4 mt-5  flex flex-col gap-3 flex-wrap ">
-              <h1 className="font-bold text-3xl items-center">
+          <div className="">
+            <div className="p-4 sm:p-0 mt-5 flex flex-col gap-3 flex-wrap ">
+              <h1 className="font-bold text-2xl sm:text-lg items-center">
                 Letter “B” stands for{" "}
                 <span className="text-[#002E73] ">
                   Birsa Institute of Technology.
                 </span>{" "}
               </h1>
-              <h1 className="font-bold text-3xl items-center">
+              <h1 className="font-bold text-2xl sm:text-lg items-center">
                 Letter “C” stands for{" "}
                 <span className="text-[#002E73] "> Conference.</span>
               </h1>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 The letter “C” is drawn in such a way that it looks like a
                 magnifying glass.{" "}
                 <span className="font-bold"> A magnifying glass icon </span>can
                 represent the idea of exploring, investigating and searching for
                 new ideas which are key elements of research.
               </p>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 Research conference often involve collaboration between
                 different groups of people. So, B and C are interconnected
                 (intertwined B and C) to convey the sense of collaboration.
               </p>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 Since the conference is technology oriented, it is incorporated
                 with lightning bolt, plug, gear and nanowires (flowing lines).
                 <span className="font-bold"> Plug</span> symbolizes the
@@ -87,7 +87,7 @@ const conference = () => {
                 and innovators. It emphasizing the collaborative nature of the
                 conference and the importance of connections.
               </p>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 <span className="font-bold"> Colour scheme </span>is associated
                 with research as{" "}
                 <span className="text-[#02BCDD] font-bold">blue</span> and{" "}
@@ -97,7 +97,7 @@ const conference = () => {
                 represents the sense of hope. Green colour gear represents green
                 energy technology which the theme of the conference.
               </p>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 <span className="font-bold">
                   {" "}
                   Tagline (Together towards research){" "}
@@ -108,7 +108,7 @@ const conference = () => {
                 can do research and can share their ideas in more areas under
                 one umbrella.
               </p>
-              <p className="text-2xl mt-4">
+              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
                 Overall, the conference conveys the intended message of
                 innovation and connectivity among the professionals in the
                 technical field. The logo is designed as simple as possible

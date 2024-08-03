@@ -36,9 +36,9 @@
 }
 
 .navLink {
-  @apply text-2xl;
+  @apply text-lg;
   transition: all 300ms ease-in-out;
-  @apply xs:text-xl;
+  @apply xs:text-sm;
 }
 
 .navLink:hover {

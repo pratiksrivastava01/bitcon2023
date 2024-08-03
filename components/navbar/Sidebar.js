@@ -3,9 +3,11 @@ import { createPortal } from "react-dom";
 import { CgClose } from "react-icons/cg";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./Hamburger.module.css";
+import style from "./Hamburger.module.css";
 import Logo from "../../assets/logo.png";
 // import Button from "../button/Button";
+import styles from "../navbar/Navbar.module.css";
+import { Dropdown } from "@nextui-org/react";
 
 const SpanStyle = {
   zIndex: 1,
@@ -57,54 +59,190 @@ function Sidebar({ isMounted, unmount }) {
 
   return createPortal(
     <section
-      className={`${isTransitioning && isMounted ? styles.active : ""} ${
-        styles.navbarWrapper
+      className={`${isTransitioning && isMounted ? style.active : ""} ${
+        style.navbarWrapper
       }`.trim()}
     >
-      <div className={styles.navbar}>
+      <div className={style.navbar}>
         <div>
           <Link href="/" legacyBehavior>
             <a className="flex items-center" onClick={unmount}>
               <Image
                 src={Logo}
-                alt="HnCC"
+                alt="BIT Sindri"
                 height="60px"
                 width="60px"
-                className="h-[3rem] w-[3rem] "
+                className="sm:h-[2.5rem] h-[3rem] w-[auto] "
               />
             </a>
           </Link>
         </div>
         <div onClick={unmount} className="cursor-pointer">
-          <CgClose size={32} className={styles.closeIcon} />
+          <CgClose size={24} className={style.closeIcon} />
         </div>
       </div>
 
-      <div id="navList" className={styles.navItems}>
-        <Link href="/about" legacyBehavior>
-          <a className={styles.navLink}>About Us</a>
+      <div id="navList" className={style.navItems}>
+        <Link href="/" legacyBehavior>
+          <a className={style.navLink}>Home</a>
         </Link>
-        <Link href="/registeration" legacyBehavior>
-          <a className={styles.navLink}>Registeration</a>
-        </Link>
-        <Link href="/paper" legacyBehavior>
-          <a className={styles.navLink}>Paper Submission</a>
-        </Link>
-        <Link
-          href="https://drive.google.com/file/d/1CvZ15e2S4nksVwlu95MxJgVvzfSX-P_e/view?usp=sharing"
-          legacyBehavior
-        >
-          <a className={styles.navLink}>Download</a>
-        </Link>
-        <Link href="/contact" legacyBehavior>
-          <a
-            className={
-              (styles.navLink,
-              `bg-primary-light text-sm p-[0.8rem] text-[#002E73]  rounded-sm font-bold`)
-            }
+     
+        <Dropdown>
+          <Dropdown.Button color={"error"} light className="border-[white]">
+            <p className="text-sm text-primary">About Us</p>
+          </Dropdown.Button>
+          <Dropdown.Menu
+            variant="default"
+            color={"error"}
+            aria-label="Actions"
+            background="red"
           >
-            CONTACT US
-          </a>
+            <Dropdown.Item>
+              <Link
+                href="/About/institute"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary text-sm`}
+                  href="/About/institute"
+                >
+                  About the Institutution{" "}
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="/About/department"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary text-sm`}
+                  href="/About/department"
+                >
+                  About the Department
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="/About/logo"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary text-sm`}
+                  href="/About/logo "
+                >
+                  About the Logo
+                </a>
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        <Dropdown className="text-sm">
+          <Dropdown.Button color={"error"} light className="border-[white]">
+            <p className={`text-primary text-sm`}>BITCON 2024</p>
+          </Dropdown.Button>
+          <Dropdown.Menu
+            variant="default"
+            color={"error"}
+            aria-label="Actions"
+            background="red"
+          >
+            <Dropdown.Item>
+              <Link href="/dates" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/dates">
+                  Important Dates{" "}
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/Comitte/OrganizingComitte" legacyBehavior>
+                <a
+                  className={`text-primary text-sm`}
+                  href="/Comitte/OrganizingComitte"
+                >
+                  Committee
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/CallForPaper" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/CallForPaper">
+                  Call for Papers
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/speakers" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/speakers">
+                  Invited Speakers
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/PaperSubmission/info" legacyBehavior>
+                <a
+                  className={`text-primary text-sm`}
+                  href="/PaperSubmission/info"
+                >
+                  Paper Submission
+                </a>
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        <Link href="/registration" legacyBehavior>
+          <a className={style.navLink}>Registration</a>
+        </Link>
+        <Link href="/awards" legacyBehavior>
+          <a className={style.navLink}>Awards</a>
+        </Link>
+        <Link href="/PaperSubmission/info" legacyBehavior>
+          <a className={style.navLink}>Paper Submission</a>
+        </Link>
+        <Link href="/sponsor" legacyBehavior>
+          <a className={(style.navLink, `text-sm text-primary`)}>Sponsorship</a>
+          </Link>
+          <Dropdown>
+            <Dropdown.Button color={"error"} light className="border-[white]">
+              <p className="text-sm text-primary">Downloads</p>
+            </Dropdown.Button>
+            <Dropdown.Menu
+              variant="default"
+              color={"error"}
+              aria-label="Actions"
+              background="red"
+            >
+              <Dropdown.Item>
+                <Link
+                  href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary text-sm`}
+                    href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing "
+                  >
+                    BITCON Flyer
+                  </a>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link
+                  href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
+                  legacyBehavior
+                >
+                  <a
+                    className={`text-primary text-sm`}
+                    href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
+                  >
+                    Sponsorship Details
+                  </a>
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        <Link href="/contact" legacyBehavior>
+          <a className={(style.navLink, `text-sm text-primary`)}>CONTACT US</a>
         </Link>
         <a
           href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"

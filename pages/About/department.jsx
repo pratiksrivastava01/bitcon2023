@@ -32,14 +32,14 @@ const institute = () => {
                 About Electrical Engineering Department
               </h1>
             </div>
-            <p className="text-left overflow-auto  mt-[3rem]   sm:mt-5">
+            <p className="text-left text-sm sm:text-xs overflow-auto  mt-[2rem]   sm:mt-5">
               The Department of Electrical Engineering is one of the major
               Departments of BIT Sindri since its inception in 1949. The
               department offers four years B.Tech. degree course and two years
               postgraduate program is also offered leading to M.Tech. degree
               with specialization in Control System and Power System.
             </p>
-            <p className="text-left overflow-auto  mt-[3rem]  sm:mt-3">
+            <p className="text-left overflow-auto text-sm sm:text-xs   mt-[2rem]  sm:mt-3">
               {" "}
               The Department has continuously evolved along with the needs of
               industry and academia without compromising on its core principles
@@ -70,22 +70,22 @@ const institute = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="h-auto w-[90%] rounded-lg justify-center flex flex-col  shadow-2xl mt-[5rem] sm:ml-[0.2rem]   p-4 ">
-          <h1 className="text-5xl sm:text-3xl text-center font-bold text-[#002256]">
+        <div className="h-auto rounded-lg justify-center flex flex-col  shadow-2xl mt-[5rem] sm:mt-8 p-4 ">
+          <h1 className="text-4xl sm:text-2xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
 
-          <p className="text-2xl mt-[3rem] sm:text-lg p-2 font-thin sm:mt-4">
+          <p className=" text-sm sm:text-xs mx-8 mt-[2rem] p-2 font-thin sm:mt-4">
             To emerge as a globally recognized centre in the field of Electrical
             Engineering to provide valuable human resource and ambience for
             innovative research for sustainable development of industry and
             society.
           </p>
-          <h2 className="text-3xl sm:text-xl mt-[3rem] text-center font-bold text-[#002256] sm:mt-0 ">
+          <h2 className="text-2xl sm:text-lg mt-[3rem] text-center font-bold text-[#002256] sm:mt-2 ">
             The BIT Sindri functions with the following missions:
           </h2>
 
-          <ul className="text-left ml-[10rem] mt-5 text-xl font-thin sm:text-sm sm:ml-[2rem]">
+          <ul className="text-left ml-[4rem] mt-5 mx-8 font-thin  text-sm sm:text-xs  sm:ml-[1rem] text-justify">
             <li>
               1. To offer state-of-the-art undergraduate, post graduate and
               doctorate programmes by providing a conducive environment towards

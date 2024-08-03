@@ -5,6 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import Logo from "../../assets/logo.png";
+import ieee from "../../assets/ieee.png";
+import bitcon from "@/assets/bitcon.png";
+import jh from "@/assets/jh_logo.png";
 // import Button from "../button/Button";
 import Sidebar from "./Sidebar";
 import { Dropdown } from "@nextui-org/react";
@@ -67,7 +70,7 @@ function Navbar() {
 
   return (
     <section id="navbar" className={`${styles.navbar} h`}>
-      <div className="">
+      <div className="flex row gap-3">
         <Link href="https://www.bitsindri.ac.in/" legacyBehavior>
           <a className="flex items-center cursor-pointer">
             <Image
@@ -75,113 +78,51 @@ function Navbar() {
               alt="BIT"
               height="60px"
               width="60px"
-              className="h-[3rem] w-[3rem] cursor-pointer "
+              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
             />
           </a>
         </Link>
+        <Link href="/" legacyBehavior>
+          <a className="flex items-center cursor-pointer">
+            <Image
+              src={jh}
+              alt="BIT"
+              height="60px"
+              width="60px"
+              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+            />
+          </a>
+        </Link>
+        <Link href="/" legacyBehavior>
+          <a className="flex items-center cursor-pointer">
+            <Image
+              src={bitcon}
+              alt="BIT"
+              height="60px"
+              width="60px"
+              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+            />
+          </a>
+        </Link>
+        <Link href="/" legacyBehavior>
+          <a className="flex items-center cursor-pointer">
+            <Image
+              src={ieee}
+              alt="BIT"
+              height="60px"
+              width="60px"
+              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+            />
+          </a>
+        </Link>
+        
       </div>
       <div id="navList" className={styles.navbarList}>
-        <Dropdown>
-          <Dropdown.Button color={"error"} light className="border-[white]">
-            <p className="text-lg text-primary-light">About Us</p>
-          </Dropdown.Button>
-          <Dropdown.Menu
-            variant="default"
-            color={"error"}
-            aria-label="Actions"
-            background="red"
-          >
-            <Dropdown.Item>
-              <Link
-                href="https://bitcon2024.vercel.app/About/institute"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://bitcon2024.vercel.app/About/institute"
-                >
-                  About the Institutution{" "}
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                href="https://bitcon2024.vercel.app/About/department"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://bitcon2024.vercel.app/About/department"
-                >
-                  About the Department
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                href="https://bitcon2024.vercel.app/About/logo"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://bitcon2024.vercel.app/About/logo "
-                >
-                  About the Logo
-                </a>
-              </Link>
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-        <Link href="/registeration" legacyBehavior className="cursor-pointer">
-          <a className={styles.navLink}>Registration </a>
-        </Link>
-
-        <Link href="/awards" legacyBehavior>
-          <a className={styles.navLink}>Awards</a>
-        </Link>
-        <Dropdown>
-          <Dropdown.Button color={"error"} light className="border-[white]">
-            <p className="text-lg text-primary-light">Downloads</p>
-          </Dropdown.Button>
-          <Dropdown.Menu
-            variant="default"
-            color={"error"}
-            aria-label="Actions"
-            background="red"
-          >
-            <Dropdown.Item>
-              <Link
-                href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing "
-                >
-                  BITCON Flyer
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link
-                href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary`}
-                  href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
-                >
-                  Sponsorship Details
-                </a>
-              </Link>
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
         <Link href="/contact" legacyBehavior>
           <a
             className={
               (styles.navLink,
-              `bg-primary-light text-sm p-[0.8rem] text-[#002E73] hover:bg-[#FAC804] hover:text-primary-light  rounded-sm font-bold`)
+              `hover:bg-[#ffffff9f] hover:border-solid  hover:border-deepblue hover:border-2 text-sm p-[0.8rem] rounded hover:text-[#002E73] bg-[#002e73] text-primary-light  font-bold`)
             }
           >
             CONTACT US
