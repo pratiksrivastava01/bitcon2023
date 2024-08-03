@@ -21,9 +21,11 @@ const awards = () => {
       <div className=" flex flex-col ">
         <Navbar />
         <Nav3 />
-        <h1 className="font-bold mt-[15rem] flex justify-center text-5xl">
-          To Be Updated Soon.............
-        </h1>
+        <div className="w-full h-[100vh] justify-center flex items-center">
+      <h1 className="font-bold text-lg flex justify-center ">
+        To Be Updated Soon
+      </h1>
+      </div>
       </div>
     </>
   );

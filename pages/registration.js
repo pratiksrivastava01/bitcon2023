@@ -6,7 +6,7 @@ import Image from "next/image";
 import React from "react";
 import payment from "@/assets/payment.png";
 
-const registeration = () => {
+const registration = () => {
   return (
     <>
       <Head>
@@ -116,7 +116,7 @@ const registeration = () => {
           </div>
           <div className="p-4">
             <h2 className="text-lg font-bold mb-4 items-center text-center">
-              Registeration Fees
+              registration Fees
             </h2>
             <div className="overflow-x-auto">
               <table className="table-auto min-w-full border-collapse sm:text-xs">
@@ -273,4 +273,4 @@ const registeration = () => {
   );
 };
 
-export default registeration;
+export default registration;

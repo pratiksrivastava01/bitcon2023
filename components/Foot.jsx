@@ -13,36 +13,36 @@ export default function Ft() {
         <div>
             <Footer.Title className="text-white text-lg" title="BITCON 2024" />
             <Footer.LinkGroup col className="text-white">
-              <Footer.Link className="text-white" href="#">Important Dates</Footer.Link>
-              <Footer.Link className="text-white" href="#">Committee</Footer.Link>
-              <Footer.Link className="text-white" href="#">Call for Papers</Footer.Link>
-              <Footer.Link className="text-white" href="#">Invited Speakers</Footer.Link>
-              <Footer.Link className="text-white" href="#">Paper Submission</Footer.Link>
+              <Footer.Link className="text-white" href="/dates">Important Dates</Footer.Link>
+              <Footer.Link className="text-white" href="/Comitte/OrganizingComitte">Committee</Footer.Link>
+              <Footer.Link className="text-white" href="/CallForPaper">Call for Papers</Footer.Link>
+              <Footer.Link className="text-white" href="/speakers">Invited Speakers</Footer.Link>
+              <Footer.Link className="text-white" href="/PaperSubmission/info">Paper Submission</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
             <Footer.Title className="text-white text-lg" title="About Us" />
             <Footer.LinkGroup col className="text-white">
-              <Footer.Link className="text-white" href="#">About the Institute</Footer.Link>
-              <Footer.Link className="text-white" href="#">About the Department</Footer.Link>
-              <Footer.Link className="text-white" href="#">About the Logo</Footer.Link>
+              <Footer.Link className="text-white" href="/About/institute">About the Institute</Footer.Link>
+              <Footer.Link className="text-white" href="/About/department">About the Department</Footer.Link>
+              <Footer.Link className="text-white" href="/About/logo">About the Logo</Footer.Link>
             </Footer.LinkGroup>
           </div>
  
           <div>
             <Footer.Title className="text-white text-lg" title="Important Links" />
             <Footer.LinkGroup col className="text-white">
-            <Footer.Link className="text-white" href="#">Registration</Footer.Link>
-              <Footer.Link className="text-white" href="#">Awards</Footer.Link>
-              <Footer.Link className="text-white" href="#">Sponsorship</Footer.Link>
-              <Footer.Link className="text-white" href="#">Contact Us</Footer.Link>
+            <Footer.Link className="text-white" href="/registration">Registration</Footer.Link>
+              <Footer.Link className="text-white" href="/awards">Awards</Footer.Link>
+              <Footer.Link className="text-white" href="/sponsor">Sponsorship</Footer.Link>
+              <Footer.Link className="text-white" href="/contact">Contact Us</Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
             <Footer.Title className="text-white text-lg" title="Downloads" />
             <Footer.LinkGroup col className="text-white">
-              <Footer.Link className="text-white" href="#">BITCON Flyer</Footer.Link>
-              <Footer.Link className="text-white" href="#">Sponsorship Details</Footer.Link>
+              <Footer.Link className="text-white" href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing">BITCON Flyer</Footer.Link>
+              <Footer.Link className="text-white" href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing">Sponsorship Details</Footer.Link>
             </Footer.LinkGroup>
           </div>
         </div>

@@ -112,7 +112,7 @@ const Nav3 = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Link href="/registeration" legacyBehavior className="cursor-pointer">
+          <Link href="/registration" legacyBehavior className="cursor-pointer">
             <a className={styles.navLink}>Registration </a>
           </Link>
 
