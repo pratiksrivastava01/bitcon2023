@@ -28,7 +28,7 @@
   width: fit-content;
 }
 .navbarList > .navLink:hover {
-  @apply text-[#fff] bg-[#FAC804] rounded-lg p-2;
+  @apply text-[#a8a8a7] rounded-lg p-2;
 }
 
 .humburgerMenu {

@@ -12,8 +12,8 @@ const Nav3 = () => {
             <a className={styles.navLink}>Home </a>
           </Link>
           <Dropdown>
-            <Dropdown.Button color={"error"} light className="border-[white]">
-              <p className="text-lg text-[#ffffff]">About Us</p>
+            <Dropdown.Button color={"error"} light className="border-[white] hover:text-[#a8a8a7]">
+              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7]">About Us</p>
             </Dropdown.Button>
             <Dropdown.Menu
               variant="default"
@@ -63,8 +63,8 @@ const Nav3 = () => {
             </Dropdown.Menu>
           </Dropdown>
           <Dropdown>
-            <Dropdown.Button color={"error"} light className="border-[white]">
-              <p className="text-lg text-[#ffffff]">BITCON 2024</p>
+            <Dropdown.Button color={"error"} light className="border-[white] hover:text-[#a8a8a7]">
+              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7] ">BITCON 2024</p>
             </Dropdown.Button>
             <Dropdown.Menu
               variant="default"
@@ -131,8 +131,8 @@ const Nav3 = () => {
             <a className={styles.navLink}>Sponsorship</a>
           </Link>
           <Dropdown>
-            <Dropdown.Button color={"error"} light className="border-[white]">
-              <p className="text-lg text-[#ffffff]">Downloads</p>
+            <Dropdown.Button color={"error"} light className="border-[white] hover:text-[#a8a8a7]">
+              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7]">Downloads</p>
             </Dropdown.Button>
             <Dropdown.Menu
               variant="default"
