@@ -44,28 +44,28 @@ const contact = () => {
                 <h1 className="text-primary font-bold flex text-4xl sm:text-xl ">
                   Address
                 </h1>
-                <div className="flex gap-[50rem] flex-row sm:flex-col sm:gap-[1rem]">
-                  <p className="text-primary flex text-lg mt-[2rem] sm:text-xs">
+                <div className="flex gap-[50rem] flex-row sm:flex-col mt-2 sm:gap-[1rem] items-start">
+                  <p className="text-primary flex text-sm sm:text-xs">
                     Sindri, Dhanbad <br /> Jharkhand 828123
                   </p>
                   {/* <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
                     Note: All commeties are required to ma
                   </p> */}
-                  <div className=" flex-1">
+                  <div className=" flex-1 gap-1">
                     <Link
                       href="mailto:amit.ee@bitsindri.ac.in"
-                      className="flex gap-[2rem]"
+                      className="flex gap-[1rem] items-center"
                     >
-                      <CiMail className="text-white text-bold mt-[2rem] text-sm sm:text-xs text-yellow" />
-                      <span className="mt-[2.2rem]  hover:text-primary">
+                      <CiMail className=" text-bold text-sm sm:text-xs text-yellow" />
+                      <span className="hover:text-primary">
                         bitcon.2024@bitsindri.ac.in
                       </span>
                     </Link>
                     {/* <span>amit.ee@bitsindri.ac.in</span> */}
                     
-                    <a href="" className="flex gap-[2rem]">
-                      <FcCallback className="text-white text-bold mt-[2rem]  text-sm sm:text-xs text-yellow" />
-                      <span className="mt-[2.2rem]  hover:text-primary">
+                    <a href="" className="flex gap-[2rem] items-center">
+                      <FcCallback className="text-bold text-sm sm:text-xs text-yellow" />
+                      <span className="hover:text-primary">
                         0326 2350495
                       </span>
                     </a>

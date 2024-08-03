@@ -24,9 +24,8 @@ const info = () => {
       </Head>
       <Navbar />
       <Nav3 />
-
       <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
-        <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  border-primary shadow-2xl  ">
+        <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  min-h-[70vh] border-primary shadow-2xl  ">
           <div className="flex gap-3">
             <Image src={preparation} className="h-[2.5rem] w-[auto] " />
             <h1 className=" font-bold text-4xl sm:text-2xl">PAPER SUBMISSION</h1>
@@ -237,7 +236,7 @@ const info = () => {
           </ul> */}
         </div>
       </div>
-      {/* <Foot /> */}
+      <Foot />
     </>
   );
 };
