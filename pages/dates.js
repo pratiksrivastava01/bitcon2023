@@ -11,8 +11,8 @@ import schedule from "@/assets/schedule.png";
 const dates = [
   { date: "15 April, 2024", event: "Start of Paper Submission" },
   { date: "30 July, 2024", event: "Deadline for Submission" },
-  { date: "01 August, 2024", event: "Paper Acceptance Notification" },
-  { date: "15 August, 2024", event: "Camera Ready Version" },
+  { date: "20 August, 2024", event: "Paper Acceptance Notification" },
+  { date: "01 September, 2024", event: "Camera Ready Version" },
   { date: "01 September, 2024", event: "Registration Commences" },
   { date: "15 November, 2024", event: "Registration Closes" },
   { date: "07-08 December, 2024", event: "Date of Conference " },
