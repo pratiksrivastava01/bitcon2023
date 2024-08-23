@@ -1,6 +1,7 @@
 import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
+import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import React from "react";
 
@@ -18,7 +19,7 @@ const CallForPaper = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="h-auto mx-8 rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[3rem] sm:mt-[1.5rem] sm:mx-0  sm:h-auto p-4 ">
         <div className="flex flex-wrap gap-[32rem]">

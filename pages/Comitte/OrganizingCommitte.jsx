@@ -24,6 +24,7 @@ import registration from "@/assets/registration.png";
 import deal from "@/assets/deal.png";
 import eventmanagement from "@/assets/eventmanagement.png";
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 function Teams() {
   return (
@@ -39,7 +40,7 @@ function Teams() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Team of HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <section className="mt-12 sm:mt-6 mb-12  container-70">
         <div className="mt-12 sm:mt-6 w-full text-center">

@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../navbar/Navbar.module.css";
 import { Dropdown } from "@nextui-org/react";
 import Logo from "../../assets/logo.png";
+import jh from "@/assets/jh_logo.png";
 //bg-[#FAC804]
 const Nav4 = () => {
   return (
@@ -32,7 +33,7 @@ const Nav4 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7]">
+              <p className="text-base text-[#ffffff] hover:text-[#a8a8a7]">
                 About Us
               </p>
             </Dropdown.Button>
@@ -71,7 +72,7 @@ const Nav4 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7] ">
+              <p className="text-base text-[#ffffff] hover:text-[#a8a8a7] ">
                 BITCON 2024
               </p>
             </Dropdown.Button>
@@ -127,7 +128,7 @@ const Nav4 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7] ">
+              <p className="text-base text-[#ffffff] hover:text-[#a8a8a7] ">
                 Committee
               </p>
             </Dropdown.Button>
@@ -190,7 +191,7 @@ const Nav4 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-lg text-[#ffffff] hover:text-[#a8a8a7]">
+              <p className="text-base text-[#ffffff] hover:text-[#a8a8a7]">
                 Downloads
               </p>
             </Dropdown.Button>
@@ -228,11 +229,7 @@ const Nav4 = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Link
-            href="/contact"
-            legacyBehavior
-            className="cursor-pointer"
-          >
+          <Link href="/contact" legacyBehavior className="cursor-pointer">
             <a className={styles.navLink}>Contact Us </a>
           </Link>
           <a

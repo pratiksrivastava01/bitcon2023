@@ -7,6 +7,7 @@ import Nav3 from "@/components/home/Nav3";
 import Foot from "@/components/Foot";
 import Image from "next/image";
 import schedule from "@/assets/schedule.png";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const dates = [
   { date: "15 April, 2024", event: "Start of Paper Submission" },
@@ -27,7 +28,7 @@ const ImportantDates = () => {
         {/* Add any other meta tags as needed */}
       </Head>
       <div>
-        <Navbar /> {/* Update with your actual Navbar component */}
+        <Navbar2 /> {/* Update with your actual Navbar component */}
         <Nav3 />
         <div className="container mx-auto mt-4 p-4 rounded-lg shadow-md">
           <div className="flex items-center justify-center mb-6">

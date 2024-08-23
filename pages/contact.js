@@ -7,6 +7,7 @@ import { CiMail } from "react-icons/ci";
 import { FcCallback } from "react-icons/fc";
 import { BsWhatsapp } from "react-icons/bs";
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const contact = () => {
   return (
@@ -22,7 +23,7 @@ const contact = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-        <Navbar />
+        <Navbar2 />
         <Nav3 />
         <div className=" flex flex-col ">
         <div className="items-center ">

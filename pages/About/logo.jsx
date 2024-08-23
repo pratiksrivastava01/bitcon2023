@@ -13,6 +13,7 @@ import invitation from "@/assets/invitation.png";
 
 import Image from "next/image";
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 const conference = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const conference = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex item-center justify-center">
         <div className="mx-8 sm:mx-4 mt-5 rounded-lg p-4">

@@ -1,5 +1,6 @@
 import Footer from "@/components/home/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import Notification from "@/components/Notification";
 import Image from "next/image";
@@ -52,8 +53,9 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  mb-0">
-        <Navbar />
+        <Navbar2 />
         <Nav3 />
+
         {/* <Notification /> */}
         <div className="flex justify-center">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">

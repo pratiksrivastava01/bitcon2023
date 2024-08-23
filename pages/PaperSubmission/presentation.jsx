@@ -14,6 +14,7 @@ import present from "@/assets/present.png";
 import workshop from "@/assets/workshop.png";
 
 import Image from "next/image";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const presentation = () => {
   return (
@@ -29,7 +30,7 @@ const presentation = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex flex-row justify-center p-4 items-center sm:flex-col">
         <div className="h-auto w-[80%] shadow-2xl mt-[5rem] ">

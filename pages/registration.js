@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import payment from "@/assets/payment.png";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const registration = () => {
   return (
@@ -20,7 +21,7 @@ const registration = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[5rem] sm:mt-[2rem] sm:mx-[0rem] sm:p-4 sm:h-auto">
         <div className="flex justify-between">
