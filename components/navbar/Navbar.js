@@ -7,6 +7,7 @@ import styles from "./Navbar.module.css";
 import Logo from "../../assets/logo.png";
 import ieee from "../../assets/ieee.png";
 import bitcon from "@/assets/bitcon.png";
+import pes from "@/assets/pes.jpg";
 import jh from "@/assets/jh_logo.png";
 // import Button from "../button/Button";
 import Sidebar from "./Sidebar";
@@ -78,7 +79,7 @@ function Navbar() {
               alt="BIT"
               height="60px"
               width="60px"
-              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
             />
           </a>
         </Link>
@@ -86,10 +87,10 @@ function Navbar() {
           <a className="flex items-center cursor-pointer">
             <Image
               src={jh}
-              alt="BIT"
+              alt="BIT Logo"
               height="60px"
               width="60px"
-              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
             />
           </a>
         </Link>
@@ -97,10 +98,10 @@ function Navbar() {
           <a className="flex items-center cursor-pointer">
             <Image
               src={bitcon}
-              alt="BIT"
+              alt="BITCON Logo"
               height="60px"
               width="60px"
-              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
             />
           </a>
         </Link>
@@ -108,14 +109,24 @@ function Navbar() {
           <a className="flex items-center cursor-pointer">
             <Image
               src={ieee}
-              alt="BIT"
+              alt="IEEE Logo"
               height="60px"
               width="60px"
-              className="sm:h-[2.5rem] h-[4rem] w-[auto] cursor-pointer "
+              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
             />
           </a>
         </Link>
-        
+        <Link href="/" legacyBehavior>
+          <a className="flex items-center cursor-pointer">
+            <Image
+              src={pes}
+              alt="PES Logo"
+              height="60px"
+              width="60px"
+              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
+            />
+          </a>
+        </Link>
       </div>
       <div id="navList" className={styles.navbarList}>
         <Link href="/contact" legacyBehavior>

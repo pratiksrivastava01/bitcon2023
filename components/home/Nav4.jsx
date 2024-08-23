@@ -1,12 +1,27 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../navbar/Navbar.module.css";
 import { Dropdown } from "@nextui-org/react";
+import Logo from "../../assets/logo.png";
 //bg-[#FAC804]
-const Nav3 = () => {
+const Nav4 = () => {
   return (
     <>
-      <div className="flex flex-row sm:hidden justify-center items-center  bg-[#002E73] p-2">
+      <div className="flex flex-row sm:hidden justify-between items-center  bg-[#002E73] p-2">
+        <div className="flex row">
+          <Link href="https://www.bitsindri.ac.in/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
+              <Image
+                src={Logo}
+                alt="BIT"
+                height="30px"
+                width="30px"
+                className="sm:h-[2rem] h-[3rem] w-[auto] cursor-pointer "
+              />
+            </a>
+          </Link>
+        </div>
         <div id="navList" className={styles.navbarList}>
           <Link href="/" legacyBehavior className="cursor-pointer">
             <a className={styles.navLink}>Home </a>
@@ -70,6 +85,16 @@ const Nav3 = () => {
                 <Link href="/dates" legacyBehavior>
                   <a className={`text-primary`} href="/dates">
                     Important Dates{" "}
+                  </a>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link href="/Comitte/OrganizingComitte" legacyBehavior>
+                  <a
+                    className={`text-primary`}
+                    href="/Comitte/OrganizingComitte"
+                  >
+                    Committee
                   </a>
                 </Link>
               </Dropdown.Item>
@@ -203,12 +228,20 @@ const Nav3 = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+          <Link
+            href="/contact"
+            legacyBehavior
+            className="cursor-pointer"
+          >
+            <a className={styles.navLink}>Contact Us </a>
+          </Link>
           <a
             href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
             className="flex rounded-full"
             rel="noreferrer"
           ></a>
         </div>
+
         {/* <div className=""> */}
         {/* <ul className="flex flex-row gap-[3rem] text-[white]">
           <li>
@@ -254,4 +287,4 @@ const Nav3 = () => {
   );
 };
 
-export default Nav3;
+export default Nav4;

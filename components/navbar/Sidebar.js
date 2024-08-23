@@ -5,6 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import style from "./Hamburger.module.css";
 import Logo from "../../assets/logo.png";
+import ieee from "../../assets/ieee.png";
+import bitcon from "@/assets/bitcon.png";
+import pes from "@/assets/pes.jpg";
+import jh from "@/assets/jh_logo.png";
 // import Button from "../button/Button";
 import styles from "../navbar/Navbar.module.css";
 import { Dropdown } from "@nextui-org/react";
@@ -64,15 +68,59 @@ function Sidebar({ isMounted, unmount }) {
       }`.trim()}
     >
       <div className={style.navbar}>
-        <div>
-          <Link href="/" legacyBehavior>
-            <a className="flex items-center" onClick={unmount}>
+        <div className="flex row justify-start items-center gap-3">
+          <Link href="https://www.bitsindri.ac.in/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
               <Image
                 src={Logo}
-                alt="BIT Sindri"
+                alt="BIT"
                 height="60px"
                 width="60px"
-                className="sm:h-[2.5rem] h-[3rem] w-[auto] "
+                className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
+              />
+            </a>
+          </Link>
+          <Link href="/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
+              <Image
+                src={jh}
+                alt="BIT Logo"
+                height="60px"
+                width="60px"
+                className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
+              />
+            </a>
+          </Link>
+          <Link href="/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
+              <Image
+                src={bitcon}
+                alt="BITCON Logo"
+                height="60px"
+                width="60px"
+                className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
+              />
+            </a>
+          </Link>
+          <Link href="/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
+              <Image
+                src={ieee}
+                alt="IEEE Logo"
+                height="60px"
+                width="60px"
+                className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
+              />
+            </a>
+          </Link>
+          <Link href="/" legacyBehavior>
+            <a className="flex items-center cursor-pointer">
+              <Image
+                src={pes}
+                alt="PES Logo"
+                height="60px"
+                width="60px"
+                className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
               />
             </a>
           </Link>
@@ -86,7 +134,7 @@ function Sidebar({ isMounted, unmount }) {
         <Link href="/" legacyBehavior>
           <a className={style.navLink}>Home</a>
         </Link>
-     
+
         <Dropdown>
           <Dropdown.Button color={"error"} light className="border-[white]">
             <p className="text-sm text-primary">About Us</p>
@@ -98,40 +146,22 @@ function Sidebar({ isMounted, unmount }) {
             background="red"
           >
             <Dropdown.Item>
-              <Link
-                href="/About/institute"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary text-sm`}
-                  href="/About/institute"
-                >
+              <Link href="/About/institute" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/About/institute">
                   About the Institutution{" "}
                 </a>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link
-                href="/About/department"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary text-sm`}
-                  href="/About/department"
-                >
+              <Link href="/About/department" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/About/department">
                   About the Department
                 </a>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link
-                href="/About/logo"
-                legacyBehavior
-              >
-                <a
-                  className={`text-primary text-sm`}
-                  href="/About/logo "
-                >
+              <Link href="/About/logo" legacyBehavior>
+                <a className={`text-primary text-sm`} href="/About/logo ">
                   About the Logo
                 </a>
               </Link>
@@ -152,16 +182,6 @@ function Sidebar({ isMounted, unmount }) {
               <Link href="/dates" legacyBehavior>
                 <a className={`text-primary text-sm`} href="/dates">
                   Important Dates{" "}
-                </a>
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/Comitte/OrganizingComitte" legacyBehavior>
-                <a
-                  className={`text-primary text-sm`}
-                  href="/Comitte/OrganizingComitte"
-                >
-                  Committee
                 </a>
               </Link>
             </Dropdown.Item>
@@ -191,6 +211,48 @@ function Sidebar({ isMounted, unmount }) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        <Dropdown className="text-sm">
+          <Dropdown.Button color={"error"} light className="border-[white]">
+            <p className={`text-primary text-sm`}>Committee</p>
+          </Dropdown.Button>
+          <Dropdown.Menu
+            variant="default"
+            color={"error"}
+            aria-label="Actions"
+            background="red"
+          >
+            <Dropdown.Item>
+              <Link href="/Comitte/OrganizingCommitte" legacyBehavior>
+                <a
+                  className={`text-primary text-sm`}
+                  href="/Comitte/OrganizingCommitte"
+                >
+                  Organizing Committee
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/Comitte/AdvisoryCommitte" legacyBehavior>
+                <a
+                  className={`text-primary text-sm`}
+                  href="/Comitte/AdvisoryCommitte"
+                >
+                  Advisory Committee
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link href="/Comitte/TechnicalCommitte" legacyBehavior>
+                <a
+                  className={`text-primary text-sm`}
+                  href="/Comitte/TechnicalCommitte"
+                >
+                  Technical Committee
+                </a>
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <Link href="/registration" legacyBehavior>
           <a className={style.navLink}>Registration</a>
         </Link>
@@ -202,45 +264,45 @@ function Sidebar({ isMounted, unmount }) {
         </Link>
         <Link href="/sponsor" legacyBehavior>
           <a className={(style.navLink, `text-sm text-primary`)}>Sponsorship</a>
-          </Link>
-          <Dropdown>
-            <Dropdown.Button color={"error"} light className="border-[white]">
-              <p className="text-sm text-primary">Downloads</p>
-            </Dropdown.Button>
-            <Dropdown.Menu
-              variant="default"
-              color={"error"}
-              aria-label="Actions"
-              background="red"
-            >
-              <Dropdown.Item>
-                <Link
-                  href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing"
-                  legacyBehavior
+        </Link>
+        <Dropdown>
+          <Dropdown.Button color={"error"} light className="border-[white]">
+            <p className="text-sm text-primary">Downloads</p>
+          </Dropdown.Button>
+          <Dropdown.Menu
+            variant="default"
+            color={"error"}
+            aria-label="Actions"
+            background="red"
+          >
+            <Dropdown.Item>
+              <Link
+                href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary text-sm`}
+                  href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing "
                 >
-                  <a
-                    className={`text-primary text-sm`}
-                    href="https://drive.google.com/file/d/1xStFwz2XoOhnwBQa0ASQWCWvDOUB78D1/view?usp=sharing "
-                  >
-                    BITCON Flyer
-                  </a>
-                </Link>
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <Link
+                  BITCON Flyer
+                </a>
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
+                legacyBehavior
+              >
+                <a
+                  className={`text-primary text-sm`}
                   href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
-                  legacyBehavior
                 >
-                  <a
-                    className={`text-primary text-sm`}
-                    href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
-                  >
-                    Sponsorship Details
-                  </a>
-                </Link>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+                  Sponsorship Details
+                </a>
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <Link href="/contact" legacyBehavior>
           <a className={(style.navLink, `text-sm text-primary`)}>CONTACT US</a>
         </Link>
