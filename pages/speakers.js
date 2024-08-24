@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import React from "react";
 import Nav3 from "@/components/home/Nav3";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const speakers = () => {
   return (
@@ -17,7 +18,7 @@ const speakers = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="w-full h-[100vh] justify-center flex items-center">
       <h1 className="font-bold text-lg flex justify-center ">

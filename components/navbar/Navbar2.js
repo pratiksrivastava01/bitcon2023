@@ -9,6 +9,7 @@ import ieee from "../../assets/ieee.png";
 import bitcon from "@/assets/bitcon.png";
 import pes from "@/assets/pes.jpg";
 import jh from "@/assets/jh_logo.png";
+import seventyfive from "@/assets/seventyfive.png";
 // import Button from "../button/Button";
 import Sidebar from "./Sidebar";
 import { Dropdown } from "@nextui-org/react";
@@ -20,7 +21,7 @@ const SpanStyle = {
   transition: "all 300ms ease-in-out",
 };
 
-function Navbar() {
+function Navbar2() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -86,41 +87,8 @@ function Navbar() {
         <Link href="/" legacyBehavior>
           <a className="flex items-center cursor-pointer">
             <Image
-              src={jh}
+              src={seventyfive}
               alt="BIT Logo"
-              height="60px"
-              width="60px"
-              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
-            />
-          </a>
-        </Link>
-        <Link href="/" legacyBehavior>
-          <a className="flex items-center cursor-pointer">
-            <Image
-              src={bitcon}
-              alt="BITCON Logo"
-              height="60px"
-              width="60px"
-              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
-            />
-          </a>
-        </Link>
-        <Link href="/" legacyBehavior>
-          <a className="flex items-center cursor-pointer">
-            <Image
-              src={ieee}
-              alt="IEEE Logo"
-              height="60px"
-              width="60px"
-              className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
-            />
-          </a>
-        </Link>
-        <Link href="/" legacyBehavior>
-          <a className="flex items-center cursor-pointer">
-            <Image
-              src={pes}
-              alt="PES Logo"
               height="60px"
               width="60px"
               className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "
@@ -156,4 +124,4 @@ function Navbar() {
     </section>
   );
 }
-export default Navbar;
+export default Navbar2;

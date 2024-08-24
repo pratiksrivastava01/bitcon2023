@@ -6,6 +6,7 @@ import Image from "next/image";
 import about from "@/assets/Electrical.jpg";
 import vision from "@/assets/vision.jpg";
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const institute = () => {
   return (
@@ -21,7 +22,7 @@ const institute = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex justify-center">
         <div className="flex flex-row sm:flex-col mt-[3rem] sm:mt-0 w-[90%] sm:w-[100%]  p-4 sm:gap-0 justify-center">

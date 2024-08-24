@@ -9,7 +9,6 @@ import ieee from "../../assets/ieee.png";
 import bitcon from "@/assets/bitcon.png";
 import pes from "@/assets/pes.jpg";
 import jh from "@/assets/jh_logo.png";
-import seventyfive from "@/assets/seventyfive.png";
 // import Button from "../button/Button";
 import styles from "../navbar/Navbar.module.css";
 import { Dropdown } from "@nextui-org/react";
@@ -81,11 +80,11 @@ function Sidebar({ isMounted, unmount }) {
               />
             </a>
           </Link>
-          <Link href="https://www.bitsindri.ac.in/" legacyBehavior>
+          <Link href="/" legacyBehavior>
             <a className="flex items-center cursor-pointer">
               <Image
-                src={seventyfive}
-                alt="BIT"
+                src={jh}
+                alt="BIT Logo"
                 height="60px"
                 width="60px"
                 className="sm:h-[2rem] h-[4rem] w-[auto] cursor-pointer "

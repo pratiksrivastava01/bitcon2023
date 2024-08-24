@@ -12,6 +12,7 @@ import payment from "@/assets/payment.png";
 
 import Image from "next/image";
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 function sponsor() {
   return (
@@ -27,7 +28,7 @@ function sponsor() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[4rem] sm:mt-[2rem] sm:mx-[0rem] sm:h-auto">
         <div className="sm:mx-0 rounded-lg border-primary shadow-2xl p-4">

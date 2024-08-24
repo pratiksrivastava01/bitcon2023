@@ -7,6 +7,7 @@ import React from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 import preparation from "@/assets/preparation.png";
 import Image from "next/image";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const info = () => {
   return (
@@ -22,7 +23,7 @@ const info = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
         <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  min-h-[70vh] border-primary shadow-2xl  ">

@@ -11,6 +11,7 @@ import mandatory from "@/assets/mandatory.png";
 import pin from "@/assets/pin.png";
 import kyc from "@/assets/kyc.png";
 import copyright from "@/assets/copyright.png";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const infrastructure = () => {
   return (
@@ -26,7 +27,7 @@ const infrastructure = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
 
       <div className="flex flex-row items-center justify-center sm:flex-col">

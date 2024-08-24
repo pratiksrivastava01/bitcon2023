@@ -13,6 +13,7 @@ import factory from "@/assets/factory.png";
 import conversation from "@/assets/conversation.png";
 
 import Foot from "@/components/Foot";
+import Navbar2 from "@/components/navbar/Navbar2";
 
 const institute = () => {
   return (
@@ -28,7 +29,7 @@ const institute = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex flex-row sm:flex-col  gap-[10rem] sm:gap-0 justify-center ">
         <div className="flex justify-center items-center">

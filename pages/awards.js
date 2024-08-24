@@ -1,5 +1,6 @@
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
+import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import React from "react";
 
@@ -19,7 +20,7 @@ const awards = () => {
         />
       </Head>
       <div className=" flex flex-col ">
-        <Navbar />
+        <Navbar2 />
         <Nav3 />
         <div className="w-full h-[100vh] justify-center flex items-center">
       <h1 className="font-bold text-lg flex justify-center ">

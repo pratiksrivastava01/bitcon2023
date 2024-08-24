@@ -1,5 +1,6 @@
 import Nav3 from "@/components/home/Nav3";
 import Navbar from "@/components/navbar/Navbar";
+import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import React from "react";
 
@@ -17,7 +18,7 @@ const topics = () => {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <Navbar />
+      <Navbar2 />
       <Nav3 />
       <div className="flex items-center justify-center mt-[4rem] ">
         <h1 className="font-bold text-5xl">Topic of Interest</h1>

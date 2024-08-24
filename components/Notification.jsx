@@ -4,20 +4,24 @@ import styles from "./Notification.module.css";
 const notification = () => {
   return (
     <div className="flex flex-row ">
-      <div className="bg-[#002256] p-2 text-[white] sm:text-lg  text-2xl">
+      {/* <div className="bg-[#002256] p-2 text-[white] sm:text-lg  text-2xl">
         {" "}
         Notification
-      </div>
-      <div className="bg-[#FAC804] flex justify-center overflow-hidden">
-        <div className={`${styles.animate} flex `}>
+      </div> */}
+      <div className="bg-[#FAC804] p-1 flex w-full justify-center overflow-hidden mt-4">
+        <div className={`${styles.animate} flex w-full`}>
           {" "}
-          Attempt is being made to publish the{" "}
-          <span> registered and only presented papers</span>
-          <span> on IEEE Xplore Digital Library.</span>
-          <span className="invisible">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            voluptates! Lorem ipsum dolor sit amet consectetur adipisicing
-          </span>
+          <span>Rolling Acceptance Notification</span>
+          {/* <span> Rolling Acceptance Notification</span> */}
+          {/* <span className="invisible">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            ultricies dictum arcu nec porttitor. Nam efficitur, metus ac pretium
+            sollicitudin, leo erat pharetra eros, quis rutrum ante eros vel
+            erat. Aenean dapibus feugiat ipsum, at pharetra dui varius eu. Morbi
+            libero augue, commodo eget lacus et, pulvinar aliquet mi. Quisque id
+            interdum lectus. Phasellus cursus pulvinar laoreet. Duis eu pretium
+            elit. Pellentesque vel tincidunt nisl, eget sollicitudin massa.
+          </span> */}
         </div>
       </div>
     </div>

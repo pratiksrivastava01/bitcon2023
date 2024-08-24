@@ -121,9 +121,6 @@ function Nav2() {
         <Link href="/speakers" legacyBehavior>
           <a className={styles.navLink}>Invited Speakers</a>
         </Link>
-        <Link href="/Comitte/OrganizingComitte" legacyBehavior>
-          <a className={styles.navLink}>Committe</a>
-        </Link>
         <Link href="/CallForPaper" legacyBehavior>
           <a className={styles.navLink}>Call for Papers</a>
         </Link>

@@ -1,5 +1,6 @@
 import Footer from "@/components/home/Footer";
 import Navbar from "@/components/navbar/Navbar";
+import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import Notification from "@/components/Notification";
 import Image from "next/image";
@@ -7,11 +8,12 @@ import jh from "@/assets/jh_logo.png";
 import logo from "@/assets/logo.png";
 import bitcon from "@/assets/bitcon.png";
 import ieee from "@/assets/ieee.png";
-
+import pes from "@/assets/pes.jpg";
 import Nav2 from "@/components/navbar/Nav2";
 import Slider from "@/components/Slider";
 import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
+import Nav4 from "@/components/home/Nav4";
 
 export default function Home() {
   const slides = [
@@ -51,8 +53,9 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  mb-0">
-        <Navbar />
+        <Navbar2 />
         <Nav3 />
+
         {/* <Notification /> */}
         <div className="flex justify-center">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
@@ -62,11 +65,14 @@ export default function Home() {
                 alt="jh"
                 className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <Image
-                src={logo}
-                alt="logo"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem] mt-2 sm:mt-0"
-              ></Image>
+              <div className="mt-[1rem] sm:mt-0 text-center">
+                <span className="text-xs sm:hidden">Technical Co-Sponsor</span>
+                <Image
+                  src={ieee}
+                  alt="ieee"
+                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] sm:w-[5rem]"
+                ></Image>
+              </div>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] sm:order-1 items-center  w-[62%] sm:w-auto sm:pt-[4rem]">
               <h1 className="text-center text-3xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
@@ -74,7 +80,7 @@ export default function Home() {
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
                 <span className="text-[#385623] font-sans">
-                  FLAGSHIP INTERNATIONAL
+                  2024 IEEE FLAGSHIP INTERNATIONAL
                 </span>{" "}
               </h1>
               <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-3xl ">
@@ -105,21 +111,17 @@ export default function Home() {
                 alt="bitcon"
                 className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <div className="mt-[1rem] sm:mt-0 text-center">
-              <span className="text-xs sm:hidden">Technical Co-Sponsor</span>
-                <Image
-                  src={ieee}
-                  alt="ieee"
-                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] sm:w-[5rem]"
-                ></Image>
-                
-              </div>
+              <Image
+                src={pes}
+                alt="bitcon"
+                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+              ></Image>
             </div>
           </div>
         </div>
         {/* <Navbar /> */}
 
-        {/* <Notification /> */}
+        <Notification />
 
         <div className=" mt-[1rem] flex justify-center mb-10">
           <div className="w-[100%] mx-12 sm:mx-4 h-[20rem] sm:h-[10rem] ">
