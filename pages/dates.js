@@ -45,9 +45,12 @@ const ImportantDates = () => {
             {dates.map((item) => (
               <li
                 key={item.date}
-                className="p-4 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md"
+                className="p-4 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md "
               >
-                <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] mb-2">
+                <p className="text-gray-700 text-sm sm:text-xs mb-2">
+                  {item.event}
+                </p>
+                <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
                   {item.date === "30 July, 2024" ? (
                     <>
                       <span className="line-through">{item.date}</span>
@@ -58,7 +61,6 @@ const ImportantDates = () => {
                     item.date
                   )}
                 </p>
-                <p className="text-gray-700 text-sm sm:text-xs">{item.event}</p>
               </li>
             ))}
           </ul>

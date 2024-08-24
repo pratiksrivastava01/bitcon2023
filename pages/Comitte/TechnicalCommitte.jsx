@@ -72,7 +72,7 @@ const TechMembers=TechnicalMembers;
                       className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                     />
                     <p className="mt-2 ml-2 text-sm">
-                      {memberDetail.member}
+                      {"Dr. "}{memberDetail.member}
                     </p>
                   </li>
                 );

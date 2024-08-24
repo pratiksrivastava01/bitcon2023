@@ -167,16 +167,6 @@ function Sidebar({ isMounted, unmount }) {
                 </a>
               </Link>
             </Dropdown.Item>
-            <Dropdown.Item>
-              <Link href="/PaperSubmission/info" legacyBehavior>
-                <a
-                  className={`text-primary text-sm`}
-                  href="/PaperSubmission/info"
-                >
-                  Paper Submission
-                </a>
-              </Link>
-            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <Dropdown className="text-sm">
