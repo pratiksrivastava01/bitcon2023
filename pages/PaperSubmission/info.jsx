@@ -63,7 +63,7 @@ const info = () => {
                 Download paper A4 template (Microsoft Word)
                 <a
                   className="text-blue ml-2"
-                  href="https://www.ieee.org/conferences/publishing/templates.html"
+                  href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank"
                 >
                   Click Here
                 </a>{" "}
@@ -100,7 +100,7 @@ const info = () => {
                     <a
                       className="text-blue"
                       href="https://onedrive.live.com/view.aspx?resid=83C17B56AF42FFFD%2138928&authkey=!ADeAvKxgc8AOIqI"
-                      download
+                      target="_blank"
                     >
                       IEEE Template
                     </a>
@@ -226,6 +226,7 @@ const info = () => {
                     <a
                       className="text-blue"
                       href="https://ieee-pdf-express.org/"
+                        target="_blank"
                     >
                       Click Here
                     </a>
