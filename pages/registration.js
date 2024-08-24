@@ -257,13 +257,13 @@ const registration = () => {
             Authors are required to mention their Easy Chair “Paper ID” without
             error in remark section, while paying the registration fee. Please
             fill the registration form at{" "}
-            <span className="text-blue">www.</span> and upload all the relevant
+            <span className="text-blue"><a href="#">Google Form Link</a></span> and upload all the relevant
             documents as asked in the google form, e.g., fee payment receipt,
             student’s (1st author’s) ID card, IEEE membership card (if
             applicable), etc
           </p>
           <ul className="list-disc ml-5 mt-2 text-sm sm:text-xs">
-            <li>Registration deadline is 30.05.2024.</li>
+            <li>Registration deadline is 31.08.2024.</li>
             <li>Late registration is not allowed.</li>
           </ul>
         </div>

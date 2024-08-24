@@ -49,7 +49,7 @@ const info = () => {
             conference should meet these criteria and must not be under
             consideration for publication elsewhere. The paper should be in the
             format strictly as per the Paper Template given below. The papers
-            should be drafted in English with a maximum of Eight (6) pages and
+            should be drafted in English with a maximum of Six (6) pages and
             minimum of 4 pages including figures, tables and references. The
             paper will be peer reviewed by domain experts of the respective
             tracks by the Technical Program Committee. Authors should submit the
