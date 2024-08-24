@@ -57,7 +57,7 @@ export default function Home() {
         <Nav3 />
 
         {/* <Notification /> */}
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center ">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
             <div className="w-[12%] sm:w-[50%]  sm:flex sm:order-2 sm:mb-10 sm:items-start sm:justify-evenly sm:gap-0 sm:mt-2">
               <Image
@@ -75,10 +75,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col sm:mt-[-4rem] sm:order-1 items-center  w-[62%] sm:w-auto sm:pt-[4rem]">
-              <h1 className="text-center text-3xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
+              <h1 className="text-center hidden lg:flex text-3xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg mt-[2rem] ">
                 Celebrating Platinum Jubilee of BIT Sindri
               </h1>
-              <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-xl  ">
+              <h1 className="text-center lg:mt-0 text-4xl text-[#002E73] font-bold sm:text-xl  mt-[2rem]">
                 <span className="text-[#385623] font-sans">
                   2024 IEEE FLAGSHIP INTERNATIONAL
                 </span>{" "}

@@ -6,8 +6,8 @@ import { Dropdown } from "@nextui-org/react";
 const Nav3 = () => {
   return (
     <>
-      <div className="flex flex-row sm:hidden justify-center items-center  bg-[#002E73] p-2">
-        <div id="navList" className={styles.navbarList}>
+      <div className="flex flex-row lg:hidden justify-center items-center  bg-[#002E73] p-2">
+        <div id="navList" className={`${styles.navbarList} `}>
           <Link href="/" legacyBehavior className="cursor-pointer">
             <a className={styles.navLink}>Home </a>
           </Link>
@@ -84,13 +84,6 @@ const Nav3 = () => {
                 <Link href="/speakers" legacyBehavior>
                   <a className={`text-primary`} href="/speakers">
                     Invited Speakers
-                  </a>
-                </Link>
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <Link href="/PaperSubmission/info" legacyBehavior>
-                  <a className={`text-primary`} href="/PaperSubmission/info">
-                    Paper Submission
                   </a>
                 </Link>
               </Dropdown.Item>

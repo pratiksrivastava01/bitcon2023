@@ -96,6 +96,11 @@ function Navbar2() {
           </a>
         </Link>
       </div>
+      <div className="lg:hidden flex">
+        <h1 className="text-center text-3xl text-[#002E73] font-serif font-bold xxl:text-3xl sm:text-lg ">
+          Celebrating Platinum Jubilee of BIT Sindri
+        </h1>
+      </div>
       <div id="navList" className={styles.navbarList}>
         <Link href="/contact" legacyBehavior>
           <a
