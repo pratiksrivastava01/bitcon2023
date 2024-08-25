@@ -16,14 +16,14 @@
 .navbarList {
   @apply flex gap-4 justify-evenly items-center text-primary-light;
   transition: all 300ms ease-in-out;
-  @apply 2xl:gap-8;
-  @apply xl:gap-4;
+  @apply 2xl:gap-6;
+  @apply xl:gap-3;
   @apply lg:hidden;
   color: #fff;
 }
 
 .navbarList > .navLink {
-  @apply font-semibold text-base xl:mx-5 p-2;
+  @apply font-semibold text-sm xl:mx-2 p-2;
   transition: all 300ms ease-in-out;
   width: fit-content;
 }
