@@ -17,7 +17,7 @@ const Nav3 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-base font-semibold text-white hover:text-[#a8a8a7]">
+              <p className="text-sm font-semibold text-white hover:text-[#a8a8a7]">
                 About Us
               </p>
             </Dropdown.Button>
@@ -56,7 +56,7 @@ const Nav3 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-base font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
+              <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 BITCON 2024
               </p>
             </Dropdown.Button>
@@ -88,7 +88,7 @@ const Nav3 = () => {
               light
               className="border-[white] hover:text-[#a8a8a7]"
             >
-              <p className="text-base font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
+              <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 Committee
               </p>
             </Dropdown.Button>
