@@ -45,7 +45,7 @@ const awards = () => {
                 </p>
               </div>
             </div>
-            <div className="p-4 flex flex-col gap-3 flex-wrap items-start">
+            <div className="p-4 pt-0 flex flex-col gap-3 flex-wrap items-start">
               <h1 className="font-bold text-xl items-center sm:text-lg ">
                 Thesis Awards:
               </h1>
@@ -63,7 +63,16 @@ const awards = () => {
                   proof of registration are available before submitting the
                   thesis through the google form.
                 </p>
-                <p className="text-sm sm:text-xs">
+                <p className="text-sm sm:text-xs text-justify mt-2">
+                  <span className="font-semibold">Important Note:</span> The Conference Committee hereby
+                  declares that the submitted thesis will be utilized solely for
+                  the evaluation purposes related to the "Best Thesis Award."
+                  During the evaluation process, the thesis will not be uploaded
+                  in any kind of online repository. Upon conclusion of the
+                  conference, the thesis will be permanently deleted from our
+                  database.
+                </p>
+                <p className="text-sm sm:text-xs mt-1">
                   Google form for submitting the thesis for Awards:{" "}
                   <a
                     href="https://forms.gle/EZ1jBXaDcgU5MeUf6"
