@@ -35,7 +35,7 @@ const awards = () => {
                 Best Paper Awards:
               </h1>
               <div className=" mb-4 sm:mb-0 ml-2">
-                <p className="text-sm sm:text-xs">
+                <p className="text-sm sm:text-xs text-justify">
                   The Best Conference Paper will be chosen by a committee based
                   on its originality and contribution to the field. A Best Paper
                   Award will be presented for each conference track. Award
@@ -50,7 +50,7 @@ const awards = () => {
                 Thesis Awards:
               </h1>
               <div className="mb-4 ml-2">
-                <p className="text-sm sm:text-xs">
+                <p className="text-sm sm:text-xs text-justify">
                   At BITCON-24, we are providing awards for MTech and PhD theses
                   awarded between January 1, 2023 to October 31, 2024. A
                   committee constituted for the same will evaluate the thesis
@@ -64,7 +64,7 @@ const awards = () => {
                   thesis through the google form.
                 </p>
                 <p className="text-sm sm:text-xs">
-                  google form for submitting the thesis for Awards:{" "}
+                  Google form for submitting the thesis for Awards:{" "}
                   <a
                     href="https://forms.gle/EZ1jBXaDcgU5MeUf6"
                     target="_blank"
@@ -78,7 +78,7 @@ const awards = () => {
                   The following points are to be noted before registration for
                   awards:
                 </p>
-                <ul className="list-decimal ml-5 mt-2 text-sm sm:text-xs">
+                <ul className="list-decimal ml-5 mt-2 text-sm sm:text-xs text-justify">
                   <li>
                     MTech/PhD Thesis awarded during January 1, 2023 to October
                     31, 2024 are only considered.
