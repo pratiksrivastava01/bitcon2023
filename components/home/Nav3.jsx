@@ -67,13 +67,6 @@ const Nav3 = () => {
               background="red"
             >
               <Dropdown.Item>
-                <Link href="/dates" legacyBehavior>
-                  <a className={`text-primary`} href="/dates">
-                    Important Dates{" "}
-                  </a>
-                </Link>
-              </Dropdown.Item>
-              <Dropdown.Item>
                 <Link href="/CallForPaper" legacyBehavior>
                   <a className={`text-primary`} href="/CallForPaper">
                     Call for Papers
@@ -134,6 +127,9 @@ const Nav3 = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+          <Link href="/dates" legacyBehavior className="cursor-pointer">
+            <a className={styles.navLink}>Important Dates</a>
+          </Link>
           <Link href="/registration" legacyBehavior className="cursor-pointer">
             <a className={styles.navLink}>Registration </a>
           </Link>
