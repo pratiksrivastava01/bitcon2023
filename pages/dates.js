@@ -41,6 +41,7 @@ const ImportantDates = () => {
               Important Dates
             </h1>
           </div>
+          <div className="max-w-[40rem] mx-auto">
           <ul className="space-y-4">
             {dates.map((item) => (
               <li
@@ -64,6 +65,7 @@ const ImportantDates = () => {
               </li>
             ))}
           </ul>
+          </div>
         </div>
       </div>
       <Foot />

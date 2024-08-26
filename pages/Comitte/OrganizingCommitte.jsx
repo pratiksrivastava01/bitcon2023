@@ -47,11 +47,6 @@ function Teams() {
           <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
             Organizing Committee ✨
           </h1>
-          {/* <h3 className="text-lg mt-8">
-            The strength of the team is each individual member. The strength of
-            each member is the team.
-            <br />- Phil Jackson
-          </h3> */}
         </div>
         <div className="mt-10 sm:mt-4 flex justify-center items-center gap-5 flex-col">
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]">

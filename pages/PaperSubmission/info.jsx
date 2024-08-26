@@ -56,31 +56,7 @@ const info = () => {
             papers through Easy Chair. Kindly do not submit the paper multiple
             times; it may lead to cancellation of your paper
           </p>
-          <ul className="ml-[2rem] text-sm sm:text-xs">
-            <li>
-              <p>
-                <span className="font-bold">1. Template Download: </span>{" "}
-                Download paper A4 template (Microsoft Word)
-                <a
-                  className="text-blue ml-2"
-                  href="https://www.ieee.org/conferences/publishing/templates.html" target="_blank"
-                >
-                  Click Here
-                </a>{" "}
-              </p>
-            </li>
-            <li>
-              <p>
-                <span className="font-bold">2. Plagiarism Policy: </span>
-                Any act of plagiarism is a totally unacceptable academic
-                misconduct and cannot be tolerated. The conference team will be
-                checking the plagiarism level of all the submitted papers for
-                ensuring the originality of content using iThenticate with an
-                acceptable limit of 10% .
-              </p>
-            </li>
-          </ul>
-          <div className="flex flex-col mx-8 mt-12 justify-center">
+          <div className="flex flex-col mx-8 mt-8 justify-center">
             <div className="flex ">
               <p className="text-primary text-center text-xl font-bold flex  sm:text-sm">
                 Important Instructions

@@ -211,6 +211,9 @@ function Sidebar({ isMounted, unmount }) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        <Link href="/dates" legacyBehavior>
+          <a className={style.navLink}>Important Dates</a>
+        </Link>
         <Link href="/registration" legacyBehavior>
           <a className={style.navLink}>Registration</a>
         </Link>
