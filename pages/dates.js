@@ -8,6 +8,7 @@ import Foot from "@/components/Foot";
 import Image from "next/image";
 import schedule from "@/assets/schedule.png";
 import Navbar2 from "@/components/navbar/Navbar2";
+import Link from "next/link";
 
 const dates = [
   { date: "15 April, 2024", event: "Start of Paper Submission" },
@@ -69,6 +70,14 @@ const ImportantDates = () => {
         </div>
       </div>
       <Foot />
+      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <Link href="/awards" legacyBehavior className="p-2">
+            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
+          </Link>
+          <Link href="/awards" legacyBehavior className="p-2">
+            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
+          </Link>
+      </div>
     </>
   );
 };

@@ -14,7 +14,6 @@ import Slider from "@/components/Slider";
 import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Nav4 from "@/components/home/Nav4";
-import StickyNav from "@/components/stickyNav";
 import Link from "next/link";
 
 export default function Home() {
