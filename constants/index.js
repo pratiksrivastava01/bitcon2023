@@ -197,6 +197,8 @@ export const AdvisoryMembers = [
     { sr_no: 12, member: "Dr. Radhakant Padhi, IISc, Bangalore" },
     { sr_no: 13, member: "Dr. Suparna K. Choudhary, IEEE Kolkata Section" },
     { sr_no: 14, member: "Dr. Tridibesh Nag, IEEE Kolkata Section" },
+    { sr_no: 34, member: "Dr. Vivekananda Mukherjee, IIT (ISM) Dhanbad" },
+    { sr_no: 35, member: "Dr. Pradeep Kumar Sadhu, IIT (ISM) Dhanbad" },
     { sr_no: 15, member: "Dr. S.N. Singh, IIT Kanpur" },
     { sr_no: 16, member: "Dr. Ranjit Mahanty, IIT (BHU) Varanasi" },
     { sr_no: 17, member: "Dr. Kalyan Chatterjee, IIT (ISM) Dhanbad" },

@@ -31,7 +31,7 @@ const registration = () => {
           <button className="m-2 sm:w-32">
             <a
               className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold p-4 sm:p-2 text-sm sm:text-xs"
-              href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+              href="https://forms.gle/G2CFpZwCqKG9rZZ99"
             >
               Register Now
             </a>

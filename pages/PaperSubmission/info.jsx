@@ -36,7 +36,7 @@ const info = () => {
             <button className="m-2 sm:w-32">
               <a
                 className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 mt-4 sm:text-xs"
-                href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
+                href="https://easychair.org/conferences/?conf=bitcon24"
               >
                 Submit Now
               </a>
