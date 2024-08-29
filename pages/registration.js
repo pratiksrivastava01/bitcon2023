@@ -23,21 +23,21 @@ const registration = () => {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[3rem] sm:mt-[2rem] sm:mx-[0rem] sm:p-4 sm:h-auto">
+      <div className="mx-[2rem] p-4  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[1rem] sm:mt-[1rem] sm:mx-[0rem] sm:p-4 sm:h-auto">
         <div className="flex justify-between">
-          <h2 className="text-primary font-bold p-4 py-4 sm:p-2 flex text-4xl sm:text-xl">
+          <h2 className="text-primary font-bold sm:p-2 flex text-4xl sm:text-xl">
             Registration Guidelines
           </h2>
           <button className="m-2 sm:w-32">
             <a
-              className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold p-4 sm:p-2 text-sm sm:text-xs"
+              className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs"
               href="https://forms.gle/G2CFpZwCqKG9rZZ99"
             >
               Register Now
             </a>
           </button>
         </div>
-        <div className="p-4 mt-2 ml-[2rem] sm:ml-[1rem] text-sm sm:text-xs">
+        <div className=" mt-2 ml-[2rem] sm:ml-[1rem] text-sm sm:text-xs">
           <ul className="list-disc text-justify">
             <li className="text-justify">
               Please note that at least one registration among the authors of
@@ -126,53 +126,64 @@ const registration = () => {
               <table className="table-auto min-w-max border-collapse sm:text-xs">
                 <thead>
                   <tr>
-                    <th className="border px-4 py-2">Indian Authors</th>
-                    <th className="border px-4 py-2">IEEE Members</th>
-                    <th className="border px-4 py-2">Non-IEEE Members</th>
+                    <th className="border p-2">Indian Authors</th>
+                    <th className="border p-2">IEEE Members</th>
+                    <th className="border p-2">Non-IEEE Members</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="border px-4 py-2">
+                    <td className="border p-2">
                       Researcher (UG, PG, PhD)
                     </td>
-                    <td className="border px-4 py-2">₹ 4,000/-</td>
-                    <td className="border px-4 py-2">₹ 5,000/-</td>
+                    <td className="border p-2">₹ 4,000/-</td>
+                    <td className="border p-2">₹ 5,000/-</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Academicians</td>
-                    <td className="border px-4 py-2">₹ 5,000/-</td>
-                    <td className="border px-4 py-2">₹ 6,000/-</td>
+                    <td className="border p-2">Academicians</td>
+                    <td className="border p-2">₹ 5,000/-</td>
+                    <td className="border p-2">₹ 6,000/-</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Industry</td>
-                    <td className="border px-4 py-2">₹ 9,000/-</td>
-                    <td className="border px-4 py-2">₹ 10,000/-</td>
+                    <td className="border p-2">Industry</td>
+                    <td className="border p-2">₹ 9,000/-</td>
+                    <td className="border p-2">₹ 10,000/-</td>
                   </tr>
                   <tr>
-                    <td className="border px-4 py-2">Non-Authors</td>
-                    <td className="border px-4 py-2">₹ 3,000/-</td>
-                    <td className="border px-4 py-2">₹ 3,500/-</td>
+                    <td className="border p-2">Non-Authors</td>
+                    <td className="border p-2">₹ 3,000/-</td>
+                    <td className="border p-2">₹ 3,500/-</td>
                   </tr>
                 </tbody>
               </table>
               <table className="table-auto  min-w-max mt-[2rem] border-collapse  sm:text-xs">
-                <thead>
+              
                   <tr>
-                    <th className="border px-4 py-2">Foreign Authors</th>
-                    <th className="border px-4 py-2">IEEE Members</th>
-                    <th className="border px-4 py-2">Non-IEEE Members</th>
+                    <th className="border p-2">Foreign Authors</th>
+                    <th className="border p-2">IEEE Members</th>
+                    <th className="border p-2">Non-IEEE Members</th>
                   </tr>
-                </thead>
-                <tbody>
                   <tr>
-                    <td className="border px-4 py-2">
-                      Researcher / Academicians / Industry
+                    <td className="border p-2">
+                      Researcher
                     </td>
-                    <td className="border px-4 py-2">$ 130</td>
-                    <td className="border px-4 py-2">$ 150</td>
+                    <td className="border row-span-2 p-2">$ 130</td>
+                    <td className="border row-span-2 p-2">$ 150</td>
                   </tr>
-                </tbody>
+                  <tr>
+                    <td className="border p-2">
+                      Academicians
+                    </td>
+                    <td className="border row-span-2 p-2">$ 130</td>
+                    <td className="border row-span-2 p-2">$ 150</td>
+                  </tr>
+                  <tr>
+                    <td className="border p-2">
+                      Industry
+                    </td>
+                    <td className="border row-span-2 p-2">$ 130</td>
+                    <td className="border row-span-2 p-2">$ 150</td>
+                  </tr>
               </table>
               <table className="border-collapse min-w-max mt-8  sm:text-xs">
                 <tbody>
@@ -221,15 +232,14 @@ const registration = () => {
             </div>
           </div>
         </div>
-
-        <div className="p-4 mt-3 text-center flex gap-3 flex-wrap items-center">
-          <Image src={payment} className="h-[3rem] w-[auto] sm:h-[1.5rem]" />
+        <div className="p-4 mt-1 text-center flex gap-3 flex-wrap items-center">
+          <Image src={payment} className="h-[2rem] w-[auto] sm:h-[1.5rem]" />
           <h1 className="font-bold text-xl items-center">
             Payment Instructions
           </h1>
         </div>
-        <div className="p-4 mt-5 sm:mt-3 text-start flex gap-3 flex-wrap items-start">
-          <ul className="text-sm sm:text-xs flex-col gap-4">
+        <div className="px-4 text-start flex gap-2 flex-wrap items-start">
+          <ul className="text-sm sm:text-xs flex-col gap-1">
             <li className="text-justify">
               <span className="font-bold">Step 1: </span>
               Open{" "}
@@ -242,30 +252,30 @@ const registration = () => {
               </a>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 2:</span>
+              <span className="font-bold">Step 2: </span>{" "}
               Select Education instutions
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 3:</span>
+              <span className="font-bold">Step 3:</span>{" "}
               Filter by state: Select Jharkhand
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 4:</span>
+              <span className="font-bold">Step 4:</span>{" "}
               From educational institutions select{" "}
               <span className="font-bold"> "Director BIT Sindri"</span>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 5:</span>
+              <span className="font-bold">Step 5:</span>{" "}
               Payment category - <span className="font-bold"> BITCON-2024</span>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 6:</span>
+              <span className="font-bold">Step 6:</span>{" "}
               Fill details and proceed for payment
             </li>
           </ul>
         </div>
 
-        <div className="mt-6 mb-4 sm:mt-4 ml-5">
+        <div className="mt-2 mb-4 sm:mt-4 ml-4">
           <p className="text-sm sm:text-xs">
             Authors are required to mention their Easy Chair “Paper ID” without
             error in remark section, while paying the registration fee. Please
@@ -279,7 +289,7 @@ const registration = () => {
             e.g., fee payment receipt, student’s (1st author’s) ID card, IEEE
             membership card (if applicable), etc
           </p>
-          <ul className="list-disc ml-5 mt-2 text-sm sm:text-xs">
+          <ul className="list-disc ml-4 mt-2 text-sm sm:text-xs">
             <li className="text-justify">
               Registration deadline is 31.08.2024.
             </li>

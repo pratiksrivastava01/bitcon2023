@@ -15,7 +15,7 @@ import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Nav4 from "@/components/home/Nav4";
 import Link from "next/link";
-
+import StickyBar from "@/components/StickyBar";
 export default function Home() {
   const slides = [
     {
@@ -60,7 +60,7 @@ export default function Home() {
         {/* <Notification /> */}
         <div className="flex justify-center items-center ">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
-            <div className="w-[12%] sm:w-[50%]  sm:flex sm:order-2 sm:mb-10 sm:items-start sm:justify-evenly sm:gap-0 sm:mt-2">
+            <div className="w-[12%] sm:w-[50%] items-center justify-center  sm:flex sm:order-2 sm:mb-10 sm:items-start sm:justify-evenly sm:gap-0 sm:mt-2">
               <Image
                 src={jh}
                 alt="jh"
@@ -71,7 +71,7 @@ export default function Home() {
                 <Image
                   src={ieee}
                   alt="ieee"
-                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] sm:w-[5rem]"
+                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] "
                 ></Image>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function Home() {
 
         <Notification />
 
-        <div className=" mt-[1rem] flex justify-center mb-10">
+        <div className=" mt-[1rem] flex justify-center mb-4">
           <div className="w-[100%] mx-12 sm:mx-4 h-[20rem] sm:h-[10rem] ">
             <Slider slides={slides} />
           </div>
@@ -135,14 +135,7 @@ export default function Home() {
         <Footer />
       </div>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[11rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 }

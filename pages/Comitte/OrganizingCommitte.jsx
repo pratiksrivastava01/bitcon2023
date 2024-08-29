@@ -26,7 +26,7 @@ import eventmanagement from "@/assets/eventmanagement.png";
 import Foot from "@/components/Foot";
 import Navbar2 from "@/components/navbar/Navbar2";
 import Link from "next/link";
-
+import StickyBar from "@/components/StickyBar";
 function Teams() {
   return (
     <>
@@ -43,13 +43,13 @@ function Teams() {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <section className="mt-12 sm:mt-6 mb-12  container-70">
-        <div className="mt-12 sm:mt-6 w-full text-center">
+      <section className="mt-4 sm:mt-4 mb-12  container-70">
+        <div className="mt-8 sm:mt-4 w-full text-center">
           <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
             Organizing Committee ✨
           </h1>
         </div>
-        <div className="mt-10 sm:mt-4 flex justify-center items-center gap-5 flex-col">
+        <div className="mt-8 sm:mt-4 flex justify-center items-center gap-5 flex-col">
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]">
             <div className=" flex gap-2 items-center">
               <Image
@@ -361,7 +361,7 @@ function Teams() {
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
-              Publication Chair{" "}
+              Publication Chairs{" "}
               </h1>
             </div>
             <ul className="p-2 ">
@@ -372,6 +372,14 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">Prof. Praveen Kumar, <i> EED</i></p>
+              </li>
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">Prof. Hari Charan Verma, <i> EED</i></p>
               </li>
             </ul>
           </div>
@@ -676,14 +684,7 @@ function Teams() {
         </div>
       </section>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 }

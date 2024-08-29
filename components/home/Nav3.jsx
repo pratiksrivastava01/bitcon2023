@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "../navbar/Navbar.module.css";
 import { Dropdown } from "@nextui-org/react";
+
 //bg-[#FAC804]
 const Nav3 = () => {
   return (
@@ -15,7 +16,7 @@ const Nav3 = () => {
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7]"
+              className="border-[white] hover:text-[#a8a8a7] px-2"
             >
               <p className="text-sm font-semibold text-white hover:text-[#a8a8a7]">
                 About Us
@@ -54,7 +55,7 @@ const Nav3 = () => {
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7]"
+              className="border-[white] hover:text-[#a8a8a7] px-2"
             >
               <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 BITCON 2024
@@ -82,11 +83,11 @@ const Nav3 = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Dropdown>
+          <Dropdown className="px-2">
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7]"
+              className="border-[white] hover:text-[#a8a8a7] px-2"
             >
               <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 Committee

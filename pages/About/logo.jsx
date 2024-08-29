@@ -14,6 +14,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Foot from "@/components/Foot";
 import Navbar2 from "@/components/navbar/Navbar2";
+import StickyBar from "@/components/StickyBar";
 const conference = () => {
   return (
     <>
@@ -31,7 +32,7 @@ const conference = () => {
       <Navbar2 />
       <Nav3 />
       <div className="flex item-center justify-center">
-        <div className="mx-8 sm:mx-4 mt-5 rounded-lg p-4">
+        <div className="mx-8 sm:mx-4 mt-4 rounded-lg p-4">
           <div className="flex gap-3 items-center justify-center">
             <h1 className="font-bold text-4xl sm:text-2xl flex items-center justify-center text-center">
               <span className="text-[#385623] text-center flex justify-center items-center">
@@ -39,11 +40,11 @@ const conference = () => {
               </span>
             </h1>
           </div>
-          <div className="p-4 mt-5 text-center justify-center flex gap-3 flex-wrap">
+          <div className="p-4 mt-4 text-center justify-center flex gap-3 flex-wrap">
             <Image src={confetti} className="h-[28rem] w-[auto] sm:h-[16rem]" />
           </div>
           <div className="">
-            <div className="p-4 sm:p-0 mt-5 flex flex-col gap-3 flex-wrap ">
+            <div className="p-4 sm:p-0 flex flex-col gap-1 flex-wrap ">
               <h1 className="font-bold text-2xl sm:text-lg items-center">
                 Letter “B” stands for{" "}
                 <span className="text-[#002E73] ">
@@ -54,19 +55,19 @@ const conference = () => {
                 Letter “C” stands for{" "}
                 <span className="text-[#002E73] "> Conference.</span>
               </h1>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 The letter “C” is drawn in such a way that it looks like a
                 magnifying glass.{" "}
                 <span className="font-bold"> A magnifying glass icon </span>can
                 represent the idea of exploring, investigating and searching for
                 new ideas which are key elements of research.
               </p>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 Research conference often involve collaboration between
                 different groups of people. So, B and C are interconnected
                 (intertwined B and C) to convey the sense of collaboration.
               </p>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 Since the conference is technology oriented, it is incorporated
                 with lightning bolt, plug, gear and nanowires (flowing lines).
                 <span className="font-bold"> Plug</span> symbolizes the
@@ -88,7 +89,7 @@ const conference = () => {
                 and innovators. It emphasizing the collaborative nature of the
                 conference and the importance of connections.
               </p>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 <span className="font-bold"> Colour scheme </span>is associated
                 with research as{" "}
                 <span className="text-[#02BCDD] font-bold">blue</span> and{" "}
@@ -98,7 +99,7 @@ const conference = () => {
                 represents the sense of hope. Green colour gear represents green
                 energy technology which the theme of the conference.
               </p>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 <span className="font-bold">
                   {" "}
                   Tagline (Together towards research){" "}
@@ -109,7 +110,7 @@ const conference = () => {
                 can do research and can share their ideas in more areas under
                 one umbrella.
               </p>
-              <p className="text-sm mt-4 sm:mt-2 text-justify sm:text-xs">
+              <p className="text-sm mt-2 sm:mt-2 text-justify sm:text-xs">
                 Overall, the conference conveys the intended message of
                 innovation and connectivity among the professionals in the
                 technical field. The logo is designed as simple as possible
@@ -117,7 +118,7 @@ const conference = () => {
               </p>
             </div>
           </div>
-          <div className="mt-8 mx-4">
+          <div className="mt-4 mx-4">
             <span>Designed By:</span>
             <div className="flex flex-col">
             <span className="text-black font-bold">
@@ -130,14 +131,7 @@ const conference = () => {
         </div>
       </div>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 };

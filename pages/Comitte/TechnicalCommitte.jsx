@@ -3,7 +3,7 @@ import Styles from "@/components/teams/Team.module.css";
 import Navbar from "@/components/navbar/Navbar";
 import Nav3 from "@/components/home/Nav3";
 import Image from "next/image";
-
+import StickyBar from "@/components/StickyBar";
 import boss from "@/assets/boss.png";
 import member from "@/assets/member-card.png";
 import investor from "@/assets/investor.png";
@@ -44,13 +44,13 @@ const TechMembers=TechnicalMembers;
       </Head>
       <Navbar2 />
       <Nav3 />
-      <section className="mt-12 sm:mt-6 mb-12  container-70">
-        <div className="mt-12 sm:mt-6 w-full text-center">
+      <section className="mt-4 sm:mt-6 mb-12  container-70">
+        <div className="mt-8 sm:mt-4 w-full text-center">
           <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
             Technical Committee ✨
           </h1>
         </div>
-        <div className="mt-10 sm:mt-4 flex justify-center items-center gap-5 flex-col">
+        <div className="mt-8 sm:mt-4 flex justify-center items-center gap-5 flex-col">
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
@@ -82,14 +82,7 @@ const TechMembers=TechnicalMembers;
         </div>
       </section>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 };

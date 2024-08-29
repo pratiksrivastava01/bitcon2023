@@ -8,6 +8,8 @@ import vision from "@/assets/vision.jpg";
 import Foot from "@/components/Foot";
 import Navbar2 from "@/components/navbar/Navbar2";
 import Link from "next/link";
+import mission from "@/assets/mission.jpg";
+import StickyBar from "@/components/StickyBar";
 const institute = () => {
   return (
     <>
@@ -24,8 +26,8 @@ const institute = () => {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="flex justify-center">
-        <div className="flex flex-row sm:flex-col mt-[1.5rem] gap-4 sm:mt-0 w-[90%] sm:w-[100%]  p-4 sm:gap-0 justify-center">
+      <div className="flex justify-center shadow-sm">
+        <div className="flex flex-row sm:flex-col mt-[1rem] gap-4 sm:mt-0 w-[90%] sm:w-[100%]  p-4 sm:gap-0 justify-center">
           <div className=" sm:w-[100%]  w-[50%]">
             <div className="flex">
               {/* <Image src={engineers} className=" h-[3rem] w-[3rem]" /> */}
@@ -33,14 +35,14 @@ const institute = () => {
                 About Electrical Engineering Department
               </h1>
             </div>
-            <p className="text-justify text-sm sm:text-xs overflow-auto  mt-[2rem]   sm:mt-5">
+            <p className="text-justify text-sm sm:text-xs overflow-auto  mt-[1rem]   sm:mt-3">
               The Department of Electrical Engineering is one of the major
               Departments of BIT Sindri since its inception in 1949. The
               department offers four years B.Tech. degree course and two years
               postgraduate program is also offered leading to M.Tech. degree
               with specialization in Control System and Power System.
             </p>
-            <p className="text-justify overflow-auto text-sm sm:text-xs   mt-[2rem]  sm:mt-3">
+            <p className="text-justify overflow-auto text-sm sm:text-xs   mt-[1rem]  sm:mt-3">
               {" "}
               The Department has continuously evolved along with the needs of
               industry and academia without compromising on its core principles
@@ -67,65 +69,61 @@ const institute = () => {
             sustainable development. */}
             </p>
           </div>
-          <div className="w-[50%]"><Image src={about} className=" w-max aspect-video sm:w-[100%] sm:mt-5" /></div>
+          <div className="w-[50%]"><Image src={about} className=" w-max aspect-video sm:w-[100%] sm:mt-4" /></div>
           
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="h-auto rounded-lg mx-4 justify-center flex flex-col  shadow-2xl mt-[2rem] sm:mt-8 p-4 ">
+        <div className="h-auto rounded-lg mx-4 justify-center flex flex-col  shadow-2xl mt-[0rem] sm:mt-0 p-4 ">
           <h1 className="text-4xl sm:text-2xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
-
           <p className=" text-sm sm:text-xs mx-8 mt-[1rem] p-2 font-thin sm:mt-4">
             To emerge as a globally recognized centre in the field of Electrical
             Engineering to provide valuable human resource and ambience for
             innovative research for sustainable development of industry and
             society.
           </p>
-          <h2 className="text-lg sm:text-sm mt-[3rem] text-center font-bold text-[#002256] sm:mt-2 ">
+          <Image
+            src={mission}
+            alt="mission"
+            className="w-[32rem] sm:w-[100%] h-[auto] self-center"
+          />
+          <h2 className="text-lg sm:text-sm mt-[1rem] text-center font-bold text-[#002256] sm:mt-2 ">
             The BIT Sindri functions with the following missions:
           </h2>
-
-          <ul className="ml-[4rem] mt-5 mx-8 font-thin  text-sm sm:text-xs  sm:ml-[1rem] text-justify">
+          <ul className="ml-[4rem] list-decimal mt-2 mx-8 font-thin text-justify  text-sm sm:text-xs  sm:ml-[1rem]">
             <li>
-              1. To offer state-of-the-art undergraduate, post graduate and
+              To offer state-of-the-art undergraduate, post graduate and
               doctorate programmes by providing a conducive environment towards
               outcome-based teaching learning process with knowledge and skill
               creation, suitable for contemporary and future needs of industry.
             </li>
             <li>
-              2. To promote creative ambience in order to generate new knowledge
+              To promote creative ambience in order to generate new knowledge
               by conducting quality research in collaboration with Electrical,
               Electronics and allied industries.
             </li>
             <li>
-              3. To bridge the gap between industry and academia by framing
+              To bridge the gap between industry and academia by framing
               curriculum and syllabi based on industrial and societal needs so
               that competency of the students matches the upcoming challenges in
               education, profession and life.
             </li>
             <li>
-              4. To instil moral and ethical values among the students through
+              To instil moral and ethical values among the students through
               holistic personality development so as to ensure human
               intellectual capacity to its full potential.
             </li>
             <li>
-              5. To provide consultancy services to industries and organizations
+              To provide consultancy services to industries and organizations
             </li>
           </ul>
         </div>
       </div>
 
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 };
