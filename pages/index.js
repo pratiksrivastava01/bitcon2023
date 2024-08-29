@@ -135,7 +135,7 @@ export default function Home() {
         <Footer />
       </div>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <div className="fixed z-[1000] h-auto w-max top-[11rem] right-[1rem] flex flex-col gap-2">
       <Link href="/awards" legacyBehavior className="p-2">
             <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
           </Link>
