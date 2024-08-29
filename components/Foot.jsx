@@ -14,7 +14,6 @@ export default function Ft() {
             <Footer.Title className="text-white text-lg" title="BITCON 2024" />
             <Footer.LinkGroup col className="text-white">
               <Footer.Link className="text-white" href="/dates">Important Dates</Footer.Link>
-              <Footer.Link className="text-white" href="/Comitte/OrganizingComitte">Committee</Footer.Link>
               <Footer.Link className="text-white" href="/CallForPaper">Call for Papers</Footer.Link>
               <Footer.Link className="text-white" href="/speakers">Invited Speakers</Footer.Link>
               <Footer.Link className="text-white" href="/PaperSubmission/info">Paper Submission</Footer.Link>

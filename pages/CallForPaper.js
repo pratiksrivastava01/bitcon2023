@@ -5,7 +5,7 @@ import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import React from "react";
 import Link from "next/link";
-
+import StickyBar from "@/components/StickyBar";
 const CallForPaper = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const CallForPaper = () => {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="h-auto mx-4 rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[2rem] sm:mt-[1.5rem] sm:mx-0  sm:h-auto ">
+      <div className="h-auto mx-4 rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[1rem] sm:mx-0  sm:h-auto ">
         <div className="flex flex-wrap gap-[32rem]">
           <h2 className="text-primary font-bold p-4 flex text-4xl sm:text-2xl">
             Call For Papers
@@ -99,9 +99,9 @@ const CallForPaper = () => {
               ],
             },
           ].map((track, index) => (
-            <div key={index} className="mt-6">
+            <div key={index} className="mt-4">
               <p className="font-bold text-primary text-lg sm:text-sm">{track.title}</p>
-              <ul className="list-disc ml-10 sm:ml-6 mt-4 sm:mt-2 text-sm sm:text-xs">
+              <ul className="list-disc ml-8 sm:ml-4 mt-2  text-sm sm:text-xs">
                 {track.topics.map((topic, idx) => (
                   <li key={idx}>{topic}</li>
                 ))}
@@ -123,14 +123,7 @@ const CallForPaper = () => {
         </div>
       </div>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 };

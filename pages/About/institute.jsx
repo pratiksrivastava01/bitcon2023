@@ -15,6 +15,7 @@ import Link from "next/link";
 
 import Foot from "@/components/Foot";
 import Navbar2 from "@/components/navbar/Navbar2";
+import StickyBar from "@/components/StickyBar";
 
 const institute = () => {
   return (
@@ -76,11 +77,11 @@ const institute = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="h-auto mx-8 sm:mx-4 rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[1.5rem]  items-center sm:h-auto sm:w-[100%] p-4 t">
+        <div className="h-auto mx-8 sm:mx-4 rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[1rem]  items-center sm:h-auto sm:w-[100%] p-4">
           <h1 className="text-4xl sm:text-2xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
-          <p className="mt-[1rem] text-sm text-justify sm:text-xs p-2 font-thin sm:mt-4">
+          <p className="mt-[0.5rem] text-sm text-justify bg-opacity-20 sm:text-xs p-2 ">
             The vision of BIT Sindri is to nurture talented and skilled human
             resources. Through the best technical education and research, we
             hope to train individuals for professional roles in industry and
@@ -95,43 +96,43 @@ const institute = () => {
           <h2 className="text-lg sm:text-sm mt-[1rem] text-center font-bold text-[#002256] sm:mt-0 ">
             The BIT Sindri functions with the following missions:
           </h2>
-          <ul className="text-left  text-sm sm:text-xs font-thin mt-[1rem] sm:ml-[1rem]">
+          <ul className="text-left text-sm gap-0 sm:text-xs font-thin mt-[0.5rem]">
             <li className="flex gap-3 items-center">
               <Image
                 src={classroom}
                 alt="classroom"
-                className="h-[1.5rem] w-[1.5rem]"
+                className="h-[1rem] w-[auto]"
               />
               <p>
                 To provide quality education to students in various disciplines
               </p>
             </li>
-            <li className="flex gap-3 mt-[1rem] items-center">
-              <Image src={seo} alt="classroom" className="h-[1.5rem] w-[1.5rem]" />
+            <li className="flex gap-3 mt-[0.4rem] items-center">
+              <Image src={seo} alt="classroom" className="h-[1rem] w-[auto]" />
               To promote research and development in science and technology
             </li>
-            <li className="flex gap-3 mt-[1rem] items-center">
+            <li className="flex gap-3 mt-[0.4rem] items-center">
               <Image
                 src={knowledge}
                 alt="classroom"
-                className="h-[1.5rem] w-[1.5rem]"
+                className="h-[1rem] w-[auto]"
               />{" "}
               To provide opportunities for students to develop their
               personalities and leadership skills
             </li>
-            <li className="flex gap-3 mt-[1rem] items-center">
+            <li className="flex gap-3 mt-[0.4rem] items-center">
               <Image
                 src={factory}
                 alt="classroom"
-                className="h-[1.5rem] w-[1.5rem]"
+                className="h-[1rem] w-[auto]"
               />{" "}
               To promote industry-institute interaction and collaboration
             </li>
-            <li className="flex gap-3 mt-[1rem] items-center">
+            <li className="flex gap-3 mt-[0.4rem] items-center">
               <Image
                 src={conversation}
                 alt="classroom"
-                className="h-[1.5rem] w-[1.5rem]"
+                className="h-[1rem] w-[auto]"
               />{" "}
               To provide consultancy services to industries and organizations
             </li>
@@ -139,14 +140,7 @@ const institute = () => {
         </div>
       </div>
       <Foot />
-      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
-      <Link href="/awards" legacyBehavior className="p-2">
-            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
-          </Link>
-          <Link href="/awards" legacyBehavior className="p-2">
-            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
-          </Link>
-      </div>
+      <StickyBar />
     </>
   );
 };

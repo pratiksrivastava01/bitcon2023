@@ -25,11 +25,11 @@ const info = () => {
       <Navbar2 />
       <Nav3 />
       <div className="flex flex-row items-center sm:flex-col mt-4 justify-center">
-        <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  min-h-[70vh] border-primary shadow-2xl  ">
+        <div className="h-auto mx-8 sm:mx-0 rounded-lg px-4  py-2 min-h-[70vh] border-primary shadow-2xl  ">
           <div className="flex justify-between">
             <div className="flex gap-2 sm:gap-1 justify-center items-center">
               <Image src={preparation} className="h-[2.5rem] sm:h-[2rem] w-[auto] " />
-              <h1 className="text-primary font-bold p-4 py-4 sm:p-2 flex text-4xl sm:text-xl">
+              <h1 className="text-primary font-bold px-4 sm:p-2 flex text-4xl sm:text-xl">
                 PAPER SUBMISSION
               </h1>
             </div>
@@ -42,7 +42,7 @@ const info = () => {
               </a>
             </button>
           </div>
-          <p className="p-5 text-sm sm:text-xs text-justify">
+          <p className="px-4 py-2 text-sm sm:text-xs text-justify">
             Prospective authors are encouraged to submit high quality original,
             previously unpublished, experimental or theoretical research papers
             for presentation at the Conference. Articles submitted to the
@@ -56,7 +56,7 @@ const info = () => {
             papers through Easy Chair. Kindly do not submit the paper multiple
             times; it may lead to cancellation of your paper
           </p>
-          <div className="flex flex-col mx-8 mt-8 justify-center">
+          <div className="flex flex-col mx-8 mt-4 justify-center">
             <div className="flex ">
               <p className="text-primary text-center text-xl font-bold flex  sm:text-sm">
                 Important Instructions
@@ -192,7 +192,7 @@ const info = () => {
                   </span>
                 </li>
               </ul>
-              <p className="text-primary mt-8 sm:mt-4 text-center text-md flex font-semibold text-sm  sm:text-xs">
+              <p className="text-primary mt-4 sm:mt-4 text-center text-md flex font-semibold text-sm  sm:text-xs">
                 <b>IEEE PDF eXpress</b>
               </p>
               <ul className="ml-[2rem] list-decimal text-sm sm:text-xs">
