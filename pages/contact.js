@@ -27,10 +27,10 @@ const contact = () => {
         <Nav3 />
         <div className=" flex flex-col ">
         <div className="items-center ">
-          <h1 className="text-bold text-4xl p-[5rem] text-center sm:text-2xl ">
+          <h1 className="text-bold text-4xl p-[1rem] text-center sm:text-2xl ">
             Contact Us
           </h1>
-          <div className="flex flex-col flex-wrap p-[5rem] mt-[-8rem]">
+          <div className="flex flex-col flex-wrap p-[5rem] mt-[-5rem]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.596164497768!2d86.4688100809643!3d23.654629223907673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f696e95958a6d5%3A0x7c14e668e6f2feea!2sBIT%20Sindri!5e0!3m2!1sen!2sin!4v1683734252135!5m2!1sen!2sin"
               width="100%"
@@ -52,26 +52,70 @@ const contact = () => {
                   {/* <p className="text-white flex text-2xl mt-[2rem] sm:text-xl">
                     Note: All commeties are required to ma
                   </p> */}
-                  <div className=" flex-1 gap-1">
+                  <div className=" flex-1 gap-1 justify-between items-center">
                     <Link
                       href="mailto:amit.ee@bitsindri.ac.in"
-                      className="flex gap-[1rem] items-center"
+                      className="flex flex-row justify-center gap-[1rem] items-center"
                     >
                       <CiMail className=" text-bold text-sm sm:text-xs text-yellow" />
-                      <span className="hover:text-primary">
+                      <span className="hover:text-primary text-sm sm:text-xs">
                         bitcon.2024@bitsindri.ac.in
                       </span>
                     </Link>
                     {/* <span>amit.ee@bitsindri.ac.in</span> */}
                     
-                    <a href="" className="flex gap-[2rem] items-center">
+                    <a href="" className="flex flex-row justify-center gap-[1rem] items-center">
                       <FcCallback className="text-bold text-sm sm:text-xs text-yellow" />
-                      <span className="hover:text-primary">
+                      <span className="hover:text-primary text-sm sm:text-xs">
                         0326 2350495
                       </span>
                     </a>
                   </div>
+                  
                 </div>
+                <div className="mt-[2rem] justify-center">
+                <h1 className="text-primary font-bold flex text-lg sm:text-sm">
+                  Conference Secretaries
+                </h1>
+                <div className=" flex flex-row justify-between items-start gap-1 flex-wrap sm:flex-col">
+                  <div>
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      Prof. Praveen Kumar
+                      </span>
+               
+                    <a href="" className="flex flex-row justify-center gap-[0.2rem] items-center">
+                      <FcCallback className="text-bold text-sm sm:text-xs text-yellow" />
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      +91 9798682966
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      Prof. Mukhlesur Rahman
+                      </span>
+               
+                    <a href="" className="flex flex-row justify-center gap-[0.2rem] items-center">
+                      <FcCallback className="text-bold text-sm sm:text-xs text-yellow" />
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      +91 8294056593
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      Prof. Matta Mani Sankar
+                      </span>
+               
+                    <a href="" className="flex flex-row justify-center gap-[0.2rem] items-center">
+                      <FcCallback className="text-bold text-sm sm:text-xs text-yellow" />
+                      <span className="hover:text-primary text-sm sm:text-xs">
+                      +91 9507968443
+                      </span>
+                    </a>
+                  </div>
+                  </div>
+                  </div>
                 {/* <a href="mailto:srivastavapratik35@gmail.com"></a> */}
               </div>
             </div>
