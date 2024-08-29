@@ -4,6 +4,7 @@ import Navbar2 from "@/components/navbar/Navbar2";
 import Foot from "@/components/Foot";
 import Head from "next/head";
 import React from "react";
+import Link from "next/link";
 
 const awards = () => {
   return (
@@ -23,7 +24,7 @@ const awards = () => {
       <div className=" flex flex-col ">
         <Navbar2 />
         <Nav3 />
-        <section className="mt-12 sm:mt-6 mb-12  container-70">
+        <section className="mt-8 sm:mt-6 mb-12  container-70">
           <div className="w-full text-center">
             <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
               Awards ✨
@@ -176,6 +177,14 @@ const awards = () => {
           </div>
         </section>
         <Foot />
+      </div>
+      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <Link href="/awards" legacyBehavior className="p-2">
+            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
+          </Link>
+          <Link href="/awards" legacyBehavior className="p-2">
+            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
+          </Link>
       </div>
     </>
   );

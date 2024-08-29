@@ -26,7 +26,7 @@ import eventmanagement from "@/assets/eventmanagement.png";
 import Foot from "@/components/Foot";
 import { TechnicalMembers } from "@/constants";
 import Navbar2 from "@/components/navbar/Navbar2";
-
+import Link from "next/link";
 const TechnicalCommitte = () => {
 const TechMembers=TechnicalMembers;
   return (
@@ -62,7 +62,7 @@ const TechMembers=TechnicalMembers;
                 Committee Members{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               {TechMembers.map((memberDetail,key)=>{
                 return (
                   <li className="flex items-center">
@@ -72,7 +72,7 @@ const TechMembers=TechnicalMembers;
                       className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                     />
                     <p className="mt-2 ml-2 text-sm">
-                      {"Dr. "}{memberDetail.member}
+                      {"Dr. "}{memberDetail.member} {", "} <i>{memberDetail.designation}</i> 
                     </p>
                   </li>
                 );
@@ -82,6 +82,14 @@ const TechMembers=TechnicalMembers;
         </div>
       </section>
       <Foot />
+      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <Link href="/awards" legacyBehavior className="p-2">
+            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
+          </Link>
+          <Link href="/awards" legacyBehavior className="p-2">
+            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
+          </Link>
+      </div>
     </>
   );
 };

@@ -24,7 +24,7 @@ const info = () => {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="flex flex-row items-center sm:flex-col mt-6 justify-center">
+      <div className="flex flex-row items-center sm:flex-col mt-4 justify-center">
         <div className="h-auto mx-8 sm:mx-0 rounded-lg p-4  min-h-[70vh] border-primary shadow-2xl  ">
           <div className="flex justify-between">
             <div className="flex gap-2 sm:gap-1 justify-center items-center">
@@ -36,7 +36,7 @@ const info = () => {
             <button className="m-2 sm:w-32">
               <a
                 className="border-2 border-[white] text-[white] rounded-xl bg-[#002E73] hover:bg-[white] hover:text-[#002E73] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 mt-4 sm:text-xs"
-                href="https://easychair.org/account/signin?l=KKF0LOjA5NTAboGTxlzm2T"
+                href="https://easychair.org/conferences/?conf=bitcon24"
               >
                 Submit Now
               </a>
@@ -188,7 +188,7 @@ const info = () => {
                   </span>
                   <br></br>
                   <span className="ml-4">
-                    <b>Footer:</b> xxx-x-xxxx-xxxx-x/24/$31.00 ©2024 IEEE
+                    <b>Footer:</b> 979-8-3315-1839-4/24/$31.00 ©2024 IEEE
                   </span>
                 </li>
               </ul>

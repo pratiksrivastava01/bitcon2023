@@ -25,6 +25,7 @@ import deal from "@/assets/deal.png";
 import eventmanagement from "@/assets/eventmanagement.png";
 import Foot from "@/components/Foot";
 import Navbar2 from "@/components/navbar/Navbar2";
+import Link from "next/link";
 
 function Teams() {
   return (
@@ -60,17 +61,7 @@ function Teams() {
                 Chief Patron{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
-              {/* <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">
-                  Mr. Rahul Purwar, (IAS) Secretary , DHTE, Ranchi
-                </p>
-              </li> */}
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
@@ -78,12 +69,11 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. D.K. Singh, Vice Chancellor, JUT, Ranchi
+                  Prof. (Dr.) D. K. Singh, <i>Vice Chancellor, JUT, Ranchi</i>
                 </p>
               </li>
             </ul>
           </div>
-
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
@@ -95,17 +85,7 @@ function Teams() {
                 Patron{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
-              {/* <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">
-                  Mr. Syed Riyaz Ahmed, (IAS) Under Secretary, DHTE, Ranchi
-                </p>
-              </li> */}
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
@@ -113,7 +93,7 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Pankaj Rai, Director, BIT Sindri
+                  Prof. (Dr.) Pankaj Rai, <i>Director, BIT Sindri</i>
                 </p>
               </li>
             </ul>
@@ -129,7 +109,7 @@ function Teams() {
                 Conference Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
@@ -137,7 +117,7 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Md. Abul Kalam, Head, EED{" "}
+                  Prof. Md. Abul Kalam, <i> Head, EED</i>{" "}
                 </p>
               </li>
             </ul>
@@ -150,17 +130,17 @@ function Teams() {
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl sm:text-lg font-bold flex mt-2 item-center shadow-red ">
-                General Chair{" "}
+                General Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Upendra Prasad, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. (Dr.) Upendra Prasad, <i>EED</i> </p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -168,7 +148,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. D. K. Tanti, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. (Dr.) D. K. Tanti, <i>EED</i> </p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -176,48 +156,10 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Nirmala Soren, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. (Dr.) Nirmala Soren, <i> EED</i></p>
               </li>
             </ul>
           </div>
-          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
-            <div className=" flex gap-2 items-center ">
-              <Image
-                src={team}
-                alt="topic"
-                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
-              />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                General Co-Chairs{" "}
-              </h1>
-            </div>
-            <ul className="p-4 ">
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Dr. D. K. Tanti</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Dr. Vineet Shekhar</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Dr. Nirmala Soren</p>
-              </li>
-            </ul>
-          </div> */}
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
@@ -226,17 +168,17 @@ function Teams() {
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl sm:text-lg font-bold flex mt-2 item-center shadow-red ">
-                Convenor{" "}
+                Convenors{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Vineet Shekher, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Vineet Shekher, <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -245,7 +187,7 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Amit Kr. Choudhary, EED
+                  Prof. Amit Kr. Choudhary, <i> EED</i>
                 </p>
               </li>
             </ul>
@@ -258,17 +200,17 @@ function Teams() {
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
-                Conference Secretary{" "}
+                Conference Secretaries{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Praveen Kumar, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Praveen Kumar, <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -276,7 +218,7 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Mukhlesur Rahman</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Mukhlesur Rahman,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -285,14 +227,14 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Matta Mani Sankar, EED
+                  Prof. Matta Mani Sankar, <i> EED</i>
                 </p>
               </li>
             </ul>
           </div>
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <span className="text-start text-2xl sm:text-lg font-bold">
-              Faculty Coordinators
+              Committee Chairs
             </span>
           </div>
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
@@ -303,17 +245,17 @@ function Teams() {
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
-                Coordinators{" "}
+              Finance Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Manimala, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Rajendra Murmu, <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -322,64 +264,30 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Hari Charan Verma, EED
+                Prof. Shashi Minz, <i> EED</i>
                 </p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">
-                  Prof. Rajesh Narayan Deo, EED
-                </p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Rahul Kumar, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Murli Manoha, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Dipesh Kumar, EED</p>
               </li>
             </ul>
           </div>
           <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={eventmanagement}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
               <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
-                Team Members{" "}
+              Advisory Committee Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Rekha Jha, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Rahul Kumar, <i> EED</i> </p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -388,32 +296,8 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Anuj Kumar Pandey, EED
+                Prof. Suman Ranjan, <i> EED</i>
                 </p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Rakesh Rohan, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Kaushik Paul, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Suman Ranjan, EED</p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -422,30 +306,30 @@ function Teams() {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  Prof. Biswaranjan Mishra, EED
+                Prof. Biswaranjan Mishra, <i> EED</i>
                 </p>
               </li>
             </ul>
           </div>
-          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={publication}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Publication Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Technical Program Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Manimala , EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Murli Manohar,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -453,29 +337,9 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Praveen Kumar, EED</p>
-              </li>
-            </ul>
-          </div> */}
-          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
-            <div className=" flex gap-2 items-center ">
-              <Image
-                src={accounting}
-                alt="topic"
-                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
-              />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Finance Coordinators{" "}
-              </h1>
-            </div>
-            <ul className="p-4 ">
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Rajendra Murmu, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Kaushik Pal, <i> EED</i>
+                </p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -483,89 +347,53 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Shashi Minz, EED</p>
-              </li>
-            </ul>
-          </div> */}
-          {/* <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
-            <div className=" flex gap-2 items-center ">
-              <Image
-                src={hospitality}
-                alt="topic"
-                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
-              />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Hospitality Coordinators{" "}
-              </h1>
-            </div>
-            <ul className="p-4 ">
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Rajesh Narayan Deo, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Rakesh Rohan, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Dipesh Kumar, <i> EED</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={marketing}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Publicity Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Publication Chair{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Biswaranjan Mishra, EED</p>
-              </li>
-              <li className="flex items-center">
-                <Image
-                  src={member}
-                  alt="topic"
-                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
-                />
-                <p className="mt-2 ml-2 text-sm">Prof. Anuj Kumar Pandey, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Praveen Kumar, <i> EED</i></p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={presentation}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Tutorial Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Hospitality Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Sanjay Pal, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Rajesh Narayan Deo, <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -573,29 +401,31 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Hari Charan Verma, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Rakesh Rohan, <i> EED</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={planning}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Web-Management Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Publicity Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Amit Kr. Choudhary, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Biswaranjan Mishra,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -603,29 +433,31 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Matta Mani Sankar, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Anuj Kumar Pandey,  <i> EED</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={registration}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Registration Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Tutorial Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Manimala, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Sanjay Pal,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -633,29 +465,31 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Sanjay Pal, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Hari Charan Verma, <i> EED</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={deal}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Sponsorship Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Web-Management Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Mukhlesur Rahman, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Matta Mani Sankar,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -663,29 +497,31 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Rajesh Narayan Deo, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Akram Khan, <i>CSE</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={eventmanagement}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Event Management Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Registration Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Rahul Kumar, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Manimala,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -693,29 +529,31 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Murli Manohar, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Sanjay Pal, <i> EED</i>
+                </p>
               </li>
             </ul>
           </div>
-          <div className=" p-4 w-[70%] border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
             <div className=" flex gap-2 items-center ">
               <Image
-                src={trophy}
+                src={counselor}
                 alt="topic"
                 className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
               />
-              <h1 className="text-start text-3xl font-bold flex mt-2 item-center shadow-red ">
-                Award Coordinators{" "}
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Sponsorship Chairs{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               <li className="flex items-center">
                 <Image
                   src={member}
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Rekha Jha, EED</p>
+                <p className="mt-2 ml-2 text-sm">Prof. Mukhlesur Rahman,  <i> EED</i></p>
               </li>
               <li className="flex items-center">
                 <Image
@@ -723,14 +561,129 @@ function Teams() {
                   alt="topic"
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
-                <p className="mt-2 ml-2 text-sm">Prof. Hari Charan Verma, EED</p>
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Rajesh Narayan Deo, <i> EED</i>
+                </p>
+              </li>
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Rahul Kumar, <i> EED</i>
+                </p>
               </li>
             </ul>
-          </div> */}
-          {/* <div></div> */}
+          </div>
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+            <div className=" flex gap-2 items-center ">
+              <Image
+                src={counselor}
+                alt="topic"
+                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
+              />
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Event Management Chairs{" "}
+              </h1>
+            </div>
+            <ul className="p-2 ">
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">Prof. Rahul Kumar, <i> EED</i></p>
+              </li>
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Murli Manohar, <i> EED</i>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+            <div className=" flex gap-2 items-center ">
+              <Image
+                src={counselor}
+                alt="topic"
+                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
+              />
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Awards Chairs{" "}
+              </h1>
+            </div>
+            <ul className="p-2 ">
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">Prof. Rekha Jha, <i> EED</i></p>
+              </li>
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Hari Charan Verma,  <i> EED</i>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className=" p-4 w-[70%] sm:w-[90%] sm:border sm:p-2 border-primary border-2 rounded-lg shadow-red bg-[#F8FAFC]   ">
+            <div className=" flex gap-2 items-center ">
+              <Image
+                src={counselor}
+                alt="topic"
+                className=" h-[2rem] w-[auto] sm:h-[2rem] border-2"
+              />
+              <h1 className="text-start text-2xl font-bold flex sm:text-lg mt-2 item-center shadow-red ">
+              Press, Media Management Chairs{" "}
+              </h1>
+            </div>
+            <ul className="p-2 ">
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">Prof. Manimala,  <i> EED</i></p>
+              </li>
+              <li className="flex items-center">
+                <Image
+                  src={member}
+                  alt="topic"
+                  className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
+                />
+                <p className="mt-2 ml-2 text-sm">
+                Prof. Suman Ranjan,  <i> EED</i>
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <Foot />
+      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <Link href="/awards" legacyBehavior className="p-2">
+            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
+          </Link>
+          <Link href="/awards" legacyBehavior className="p-2">
+            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
+          </Link>
+      </div>
     </>
   );
 }

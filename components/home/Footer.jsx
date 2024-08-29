@@ -15,17 +15,17 @@ const Footer = () => {
   return (
     <>
       <div className="flex flex-row items-center sm:flex-col bg-[#F8FAFC] justify-center  ">
-        <div className="h-auto mx-[3rem] sm:w-full mt-[3rem] p-8 sm:p-4 rounded-lg shadow-2xl sm:mx-0 sm:mt-0  ">
-          <div className="p-4 text-sm mx-[0rem] sm:text-xs text-left bg-red bg-opacity-10 rounded-lg">
+        <div className="h-auto mx-[3rem] sm:w-full mt-[2rem] p-8 sm:p-4 rounded-lg shadow-2xl sm:mx-0 sm:mt-0  ">
+          <div className="p-4 text-sm mx-[0rem] sm:text-xs text-justify bg-red bg-opacity-10 rounded-lg">
             The Department of Electrical Engineering, BIT SINDRI proudly
             announces to host the{" "}
             <span className="text-lg text-[#002E73]  sm:text-sm font-bold">
               {" "}
-              Flagship International BIT CONFERENCE-2024.
+              2024 IEEE Flagship International BIT CONFERENCE(BITCON-24).
             </span>{" "}
             This would be a beginning of the annual conference BIT-Sindri and
             will commemorate its Platinum Jubilee. <br />
-            <br /> The Conference will be a two-day event starting with
+            <br /> The Conference will be a three-day event starting with
             tutorials on emerging and proven technologies in different areas of
             electrical on day zero. Following days will accumulate the formal
             conference. The conference will feature plenary and semi-plenary
@@ -118,9 +118,9 @@ const Footer = () => {
                 />
                 Publication:{" "}
               </span>
-              <p className="mt-4 text-sm sm:text-xs">
-                All the Selected, Registerd and only presented papers will be
-                sent to and make abailable on IEEE Digital Xplore based on the
+              <p className="mt-4 text-sm sm:text-xs text-justify">
+                All the accepted, Registered and only presented papers will be
+                sent to and make available on IEEE Digital Xplore based on the
                 IEEE publications ethics.
               </p>
             </p>{" "}
@@ -133,9 +133,9 @@ const Footer = () => {
                 />
                 Paper Submission:{" "}
               </span>
-              <p className="mt-4 text-sm sm:text-xs">
-                Papers submitted for both oral and poster presentations should
-                comply with the IEEE format and specifications and must be
+              <p className="mt-4 text-sm sm:text-xs  text-justify">
+                Papers submitted for both oral and poster presentations should strictly
+                comply with the IEEE format. It must be
                 original, not previously published or accepted for publication
                 elsewhere, and they must not be submitted to any other event or
                 publication during the entire review process.
@@ -150,12 +150,12 @@ const Footer = () => {
                 />
                 Call for M.Tech Dissertation and PhD Thesis Awards:{" "}
               </span>
-              <p className="mt-4 text-sm sm:text-xs">
+              <p className="mt-4 text-sm sm:text-xs  text-justify">
                 BITCON-2024 will also provide the platform for young
                 professionals who have recently completed their M.Tech
                 Dissertation and PhD thesis in the area of Electrical
                 Engineering. The M.Tech and PhD degrees must be awarded between
-                1st January 2023 to 31st December 2023 from any recognised
+                1st January 2023 to 31st October 2024 from any recognised
                 Indian Institute/University. The submitted theses will be
                 evaluated by the senior panel of experts, on their
                 recommendations, one thesis in each area will be awarded the
