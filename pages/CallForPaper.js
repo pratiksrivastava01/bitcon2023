@@ -21,13 +21,13 @@ const CallForPaper = () => {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="h-auto mx-8 rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[3rem] sm:mt-[1.5rem] sm:mx-0  sm:h-auto p-4 ">
+      <div className="h-auto mx-4 rounded-lg justify-center flex flex-col border-primary  shadow-2xl mt-[2rem] sm:mt-[1.5rem] sm:mx-0  sm:h-auto ">
         <div className="flex flex-wrap gap-[32rem]">
           <h2 className="text-primary font-bold p-4 flex text-4xl sm:text-2xl">
             Call For Papers
           </h2>
         </div>
-        <div className="ml-[1rem]">
+        <div className="px-4 pb-4">
           <p className="text-sm sm:text-xs">
             Authors are invited to contribute to the conference by submitting
             articles that illustrate research results, projects, experimental
@@ -109,13 +109,13 @@ const CallForPaper = () => {
           ))}
 
           <p className="text-sm mt-[1rem]">
-            Paper submission guidelines are{" "}
+            Paper submission guidelines{" "}
             <a
               href="https://www.ieee.org/conferences/publishing/templates.html"
-              className="text-blue font-bold hover:text-primary text-lg sm:text-xs"
+              className="text-blue hover:text-primary text-sm sm:text-xs"
               target="_blank"
             >
-              Here
+              Click Here
             </a>
           </p>
           {/* Remaining content... */}

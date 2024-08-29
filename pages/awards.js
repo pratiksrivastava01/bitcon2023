@@ -23,7 +23,7 @@ const awards = () => {
       <div className=" flex flex-col ">
         <Navbar2 />
         <Nav3 />
-        <section className="mt-12 sm:mt-6 mb-12  container-70">
+        <section className="mt-8 sm:mt-6 mb-12  container-70">
           <div className="w-full text-center">
             <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
               Awards ✨

@@ -63,7 +63,7 @@ const AdvisioryCommitte = () => {
                Committee Members{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               { members.map((memberDetail,index) => {
                 return (
                   <li className="flex items-center">
@@ -73,7 +73,7 @@ const AdvisioryCommitte = () => {
                   className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                 />
                 <p className="mt-2 ml-2 text-sm">
-                  {memberDetail.member}
+                  {memberDetail.member} {", "} <i>{memberDetail.designation}</i>
                 </p>
               </li>
                 );

@@ -62,7 +62,7 @@ const TechMembers=TechnicalMembers;
                 Committee Members{" "}
               </h1>
             </div>
-            <ul className="p-4 ">
+            <ul className="p-2 ">
               {TechMembers.map((memberDetail,key)=>{
                 return (
                   <li className="flex items-center">
@@ -72,7 +72,7 @@ const TechMembers=TechnicalMembers;
                       className=" h-[1.5rem] w-[1.5rem] sm:h-[1.5rem] border-2 sm:w-[1.5rem]"
                     />
                     <p className="mt-2 ml-2 text-sm">
-                      {"Dr. "}{memberDetail.member}
+                      {"Dr. "}{memberDetail.member} {", "} <i>{memberDetail.designation}</i> 
                     </p>
                   </li>
                 );

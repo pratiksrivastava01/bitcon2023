@@ -33,8 +33,8 @@ const institute = () => {
       <Nav3 />
       <div className="flex flex-row sm:flex-col  gap-[10rem] sm:gap-0 justify-center ">
         <div className="flex justify-center items-center">
-          <div className="flex flex-row  mx-8  sm:mx-4 sm:flex-col mt-[3rem] gap-5 sm:gap-0 justify-between rounded-lg ">
-            <div className="text-center flex flex-col  w-[50%] sm:w-full">
+          <div className="flex flex-row  mx-4  sm:mx-4 sm:flex-col mt-[1.5rem] gap-4 sm:gap-2 justify-center rounded-lg">
+            <div className="text-center flex flex-col  w-[50%] sm:w-full p-4 shadow-md rounded-lg">
               <div className="flex items-center  justify-center gap-5">
                 <Image
                   src={college}
@@ -45,7 +45,7 @@ const institute = () => {
                   About BIT Sindri
                 </h1>
               </div>
-              <p className="text-left overflow-auto  mt-[1rem] sm:p-4 sm:mt-0 bg-primary-light bg-opacity-20 rounded-lg shadow-2xl p-4 text-sm sm:text-xs">
+              <p className="text-justify overflow-auto mt-[0.5rem] sm:mt-0 bg-primary-light bg-opacity-20 text-sm sm:text-xs">
                 BIT Sindri, also known as Birsa Institute of Technology Sindri,
                 is a premier engineering college located in Sindri, Jharkhand,
                 India. Established in 1949, the college has a long and rich
@@ -65,21 +65,21 @@ const institute = () => {
                 India
               </p>
             </div>
-            <div>
+            <div className="w-auto">
             <Image
               src={about}
-              className="rounded-xl mr-[3rem] sm:rounded-none sm:mr-0 sm:p-0 sm:m-0"
+              className="rounded-xl aspect-video mr-[1rem] sm:rounded-none sm:mr-0 sm:p-0 sm:m-0"
             />
             </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="h-auto mx-8 sm:mx-4 rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[3rem]  items-center sm:h-auto sm:w-[100%] p-4 t">
+        <div className="h-auto mx-8 sm:mx-4 rounded-lg bg-primary-light justify-center flex flex-col border-primary shadow-2xl mt-[1.5rem]  items-center sm:h-auto sm:w-[100%] p-4 t">
           <h1 className="text-4xl sm:text-2xl text-center font-bold text-[#002256]">
             Vision & Mission
           </h1>
-          <p className="mt-[1rem] text-sm sm:text-xs p-2 font-thin sm:mt-4">
+          <p className="mt-[1rem] text-sm text-justify sm:text-xs p-2 font-thin sm:mt-4">
             The vision of BIT Sindri is to nurture talented and skilled human
             resources. Through the best technical education and research, we
             hope to train individuals for professional roles in industry and
@@ -88,13 +88,13 @@ const institute = () => {
           <Image
             src={mission}
             alt="mission"
-            className="w-[50%] h-[50%] sm:w-[100%] sm:h-[100%]"
+            className="w-[32rem] sm:w-[100%] h-[auto]"
           />
-          <h2 className="text-2xl sm:text-sm mt-[3rem] text-center font-bold text-[#002256] sm:mt-0 ">
+
+          <h2 className="text-lg sm:text-sm mt-[1rem] text-center font-bold text-[#002256] sm:mt-0 ">
             The BIT Sindri functions with the following missions:
           </h2>
-
-          <ul className="text-left  text-sm sm:text-xs font-thin mt-[1rem] sm:ml-[2rem]">
+          <ul className="text-left  text-sm sm:text-xs font-thin mt-[1rem] sm:ml-[1rem]">
             <li className="flex gap-3 items-center">
               <Image
                 src={classroom}
@@ -106,7 +106,7 @@ const institute = () => {
               </p>
             </li>
             <li className="flex gap-3 mt-[1rem] items-center">
-              <Image src={seo} alt="classroom" className="h-[2rem] w-[2rem]" />
+              <Image src={seo} alt="classroom" className="h-[1.5rem] w-[1.5rem]" />
               To promote research and development in science and technology
             </li>
             <li className="flex gap-3 mt-[1rem] items-center">

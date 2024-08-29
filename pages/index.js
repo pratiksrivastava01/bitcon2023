@@ -14,6 +14,8 @@ import Slider from "@/components/Slider";
 import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Nav4 from "@/components/home/Nav4";
+import StickyNav from "@/components/stickyNav";
+import Link from "next/link";
 
 export default function Home() {
   const slides = [
@@ -55,7 +57,7 @@ export default function Home() {
       <div className=" flex flex-col  mb-0">
         <Navbar2 />
         <Nav3 />
-
+        
         {/* <Notification /> */}
         <div className="flex justify-center items-center ">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
@@ -63,9 +65,9 @@ export default function Home() {
               <Image
                 src={jh}
                 alt="jh"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[auto] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <div className="mt-[1rem] sm:mt-0 text-center">
+              <div className="mt-[1rem] flex-col sm:mt-0 text-center justify-center items-center">
                 <span className="text-xs sm:hidden">Technical Co-Sponsor</span>
                 <Image
                   src={ieee}
@@ -86,15 +88,15 @@ export default function Home() {
               <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-3xl ">
                 BIT CONFERENCE 2024
               </h1>
-              <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-2xl mt-[1rem] sm:mt-[0.2rem]">
+              <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-2xl mt-[0.5rem] sm:mt-[0.2rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>
               </h1>
-              <h3 className="text-center text-lg sm:text-sm text-[#002E73] mt-[1rem]  sm:mt-[0.2rem]">
+              <h3 className="text-center text-lg sm:text-sm text-[#002E73] mt-[0.5rem]  sm:mt-[0.2rem]">
                 <span className="text-primary">
                   IEEE Conference Record No: <b>#63716</b>
                 </span>
               </h3>
-              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[0.8rem]  sm:mt-[0.2rem]">
+              <p className="text-[#4E4E4E] text-xl sm:text-xs font-bold text-center mt-[0.5rem]  sm:mt-[0.2rem]">
                 <span className="text-[#002E73] ">Theme:- </span>
                 Next Generation Applications in Green Energy Technology
               </p>
@@ -109,13 +111,16 @@ export default function Home() {
               <Image
                 src={bitcon}
                 alt="bitcon"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
+                className="h-[8rem] w-[auto] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
               ></Image>
-              <Image
-                src={pes}
-                alt="bitcon"
-                className="h-[8rem] w-[8rem] md:h-[6rem] md:w-[6rem] sm:h-[4rem] sm:w-[4rem]"
-              ></Image>
+              <div className="mt-[1rem] flex-col sm:mt-0 justify-center items-center">
+                <span className="text-xs sm:hidden">Technical Co-Sponsor</span>
+                <Image
+                  src={pes}
+                  alt="ieee"
+                  className="h-[8rem] w-[auto] md:h-[6rem] sm:h-[4rem] sm:w-[5rem]"
+                ></Image>
+              </div>
             </div>
           </div>
         </div>
@@ -131,6 +136,14 @@ export default function Home() {
         <Footer />
       </div>
       <Foot />
+      <div className="fixed z-[1000] h-auto w-max top-[9rem] right-[1rem] flex flex-col gap-2">
+      <Link href="/awards" legacyBehavior className="p-2">
+            <a className="bg-red text-primary-light hover:shadow-md rounded-md active:-translate-y-1 delay-100 font-bold px-4 py-2 sm:p-2 text-sm sm:text-xs">Register Now</a>
+          </Link>
+          <Link href="/awards" legacyBehavior className="p-2">
+            <a className=" border-[white] text-[white] rounded-md bg-[#002E73] hover:shadow-md hover:text-[white] hover:border-[#002E73] delay-75 active:-translate-y-1 px-4 py-2 sm:text-xs">Submit Now</a>
+          </Link>
+      </div>
     </>
   );
 }

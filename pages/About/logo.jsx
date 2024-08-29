@@ -117,6 +117,16 @@ const conference = () => {
               </p>
             </div>
           </div>
+          <div className="mt-8 mx-4">
+            <span>Designed By:</span>
+            <div className="flex flex-col">
+            <span className="text-black font-bold">
+              {" "}
+              Miss Shweta Kumari
+            </span>
+            <span className="text-sm">M.Tech (21030750126)</span>
+            </div>
+          </div>
         </div>
       </div>
       <Foot />

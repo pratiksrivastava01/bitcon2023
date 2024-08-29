@@ -179,12 +179,12 @@ const Nav3 = () => {
               </Dropdown.Item>
               <Dropdown.Item>
                 <Link
-                  href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1LeTt2qGGHz3G9XSSLBlnjClI-Pk_xEAF/view?usp=drivesdk"
                   legacyBehavior
                 >
                   <a
                     className={`text-primary`}
-                    href="https://drive.google.com/file/d/1s-helg72lQA9-WL61yY8jek--JO1QUwA/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1LeTt2qGGHz3G9XSSLBlnjClI-Pk_xEAF/view?usp=drivesdk"
                   >
                     Sponsorship Details
                   </a>

@@ -30,18 +30,18 @@ function sponsor() {
       </Head>
       <Navbar2 />
       <Nav3 />
-      <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[4rem] sm:mt-[2rem] sm:mx-[0rem] sm:h-auto">
+      <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl mt-[2rem] sm:mt-[2rem] sm:mx-[0rem] sm:h-auto">
         <div className="sm:mx-0 rounded-lg border-primary shadow-2xl p-4">
           <div className="flex flex-col gap-3">
             <h1 className="font-bold text-4xl sm:text-xl">
               <span className="text-[#002E73]">Sponsorship Opportunities</span>
             </h1>
             <a
-              href="https://drive.google.com/file/d/1cMg71b2W6EWzHl1o-YLIwAZqkLxgJ-s3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1LeTt2qGGHz3G9XSSLBlnjClI-Pk_xEAF/view?usp=drivesdk"
               className="text-blue font-bold hover:text-primary text-sm sm:text-xs"
               target="_blank"
             >
-              Download the brochure here
+              Download the Sponsorship Opportunities
             </a>
           </div>{" "}
           <div className="">
@@ -104,10 +104,10 @@ function sponsor() {
             <ul className="mt-4 text-sm sm:text-xs">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}
-                Platinum Sponsor: ₹1,00,000
+                Platinum Sponsor: ₹1,50,000
               </li>
-              <li>Gold Sponsor: ₹50,000</li> <li>Silver Sponsor: ₹ 30,000/</li>{" "}
-              <li> Bronze Sponsor: ₹ 15,000 </li>{" "}
+              <li>Gold Sponsor: ₹90,000</li> <li>Silver Sponsor: ₹ 50,000/</li>{" "}
+              <li> Bronze Sponsor: ₹ 30,000 </li>{" "}
             </ul>
           </div>
           <div className="">
@@ -147,7 +147,7 @@ function sponsor() {
             </ul>
           </div>
           <div className="">
-            <div className="p-4 sm:p-0 mt-5 mb-4 text-center flex gap-3 flex-wrap items-center">
+            <div className="p-4 sm:p-0 mt-3 mb-4 text-center flex gap-3 flex-wrap items-center">
               <Image src={payment} className="h-[3rem] w-[auto] sm:h-[1.5rem] " />
               <h1 className="font-bold text-xl sm:text-sm text-wrap items-center">
                 Mode of Payment
@@ -192,8 +192,8 @@ function sponsor() {
                 Fill details and proceed for payment
               </li>
             </ul>
-            <div className="">
-            <table className="border-collapse w-full sm:w-auto">
+            <div className="flex justify-center items-center  sm:overflow-scroll ">
+            <table className="border-collapse table-auto w-max sm:w-auto">
               <tbody className="border-collapse w-full sm:w-auto  text-sm sm:text-xs">
                 <tr>
                   <td
