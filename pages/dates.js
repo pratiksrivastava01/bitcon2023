@@ -55,9 +55,11 @@ const ImportantDates = () => {
                 <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
                   {item.date === "30 July, 2024" ? (
                     <>
-                      <span className="line-through">{item.date}</span>
+                      <span className="text-base sm:text-sm font-semibold line-through">{item.date}</span>
                       <br />
-                      <span>Extended date: 31 August, 2024</span>
+                      <span className="text-base sm:text-sm font-semibold line-through">Extended date: 31 August, 2024</span>
+                      <br />
+                      <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">Second extended date: 30 September, 2024</span>
                     </>
                   ) : (
                     item.date
