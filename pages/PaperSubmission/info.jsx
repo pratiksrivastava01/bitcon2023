@@ -91,7 +91,7 @@ const info = () => {
                   <span>
                     Ensure the Similarity Index (Plagiarism Report) should be
                     less than <b>30% </b>Including References and any single
-                    source of plagiarism should not be more than 5%.
+                    source of plagiarism should not be more than 2%.
                   </span>
                 </li>
                 <li>
