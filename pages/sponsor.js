@@ -104,10 +104,10 @@ function sponsor() {
             <ul className="mt-2 text-sm sm:text-xs">
               <li className="flex items-start gap-2">
                 {/* <Image src={platinum} className="w-[2rem] h-[2rem]" /> */}
-                Platinum Sponsor: ₹1,50,000
+                Platinum Sponsor: ₹{" "}1,50,000
               </li>
-              <li>Gold Sponsor: ₹90,000</li> <li>Silver Sponsor: ₹ 50,000/</li>{" "}
-              <li> Bronze Sponsor: ₹ 30,000 </li>{" "}
+              <li>Gold Sponsor: ₹{" "}90,000</li> <li>Silver Sponsor: ₹{" "}50,000/</li>{" "}
+              <li> Bronze Sponsor: ₹{" "}30,000 </li>{" "}
             </ul>
           </div>
           <div className="">
