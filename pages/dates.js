@@ -43,31 +43,41 @@ const ImportantDates = () => {
             </h1>
           </div>
           <div className="max-w-[40rem] mx-auto">
-          <ul className="space-y-4">
-            {dates.map((item) => (
-              <li
-                key={item.date}
-                className="px-4 py-2 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md "
-              >
-                <p className="text-gray-700 text-sm sm:text-xs mb-1">
-                  {item.event}
-                </p>
-                <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
-                  {item.date === "30 July, 2024" ? (
-                    <>
-                      <span className="text-base sm:text-sm font-semibold line-through">{item.date}</span>
-                      <br />
-                      <span className="text-base sm:text-sm font-semibold line-through">Extended date: 31 August, 2024</span>
-                      <br />
-                      <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">Second extended date: 30 September, 2024</span>
-                    </>
-                  ) : (
-                    item.date
-                  )}
-                </p>
-              </li>
-            ))}
-          </ul>
+            <ul className="space-y-4">
+              {dates.map((item) => (
+                <li
+                  key={item.date}
+                  className="px-4 py-2 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md "
+                >
+                  <p className="text-gray-700 text-sm sm:text-xs mb-1">
+                    {item.event}
+                  </p>
+                  <p className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
+                    {item.date === "30 July, 2024" ? (
+                      <>
+                        <span className="text-base sm:text-sm font-semibold line-through">
+                          {item.date}
+                        </span>
+                        <br />
+                        <span className="text-base sm:text-sm font-semibold line-through">
+                          Extended date: 31 August, 2024
+                        </span>
+                        <br />
+                        <span className="text-base sm:text-sm font-semibold line-through">
+                          Second extended date: 30 September, 2024
+                        </span>
+                        <br />
+                        <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
+                          Last extended date: 15 October, 2024
+                        </span>
+                      </>
+                    ) : (
+                      item.date
+                    )}
+                  </p>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
