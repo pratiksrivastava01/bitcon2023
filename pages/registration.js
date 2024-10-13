@@ -69,7 +69,7 @@ const registration = () => {
             </li>
             <li className="text-justify">
               It is mandatory to present the paper during conference for
-              submission to Springer.
+              submission to IEEE.
             </li>
             <li className="text-justify">
               Only registered authors can participate in conference and present
@@ -133,9 +133,7 @@ const registration = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="border p-2">
-                      Researcher (UG, PG, PhD)
-                    </td>
+                    <td className="border p-2">Researcher (UG, PG, PhD)</td>
                     <td className="border p-2">₹ 4,000/-</td>
                     <td className="border p-2">₹ 5,000/-</td>
                   </tr>
@@ -157,33 +155,26 @@ const registration = () => {
                 </tbody>
               </table>
               <table className="table-auto  min-w-max mt-[2rem] border-collapse  sm:text-xs">
-              
-                  <tr>
-                    <th className="border p-2">Foreign Authors</th>
-                    <th className="border p-2">IEEE Members</th>
-                    <th className="border p-2">Non-IEEE Members</th>
-                  </tr>
-                  <tr>
-                    <td className="border p-2">
-                      Researcher
-                    </td>
-                    <td className="border row-span-2 p-2">$ 130</td>
-                    <td className="border row-span-2 p-2">$ 150</td>
-                  </tr>
-                  <tr>
-                    <td className="border p-2">
-                      Academicians
-                    </td>
-                    <td className="border row-span-2 p-2">$ 130</td>
-                    <td className="border row-span-2 p-2">$ 150</td>
-                  </tr>
-                  <tr>
-                    <td className="border p-2">
-                      Industry
-                    </td>
-                    <td className="border row-span-2 p-2">$ 130</td>
-                    <td className="border row-span-2 p-2">$ 150</td>
-                  </tr>
+                <tr>
+                  <th className="border p-2">Foreign Authors</th>
+                  <th className="border p-2">IEEE Members</th>
+                  <th className="border p-2">Non-IEEE Members</th>
+                </tr>
+                <tr>
+                  <td className="border p-2">Researcher</td>
+                  <td className="border row-span-2 p-2">$ 130</td>
+                  <td className="border row-span-2 p-2">$ 150</td>
+                </tr>
+                <tr>
+                  <td className="border p-2">Academicians</td>
+                  <td className="border row-span-2 p-2">$ 130</td>
+                  <td className="border row-span-2 p-2">$ 150</td>
+                </tr>
+                <tr>
+                  <td className="border p-2">Industry</td>
+                  <td className="border row-span-2 p-2">$ 130</td>
+                  <td className="border row-span-2 p-2">$ 150</td>
+                </tr>
               </table>
               <table className="border-collapse min-w-max mt-8  sm:text-xs">
                 <tbody>
@@ -252,25 +243,25 @@ const registration = () => {
               </a>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 2: </span>{" "}
-              Select Education instutions
+              <span className="font-bold">Step 2: </span> Select Education
+              instutions
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 3:</span>{" "}
-              Filter by state: Select Jharkhand
+              <span className="font-bold">Step 3:</span> Filter by state: Select
+              Jharkhand
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 4:</span>{" "}
-              From educational institutions select{" "}
+              <span className="font-bold">Step 4:</span> From educational
+              institutions select{" "}
               <span className="font-bold"> "Director BIT Sindri"</span>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 5:</span>{" "}
-              Payment category - <span className="font-bold"> BITCON-2024</span>
+              <span className="font-bold">Step 5:</span> Payment category -{" "}
+              <span className="font-bold"> BITCON-2024</span>
             </li>
             <li className="text-justify">
-              <span className="font-bold">Step 6:</span>{" "}
-              Fill details and proceed for payment
+              <span className="font-bold">Step 6:</span> Fill details and
+              proceed for payment
             </li>
           </ul>
         </div>
