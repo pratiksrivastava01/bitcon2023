@@ -67,8 +67,12 @@ const ImportantDates = () => {
                           Second extended date: 30 September, 2024
                         </span>
                         <br />
+                        <span className="text-base sm:text-sm font-semibold line-through ">
+                          Third extended date: 15 October, 2024
+                        </span>
+                        <br />
                         <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
-                          Last extended date: 15 October, 2024
+                          Final extended date: 31 October, 2024
                         </span>
                       </>
                     ) : (
