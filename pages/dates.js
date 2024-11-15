@@ -20,7 +20,7 @@ const dates = [
   { date: "01 September, 2024", event: "Camera Ready Version" },
   { date: "01 September, 2024", event: "Registration Commences" },
   {
-    date: "Final extended date: 18 November, 2024",
+    date: "15 November, 2024",
     event: "Registration Closes",
   },
   { date: "07-08 December, 2024", event: "Date of Conference " },
@@ -52,7 +52,7 @@ const ImportantDates = () => {
             <ul className="space-y-4">
               {dates.map((item) => (
                 <li
-                  key={item.date}
+                  key={item.date + item.event}
                   className="px-4 py-2 bg-white bg-opacity-75 border border-purple-300 rounded-md shadow-md "
                 >
                   <p className="text-gray-700 text-sm sm:text-xs mb-1">
@@ -78,7 +78,17 @@ const ImportantDates = () => {
                         </span>
                         <br />
                         <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
-                          Final extended date: 30 October, 2024
+                          Final extended date: 31 October, 2024
+                        </span>
+                      </>
+                    ) : item.date === "15 November, 2024" ? (
+                      <>
+                        <span className="text-base sm:text-sm font-semibold line-through">
+                          {item.date}
+                        </span>
+                        <br />
+                        <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
+                          Final extended date: 18 November, 2024
                         </span>
                       </>
                     ) : (
