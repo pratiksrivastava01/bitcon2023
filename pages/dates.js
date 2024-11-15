@@ -19,7 +19,10 @@ const dates = [
   },
   { date: "01 September, 2024", event: "Camera Ready Version" },
   { date: "01 September, 2024", event: "Registration Commences" },
-  { date: "18 November, 2024", event: "Registration Closes" },
+  {
+    date: "Final extended date: 18 November, 2024",
+    event: "Registration Closes",
+  },
   { date: "07-08 December, 2024", event: "Date of Conference " },
   // Add more dates and events as needed
 ];
@@ -75,7 +78,7 @@ const ImportantDates = () => {
                         </span>
                         <br />
                         <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
-                          Final extended date: 18 November, 2024
+                          Final extended date: 30 October, 2024
                         </span>
                       </>
                     ) : (
