@@ -11,7 +11,7 @@ const notification = () => {
       <div className="bg-[#FAC804] p-1 flex w-full justify-center  overflow-hidden mt-4">
         <div className={`${styles.animate} flex w-full gap-12`}>
           {" "}
-          <span>1. All Aacceptance notifications rolled out.</span>
+          <span>1. All Acceptance notifications rolled out.</span>
           <span>2. Last Extended date of Registration is 18-November-2024</span>
           {/* <span> Rolling Acceptance Notification</span> */}
           {/* <span className="invisible">
