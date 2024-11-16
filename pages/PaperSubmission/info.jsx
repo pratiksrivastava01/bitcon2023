@@ -28,7 +28,10 @@ const info = () => {
         <div className="h-auto mx-8 sm:mx-0 rounded-lg px-4  py-2 min-h-[70vh] border-primary shadow-2xl  ">
           <div className="flex justify-between">
             <div className="flex gap-2 sm:gap-1 justify-center items-center">
-              <Image src={preparation} className="h-[2.5rem] sm:h-[2rem] w-[auto] " />
+              <Image
+                src={preparation}
+                className="h-[2.5rem] sm:h-[2rem] w-[auto] "
+              />
               <h1 className="text-primary font-bold px-4 sm:p-2 flex text-4xl sm:text-xl">
                 PAPER SUBMISSION
               </h1>
@@ -72,7 +75,8 @@ const info = () => {
                 <li>
                   <span>
                     The Final Camera Ready Copy should be strictly according to
-                    IEEE format given by IEEE Use the A4 size template available:{" "}
+                    IEEE format given by IEEE Use the A4 size template
+                    available:{" "}
                     <a
                       className="text-blue"
                       href="https://onedrive.live.com/view.aspx?resid=83C17B56AF42FFFD%2138928&authkey=!ADeAvKxgc8AOIqI"
@@ -202,7 +206,7 @@ const info = () => {
                     <a
                       className="text-blue"
                       href="https://ieee-pdf-express.org/"
-                        target="_blank"
+                      target="_blank"
                     >
                       Click Here
                     </a>
@@ -261,6 +265,40 @@ const info = () => {
                     The PDF file must pass the compatibility test in the IEEE
                     PDF eXpressTM for submitting your paper to IEEE Digital
                     Xplore, so repeat the process until it is passed.
+                  </span>
+                </li>
+              </ul>
+              <p className="text-primary mt-4 sm:mt-4 text-center text-md flex font-semibold text-sm  sm:text-xs">
+                <b>Submission of Updated/Revised File</b>
+              </p>
+              <ul className="ml-[2rem] list-decimal text-sm sm:text-xs">
+                <li>
+                  <span>Login to your easy chair account.</span>
+                </li>
+                <li>
+                  <span>
+                    On the Authors page, the submissions is available.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Besides that, under the view tab, click on the shown mirror.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    This will take you to the particular submission record.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Here, on the top right corner, “Update File” tab is
+                    available.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Click on that tab and Submit the Updated/Revised version.
                   </span>
                 </li>
               </ul>
