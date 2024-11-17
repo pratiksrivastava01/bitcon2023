@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Navbar2 from "@/components/navbar/Navbar2";
 import Head from "next/head";
 import Notification from "@/components/Notification";
+import Notification2 from "@/components/Notification2";
 import Image from "next/image";
 import jh from "@/assets/jh_logo.png";
 import logo from "@/assets/logo.png";
@@ -54,9 +55,10 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  mb-0">
+        <Notification2 />
         <Navbar2 />
         <Nav3 />
-        
+
         {/* <Notification /> */}
         <div className="flex justify-center items-center ">
           <div className="flex flex-wrap sm:mx-4 mx-8 items-center sm:items-start justify-center sm:w-[100%] w-[90%] md:w-full overflow-hidden ">
