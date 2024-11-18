@@ -13,7 +13,9 @@ const notification = () => {
         <div className={`${styles.animate} flex w-full gap-12`}>
           {" "}
           <span>1. All Acceptance notifications rolled out.</span>
-          <span>2. Last Extended date of Registration is 18-November-2024</span>
+          <span>
+            2. Final Extended date of Registration is <b>20-November-2024</b>
+          </span>
           <div className="flex flex-row justify-center items-center">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
