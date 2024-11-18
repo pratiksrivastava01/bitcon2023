@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Notification.module.css";
-
+import Image from "next/image";
+import notification2 from "./../assets/notification2.svg";
 const notification = () => {
   return (
     <div className="flex flex-row ">
@@ -13,6 +14,22 @@ const notification = () => {
           {" "}
           <span>1. All Acceptance notifications rolled out.</span>
           <span>2. Last Extended date of Registration is 18-November-2024</span>
+          <div className="flex flex-row justify-center items-center">
+            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
+            <a
+              href="/ImportantNotice"
+              className="text-black text-base flex flex-row gap-2 justify-start items-center"
+            >
+              {/* <Image
+                src={notification2}
+                className={`${styles.animate2} h-4 w-4 text-black`}
+              /> */}
+              <span className="text-black">
+                {" "}
+                3. Click here for Important Notice
+              </span>
+            </a>
+          </div>
           {/* <span> Rolling Acceptance Notification</span> */}
           {/* <span className="invisible">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

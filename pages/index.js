@@ -55,7 +55,7 @@ export default function Home() {
         />
       </Head>
       <div className=" flex flex-col  mb-0">
-        <Notification2 />
+        {/* <Notification2 /> */}
         <Navbar2 />
         <Nav3 />
 
@@ -87,7 +87,7 @@ export default function Home() {
                 </span>{" "}
               </h1>
               <h1 className="text-center text-6xl text-[#002E73] font-bold sm:text-3xl ">
-                BIT CONFERENCE 2024
+                BIT CONFERENCE
               </h1>
               <h1 className="text-center text-4xl text-[#002E73] font-bold sm:text-2xl mt-[0.5rem] sm:mt-[0.2rem]">
                 <span className="text-[#385623]">(BITCON-24)</span>
