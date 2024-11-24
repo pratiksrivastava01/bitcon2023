@@ -14,10 +14,10 @@
 }
 
 .navbarList {
-  @apply flex gap-2 justify-evenly items-center text-primary-light;
+  @apply flex gap-1 justify-evenly items-center text-primary-light;
   transition: all 300ms ease-in-out;
-  @apply 2xl:gap-4;
-  @apply xl:gap-2;
+  @apply 2xl:gap-2;
+  @apply xl:gap-1;
   @apply lg:hidden;
   color: #fff;
 }

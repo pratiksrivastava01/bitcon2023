@@ -16,7 +16,7 @@ const Nav3 = () => {
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7] px-2"
+              className="border-[white] hover:text-[#a8a8a7] px-1"
             >
               <p className="text-sm font-semibold text-white hover:text-[#a8a8a7]">
                 About Us
@@ -55,7 +55,7 @@ const Nav3 = () => {
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7] px-2"
+              className="border-[white] hover:text-[#a8a8a7] px-1"
             >
               <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 BITCON 2024
@@ -87,7 +87,7 @@ const Nav3 = () => {
             <Dropdown.Button
               color={"error"}
               light
-              className="border-[white] hover:text-[#a8a8a7] px-2"
+              className="border-[white] hover:text-[#a8a8a7] px-1"
             >
               <p className="text-sm font-semibold text-[#ffffff] hover:text-[#a8a8a7] ">
                 Committee
@@ -198,6 +198,10 @@ const Nav3 = () => {
             className="flex rounded-full"
             rel="noreferrer"
           ></a>
+
+          <Link href="/Updates" legacyBehavior>
+            <a className={styles.navLink}>Updates</a>
+          </Link>
         </div>
         {/* <div className=""> */}
         {/* <ul className="flex flex-row gap-[3rem] text-[white]">

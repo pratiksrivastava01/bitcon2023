@@ -94,6 +94,10 @@ const ImportantDates = () => {
                         <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
                           Last extended date: 20 November, 2024
                         </span>
+                        <br />
+                        <span className="text-lg sm:text-sm font-semibold text-[#7E22CE] ">
+                          Hard Deadline: 25 November, 2024
+                        </span>
                       </>
                     ) : (
                       item.date
