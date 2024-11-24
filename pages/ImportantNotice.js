@@ -64,7 +64,13 @@ const awards = () => {
               <div className=" mb-4 sm:mb-0 ml-2">
                 <ul className="list-decimal ml-5 mt-2 text-sm sm:text-xs text-justify">
                   <li>
-                    <b>Template for PPT:</b> Will be uploaded soon
+                    <b>Template for PPT:</b>{" "}
+                    <a
+                      href="https://1drv.ms/p/s!Av3_Qq9We8GDgrMZ176B47IUu7KhzA?e=th6CHF"
+                      className="text-blue-600"
+                    >
+                      Click here
+                    </a>
                   </li>
                   <li>
                     <b>Online participants</b>
