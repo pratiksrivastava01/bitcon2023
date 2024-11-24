@@ -12,10 +12,10 @@ const notification = () => {
       <div className="bg-[#FAC804] p-1 flex w-full justify-center  overflow-hidden mt-4">
         <div className={`${styles.animate} flex w-full gap-12`}>
           {" "}
-          <span>1. All Acceptance notifications rolled out.</span>
+          {/* <span>1. All Acceptance notifications rolled out.</span>
           <span>
             2. Final Extended date of Registration is <b>20-November-2024</b>
-          </span>
+          </span> */}
           <div className="flex flex-row justify-center items-center">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
@@ -28,7 +28,7 @@ const notification = () => {
               /> */}
               <span className="text-black">
                 {" "}
-                3. Click here for Important Notice
+                Click here for Important Notice
               </span>
             </a>
           </div>

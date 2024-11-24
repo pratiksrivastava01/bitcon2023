@@ -264,9 +264,13 @@ function Sidebar({ isMounted, unmount }) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        <Link href="/Updates" legacyBehavior>
+          <a className={style.navLink}>Updates</a>
+        </Link>
         <Link href="/contact" legacyBehavior>
           <a className={(style.navLink, `text-sm text-primary`)}>CONTACT US</a>
         </Link>
+
         <a
           href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
           target="_blank"
