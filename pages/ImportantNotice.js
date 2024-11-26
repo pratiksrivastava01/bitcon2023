@@ -90,8 +90,14 @@ const awards = () => {
                         given below by 30.11.2024
                       </li>
                       <li>
-                        Google from link for submitting online presentations:
-                        Will be updated soon.
+                        Google from link for submitting online presentations:{" "}
+                        <a
+                          href="https://forms.gle/bFHXb3PqLGqMSgix8"
+                          target="_blank"
+                          className="text-blue-500"
+                        >
+                          Click Here
+                        </a>
                       </li>
                     </ul>
                   </li>
@@ -160,6 +166,16 @@ const awards = () => {
                   accommodation shall be arranged in the Girls hostels of the
                   institute, on request. For guests, the accommodation shall be
                   arranged by our Institute.
+                </p>
+                <br />
+                <p className="text-sm sm:text-xs text-justify">
+                  Accommodation at BITCON-24 (for Offline Candidates only):{" "}
+                  <a
+                    href="https://forms.gle/8brKzVepz8guwWpFA"
+                    className="text-blue-500 hover:text-blue-700"
+                  >
+                    Click here
+                  </a>
                 </p>
               </div>
             </div>
