@@ -9,7 +9,7 @@ import StickyBar from "@/components/StickyBar";
 import Image from "next/image";
 import ieeeNotice from "@/assets/ieeeNotice.png";
 import { pData } from "@/constants";
-const awards = () => {
+const acceptedPapers = () => {
   const papers = pData;
   return (
     <>
@@ -62,4 +62,4 @@ const awards = () => {
   );
 };
 
-export default awards;
+export default acceptedPapers;
