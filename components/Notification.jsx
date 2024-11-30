@@ -32,6 +32,22 @@ const notification = () => {
               </span>
             </a>
           </div>
+          <div className="flex flex-row justify-center items-center">
+            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
+            <a
+              href="/AcceptedPapers"
+              className="text-black text-base flex flex-row gap-2 justify-start items-center"
+            >
+              {/* <Image
+                src={notification2}
+                className={`${styles.animate2} h-4 w-4 text-black`}
+              /> */}
+              <span className="text-black">
+                {" "}
+                Registration Confirmed Paper IDs
+              </span>
+            </a>
+          </div>
           {/* <span> Rolling Acceptance Notification</span> */}
           {/* <span className="invisible">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

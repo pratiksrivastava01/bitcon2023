@@ -12,7 +12,7 @@ const notification2 = () => {
       <div className="bg-[#002E73] p-1 flex w-full justify-center  overflow-hidden mt-0">
         <div className={`${styles.animate} w-full flex gap-12`}>
           {" "}
-          <div className="flex flex-row justify-center items-center">
+          <div className="justify-center items-center">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
               href="/ImportantNotice"
@@ -25,6 +25,22 @@ const notification2 = () => {
               <span className="text-white">
                 {" "}
                 Click here for Important Notice
+              </span>
+            </a>
+          </div>
+          <div className="justify-center items-center">
+            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
+            <a
+              href="/AcceptedPapers"
+              className="text-[#ffffff] text-base flex flex-row gap-2 justify-start items-center"
+            >
+              <Image
+                src={notification}
+                className={`${styles.animate2} h-4 w-4 text-white`}
+              />
+              <span className="text-white">
+                {" "}
+                Registration Confirmed Paper IDs
               </span>
             </a>
           </div>
