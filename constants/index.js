@@ -295,20 +295,12 @@ export const AdvisoryMembers = [
 export const TechnicalMembers = [
   { sr_no: 1, member: "Saifullah Payami", designation: " IIT Ropar" },
   { sr_no: 2, member: "Ranjan Kumar Behera", designation: " IIT Patna" },
-  { sr_no: 3, member: "Vimlesh Verma", designation: " NIT Patna" },
   {
     sr_no: 4,
     member: "Abhisek Pal",
     designation: " Thapar Institute of Engineering & Technology",
   },
-  { sr_no: 5, member: "Saptarshi Basak", designation: " IITD" },
-  { sr_no: 6, member: "Prasun Mishra", designation: " IITKGP" },
-  { sr_no: 7, member: "Md Nishat Anwar", designation: " NIT Patna" },
-  {
-    sr_no: 8,
-    member: "Himanshu Sharma",
-    designation: " SRMIST DELHI NCR CAMPUS",
-  },
+
   {
     sr_no: 9,
     member: "Rohit Babu",
@@ -329,41 +321,17 @@ export const TechnicalMembers = [
     member: "Prashant Kumar",
     designation: " Khalifa University, Abu Dhabi, UAE",
   },
-  { sr_no: 13, member: "Saurabh", designation: "University of Malaya" },
-  { sr_no: 14, member: "Ravi Shankar", designation: " NIT Patna" },
-  { sr_no: 15, member: "Ananyo Bhattacharya", designation: " NIT Jamshedpur" },
   { sr_no: 16, member: "Ravi Bhushan", designation: " NIT Jamshedpur" },
-  { sr_no: 17, member: "Madhu Singh", designation: " NIT Jamshedpur" },
-  { sr_no: 18, member: "Sanjay Kumar", designation: " NIT Jamshedpur" },
   {
     sr_no: 19,
     member: "Santosh Kumar Verma",
     designation: " Assam Energy Institute, Sivasagar",
   },
   { sr_no: 20, member: "Ruchira", designation: " Amity University, Noida" },
-  { sr_no: 21, member: "Rahul Kumar Sharma", designation: " NIT Trichy" },
   { sr_no: 22, member: "Devesh Shukla", designation: " NIT Calicut" },
   { sr_no: 23, member: "Amit Kumar Singh", designation: " NIT Jalandhar" },
-  {
-    sr_no: 24,
-    member: "Abhinav Saxena",
-    designation: " JC Bose Univ of Sci and Tech, YMCA, Faridabad",
-  },
-  {
-    sr_no: 25,
-    member: "Ramesh Devarapalli",
-    designation: " ICT-IOC Bhubaneswar",
-  },
-  { sr_no: 26, member: "Bablesh Jha", designation: " BEC Bhagalpur" },
-  {
-    sr_no: 27,
-    member: "Kasi Reddy",
-    designation: " Vishnu Institute of Technology",
-  },
-  { sr_no: 28, member: "K. Prajapati", designation: " NIT Jamshedpur" },
+
   { sr_no: 29, member: "Deepak Kumar", designation: "MNNIT, Allahabad" },
-  { sr_no: 30, member: "Risha Mal", designation: " IIT Guwahati" },
-  { sr_no: 31, member: "Brijesh Kumar Singh", designation: " KIET  Ghaziabad" },
 
   {
     sr_no: 32,
@@ -528,4 +496,55 @@ export const pData = [
   { s_no: 135, p_id: 372 },
   { s_no: 136, p_id: 373 },
   { s_no: 137, p_id: 374 },
+];
+
+export const speakersData = [
+  {
+    name: "Dr. Shahroz Anjum",
+    designation: "Alliant Energy",
+    address: "Lowa, USA",
+    image: "shah.jpg",
+  },
+  {
+    name: "Arpita Soni",
+    designation: "Sr. IEEE Member",
+    address: "Charlotte, USA",
+    image: "as.jpg",
+  },
+  {
+    name: "Dr. Sandip Ghosh",
+    designation: "Associate Professor",
+    address: "IIT BHU",
+    image: "sg.jpg",
+  },
+  {
+    name: "Dr. Avneet Kumar",
+    designation: "Assistant Professor",
+    address: "IIT Patna",
+    image: "ak.jpg",
+  },
+  {
+    name: "Mr. Vishal Yadav",
+    designation: "Manager (Electrical)",
+    address: "DVC, Maithon",
+    image: "vy.jpg",
+  },
+  {
+    name: "Dr. Madhu Singh",
+    designation: "Member of IEEE",
+    address: "NIT Jamshedpur",
+    image: "ms.jpg",
+  },
+  {
+    name: "Dr. Rajan Sarkar",
+    designation: "Principal",
+    address: "Gaya Engg. College",
+    image: "rs.jpg",
+  },
+  {
+    name: "Dr. Prabhat Kr. Mishra",
+    designation: "Assistant Professor",
+    address: "IIT KGP",
+    image: "pkm.jpg",
+  },
 ];
