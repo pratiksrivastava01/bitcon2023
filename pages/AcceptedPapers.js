@@ -46,7 +46,7 @@ const acceptedPapers = () => {
                 <tbody className="text-sm sm:text-xs">
                   {papers.map((paper, index) => (
                     <tr key={paper.index}>
-                      <td className="px-2">{paper.s_no}</td>
+                      <td className="px-2">{index + 1}</td>
                       <td className="px-2">{paper.p_id}</td>
                     </tr>
                   ))}
