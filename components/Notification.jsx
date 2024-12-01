@@ -35,7 +35,7 @@ const notification = () => {
           <div className="flex flex-row justify-center items-center">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
-              href="/AcceptedPapers"
+              href="/ConfirmedRegistrations"
               className="text-black text-base flex flex-row gap-2 justify-start items-center"
             >
               {/* <Image
