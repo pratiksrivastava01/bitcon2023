@@ -521,6 +521,12 @@ export const speakersData = [
     image: "as.jpg",
   },
   {
+    name: "Mr. Chandan Chirag",
+    designation: "Lead of CSM, Digital Grid",
+    address: "Siemens Energy",
+    image: "cc.jpg",
+  },
+  {
     name: "Dr. Sandip Ghosh",
     designation: "Associate Professor",
     address: "IIT BHU",
