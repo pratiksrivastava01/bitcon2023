@@ -31,7 +31,7 @@ const acceptedPapers = () => {
         <section className="mt-8 sm:mt-4 mb-12 container-70">
           <div className="w-full text-center">
             <h1 className="text-4xl sm:text-2xl text-[#002E73] font-bold">
-              Accepted Papers
+              Confirmed Registrations
             </h1>
           </div>
           <div className="mx-[2rem]  rounded-lg justify-center flex flex-col border-primary shadow-2xl sm:mt-0 mt-[0.5rem] sm:mx-[0rem] sm:p-4 sm:h-auto">
