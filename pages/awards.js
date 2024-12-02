@@ -182,69 +182,69 @@ const awards = () => {
                 Criterion for Best Paper Award in Each Track
               </h1>
               <div className="mb-4 ml-2">
-                <p className="text-sm sm:text-xs mt-4 font-semibold text-center">
+                <p className="sm:text-sm text-base mt-4 font-semibold text-center">
                   Marking scheme for Best Paper Award in Each Track
                 </p>
                 <table className="" id="">
                   <thead>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <th className="w-max">Sr. No.</th>
                       <th>Criteria</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>1</td>
                       <td>Appropriateness to the Conference</td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>2</td>
                       <td>Originality / Novelty</td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>3</td>
                       <td>
                         Title and Abstract clearly communicate scope and
                         outcomes
                       </td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>4</td>
                       <td>
                         Crucial previous work is described and referenced, with
                         clear research scope and objectives
                       </td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>5</td>
                       <td>Description of Concepts and Technical Details</td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>6</td>
                       <td>
                         Methodology and data are appropriate for research scope
                         and related to findings
                       </td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>7</td>
                       <td>
                         Results are properly described, visualized, and
                         discussede
                       </td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>8</td>
                       <td>
                         Easiness of reading, including language, with sufficient
                         length for the topic studiede
                       </td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>9</td>
                       <td>Presentation / Editorial Quality</td>
                     </tr>
-                    <tr>
+                    <tr className="text-sm sm:text-xs ">
                       <td>10</td>
                       <td>Overall</td>
                     </tr>
