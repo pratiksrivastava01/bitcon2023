@@ -65,13 +65,13 @@ const awards = () => {
                   thesis through the google form.
                 </p>
                 <p className="text-sm sm:text-xs text-justify mt-2">
-                  <span className="font-semibold">Important Note:</span> The Conference Committee hereby
-                  declares that the submitted thesis will be utilized solely for
-                  the evaluation purposes related to the "Best Thesis Award."
-                  During the evaluation process, the thesis will not be uploaded
-                  in any kind of online repository. Upon conclusion of the
-                  conference, the thesis will be permanently deleted from our
-                  database.
+                  <span className="font-semibold">Important Note:</span> The
+                  Conference Committee hereby declares that the submitted thesis
+                  will be utilized solely for the evaluation purposes related to
+                  the "Best Thesis Award." During the evaluation process, the
+                  thesis will not be uploaded in any kind of online repository.
+                  Upon conclusion of the conference, the thesis will be
+                  permanently deleted from our database.
                 </p>
                 <p className="text-sm sm:text-xs mt-1">
                   Google form for submitting the thesis for Awards:{" "}
@@ -172,6 +172,84 @@ const awards = () => {
                     per the contact details shared on our webpage and brochure.
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div
+              className="p-4 pt-0 flex flex-col gap-2 flex-wrap items-center"
+              id="ac"
+            >
+              <h1 className="font-bold text-xl items-center sm:text-lg ">
+                Criterion for Best Paper Award in Each Track
+              </h1>
+              <div className="mb-4 ml-2">
+                <p className="text-sm sm:text-xs mt-4 font-semibold text-center">
+                  Marking scheme for Best Paper Award in Each Track
+                </p>
+                <table className="" id="">
+                  <thead>
+                    <tr>
+                      <th className="w-max">Sr. No.</th>
+                      <th>Criteria</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Appropriateness to the Conference</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Originality / Novelty</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>
+                        Title and Abstract clearly communicate scope and
+                        outcomes
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>
+                        Crucial previous work is described and referenced, with
+                        clear research scope and objectives
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Description of Concepts and Technical Details</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>
+                        Methodology and data are appropriate for research scope
+                        and related to findings
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>
+                        Results are properly described, visualized, and
+                        discussede
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>
+                        Easiness of reading, including language, with sufficient
+                        length for the topic studiede
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Presentation / Editorial Quality</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Overall</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
