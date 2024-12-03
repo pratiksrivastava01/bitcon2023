@@ -19,6 +19,23 @@ const notification = () => {
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
+              href="https://drive.google.com/file/d/1KkxwbX88BAgtoHUyo0WDuUF2QIkKJ5pT/view?usp=sharing"
+              target="_blank"
+              className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
+            >
+              {/* <Image
+                src={notification2}
+                className={`${styles.animate2} h-4 w-4 text-black`}
+              /> */}
+              <span className="text-black text-base sm:text-xs">
+                {" "}
+                Click here for BITCON-24 Schedule
+              </span>
+            </a>
+          </div>
+          <div className="flex flex-row justify-center w-auto items-center sm:w-max">
+            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
+            <a
               href="/ImportantNotice"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
