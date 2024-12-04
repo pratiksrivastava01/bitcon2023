@@ -19,7 +19,7 @@ const notification = () => {
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
             {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
-              href="https://drive.google.com/file/d/1tEbFnj6OSJ9p8QU91K1h_c3wIqMRmOHi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VAajj2sWo8yxpXbSrtGCrWOmxWoik1sX/view?usp=sharing"
               target="_blank"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
