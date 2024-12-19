@@ -44,6 +44,34 @@ const awards = () => {
                     Deadline for registration (Hard Deadline) is 25th November,
                     2024.
                   </li>
+                  <li>
+                    BITCON-24 Schedule :{" "}
+                    <a
+                      href="https://drive.google.com/file/d/1jpCDdKBf3IKt45v2DBr-k4DeDG0aWeQZ/view?usp=sharing"
+                      target="_blank"
+                      className="text-blue-600"
+                    >
+                      Click here
+                    </a>
+                  </li>
+                  <li>
+                    Important Notice :{" "}
+                    <a href="/ImportantNotice" className="text-blue-600">
+                      Click here
+                    </a>
+                  </li>
+                  <li>
+                    Registration Confirmed Paper IDs :{" "}
+                    <a href="/ConfirmedRegistrations" className="text-blue-600">
+                      Click here
+                    </a>
+                  </li>
+                  <li>
+                    Criterion for Best Paper Award in Each Track :{" "}
+                    <a href="/awards#ac" className="text-blue-600">
+                      Click here
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

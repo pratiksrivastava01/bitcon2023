@@ -198,7 +198,6 @@ const Nav3 = () => {
             className="flex rounded-full"
             rel="noreferrer"
           ></a>
-
           <Link href="/Updates" legacyBehavior>
             <a className={styles.navLink}>Updates</a>
           </Link>
