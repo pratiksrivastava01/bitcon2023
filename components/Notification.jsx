@@ -17,9 +17,20 @@ const notification = () => {
             2. Final Extended date of Registration is <b>20-November-2024</b>
           </span> */}
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
-            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
+            <span className="text-black text-base sm:text-xs">
+              {" "}
+              Conference Proceeding
+            </span>
+          </div>
+          <div className="flex flex-row justify-center w-auto items-center sm:w-max">
+            <span className="text-black text-base sm:text-xs">
+              {" "}
+              Certificate Distribution is in Rolling
+            </span>
+          </div>
+          <div className="flex flex-row justify-center w-auto items-center sm:w-max">
             <a
-              href="https://drive.google.com/file/d/1jpCDdKBf3IKt45v2DBr-k4DeDG0aWeQZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/19h4mu2kDKHKAbaqsP3vg73eYzE2VcI3h/view?usp=sharing"
               target="_blank"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
@@ -29,14 +40,14 @@ const notification = () => {
               /> */}
               <span className="text-black text-base sm:text-xs">
                 {" "}
-                Click here for BITCON-24 Schedule
+                Click here for Book of Abstracts
               </span>
             </a>
           </div>
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
-            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
             <a
-              href="/ImportantNotice"
+              href="https://drive.google.com/drive/folders/1sm1CFFPebBDSjsaYiPO8Cdq2T7v_mAdO?usp=sharing"
+              target="_blank"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
               {/* <Image
@@ -45,52 +56,10 @@ const notification = () => {
               /> */}
               <span className="text-black text-base sm:text-xs">
                 {" "}
-                Click here for Important Notice
+                Click here for Drive link of BITCON24 Photos
               </span>
             </a>
           </div>
-          <div className="flex flex-row justify-center items-center w-auto sm:w-max">
-            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
-            <a
-              href="/ConfirmedRegistrations"
-              className="text-black text-base sm:text-xs flex flex-row gap-2 justify-start items-center"
-            >
-              {/* <Image
-                src={notification2}
-                className={`${styles.animate2} h-4 w-4 text-black`}
-              /> */}
-              <span className="text-black text-base sm:text-xs ">
-                {" "}
-                Registration Confirmed Paper IDs
-              </span>
-            </a>
-          </div>
-          <div className="flex flex-row justify-center items-center w-auto sm:w-max">
-            {/* https://drive.google.com/file/d/1-gvUIU1nfRfKhLEvhRRzx1V7ayoE1sqP/view?usp=sharing */}
-            <a
-              href="/awards#ac"
-              className="text-black text-base sm:text-xs flex flex-row gap-2 justify-start items-center"
-            >
-              {/* <Image
-                src={notification2}
-                className={`${styles.animate2} h-4 w-4 text-black`}
-              /> */}
-              <span className="text-black text-base sm:text-xs ">
-                {" "}
-                Criterion for Best Paper Award in Each Track
-              </span>
-            </a>
-          </div>
-          {/* <span> Rolling Acceptance Notification</span> */}
-          {/* <span className="invisible">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            ultricies dictum arcu nec porttitor. Nam efficitur, metus ac pretium
-            sollicitudin, leo erat pharetra eros, quis rutrum ante eros vel
-            erat. Aenean dapibus feugiat ipsum, at pharetra dui varius eu. Morbi
-            libero augue, commodo eget lacus et, pulvinar aliquet mi. Quisque id
-            interdum lectus. Phasellus cursus pulvinar laoreet. Duis eu pretium
-            elit. Pellentesque vel tincidunt nisl, eget sollicitudin massa.
-          </span> */}
         </div>
       </div>
     </div>
