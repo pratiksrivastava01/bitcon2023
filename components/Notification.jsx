@@ -30,7 +30,7 @@ const notification = () => {
           </div>
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
             <a
-              href="https://drive.google.com/file/d/19h4mu2kDKHKAbaqsP3vg73eYzE2VcI3h/view?usp=sharing"
+              href="https://drive.google.com/file/d/1d5AuVNxeQMRmj9KZgduto9H1bYSGdHcX/view?usp=sharing"
               target="_blank"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
@@ -46,7 +46,7 @@ const notification = () => {
           </div>
           <div className="flex flex-row justify-center w-auto items-center sm:w-max">
             <a
-              href="https://drive.google.com/drive/folders/1sm1CFFPebBDSjsaYiPO8Cdq2T7v_mAdO?usp=sharing"
+              href=""
               target="_blank"
               className="text-black text-base sm:text-xs  flex flex-row gap-2 justify-start items-center"
             >
@@ -56,7 +56,7 @@ const notification = () => {
               /> */}
               <span className="text-black text-base sm:text-xs">
                 {" "}
-                Click here for Drive link of BITCON24 Photos
+                Click here for Drive link of BITCON-24 Photos
               </span>
             </a>
           </div>
