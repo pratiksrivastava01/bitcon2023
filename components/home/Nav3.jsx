@@ -81,6 +81,13 @@ const Nav3 = () => {
                   </a>
                 </Link>
               </Dropdown.Item>
+              <Dropdown.Item>
+                <Link href="/OurSponsors" legacyBehavior>
+                  <a className={`text-primary`} href="/speakers">
+                    Our Sponsors
+                  </a>
+                </Link>
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Dropdown className="px-2">
