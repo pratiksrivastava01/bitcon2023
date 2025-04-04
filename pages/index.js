@@ -11,12 +11,13 @@ import bitcon from "@/assets/bitcon.png";
 import ieee from "@/assets/ieee.png";
 import pes from "@/assets/pes.jpg";
 import Nav2 from "@/components/navbar/Nav2";
-import Slider from "@/components/Slider";
+import Slider1 from "@/components/Slider";
 import Foot from "@/components/Foot";
 import Nav3 from "@/components/home/Nav3";
 import Nav4 from "@/components/home/Nav4";
 import Link from "next/link";
 import StickyBar from "@/components/StickyBar";
+import SponsorSlider from "@/components/SponsorSlider";
 export default function Home() {
   const slides = [
     {
@@ -54,7 +55,7 @@ export default function Home() {
           content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
         />
       </Head>
-      <div className=" flex flex-col  mb-0">
+      <div className="flex flex-col  mb-0">
         {/* <Notification2 /> */}
         <Navbar2 />
         <Nav3 />
@@ -126,16 +127,17 @@ export default function Home() {
           </div>
         </div>
         {/* <Navbar /> */}
-
         <Notification />
-
         <div className=" mt-[1rem] flex justify-center mb-4">
           <div className="w-[100%] mx-12 sm:mx-4 h-[20rem] sm:h-[10rem] ">
-            <Slider slides={slides} />
+            <Slider1 slides={slides} />
           </div>
         </div>
+      
         <Footer />
+        <SponsorSlider />
       </div>
+     
       <Foot />
       <StickyBar />
     </>
