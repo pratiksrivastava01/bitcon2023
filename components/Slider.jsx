@@ -24,7 +24,7 @@ const dotStyle = {
   fontSize: "20px",
 };
 
-const Slider = ({ slides }) => {
+const Slider1 = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -71,4 +71,4 @@ const Slider = ({ slides }) => {
   );
 };
 
-export default Slider;
+export default Slider1;
